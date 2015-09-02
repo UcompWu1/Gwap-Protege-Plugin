@@ -32,7 +32,6 @@ after you finished your code changes:
 9. select the package at.ac.wu.ucompvalidation, unselect the META-INF folder
 10. select the lib folder --> next --> next 
 11. At the last step select the manifest file from the META-INF folder
-12. Replace the at.ac.wu.ucompvalidation.jar jar file with the newly created jar file in the /Protege_4.3/plugins/ folder. Replacing the file is important having two different versions of the same plugin in the folder will cause an error in the Protege Editor.
 
 Optionally:
 
