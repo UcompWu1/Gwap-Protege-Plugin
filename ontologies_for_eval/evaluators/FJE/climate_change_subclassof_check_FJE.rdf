@@ -1,0 +1,1186 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY onto "http://137.208.51.84:5000/owl/2014_03_02+07&#37;3A00&#37;3A02+spectral_brute_limit_200&#37;2F3/3#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/owl/owlapi/turtle#"
+     xml:base="http://www.semanticweb.org/owl/owlapi/turtle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:onto="http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3">
+        <dc:title>2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#uComp_subclass_check -->
+
+    <owl:AnnotationProperty rdf:about="&onto;uComp_subclass_check"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_1 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_1">
+        <rdfs:label>modifierOf</rdfs:label>
+        <rdfs:domain rdf:resource="&onto;climate"/>
+        <rdfs:range rdf:resource="&onto;climate_change"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_10 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_10">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.050</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;climate_change"/>
+        <rdfs:domain rdf:resource="&onto;energy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_11 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_11">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.013</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;environment"/>
+        <rdfs:domain rdf:resource="&onto;pipeline"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_12 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_12">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.014</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;climate"/>
+        <rdfs:domain rdf:resource="&onto;keystone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_13 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_13">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.018</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;science"/>
+        <rdfs:domain rdf:resource="&onto;scientist"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_14 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_14">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.022</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;weather"/>
+        <rdfs:domain rdf:resource="&onto;winter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_15 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_15">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.029</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;research"/>
+        <rdfs:range rdf:resource="&onto;sea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_16 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_16">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.019</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;oil"/>
+        <rdfs:domain rdf:resource="&onto;production"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_17 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_17">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.017</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;flood"/>
+        <rdfs:range rdf:resource="&onto;flooding"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_18 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_18">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.010</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;climate"/>
+        <rdfs:domain rdf:resource="&onto;sea_level"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_2 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_2">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.042</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;climate_change"/>
+        <rdfs:domain rdf:resource="&onto;flooding"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_3 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_3">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.043</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;climate_change"/>
+        <rdfs:domain rdf:resource="&onto;pollution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_4 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_4">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.060</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;global_warming"/>
+        <rdfs:domain rdf:resource="&onto;science"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_5 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_5">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.034</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;global_warming"/>
+        <rdfs:domain rdf:resource="&onto;melting"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_6 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_6">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.045</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;climate_change"/>
+        <rdfs:domain rdf:resource="&onto;drought"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_7 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_7">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.052</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;climate_change"/>
+        <rdfs:domain rdf:resource="&onto;environment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_8 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_8">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.044</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;global_warming"/>
+        <rdfs:domain rdf:resource="&onto;sea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#relation_9 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_9">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.037</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;evidence"/>
+        <rdfs:range rdf:resource="&onto;global_warming"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#CO2 -->
+
+    <owl:Class rdf:about="&onto;CO2">
+        <owl:equivalentClass rdf:resource="&onto;carbon_dioxide"/>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#atmosphere -->
+
+    <owl:Class rdf:about="&onto;atmosphere">
+        <rdfs:subClassOf rdf:resource="&onto;gas"/>
+        <rdfs:subClassOf rdf:resource="&onto;weather"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;atmosphere"/>
+        <owl:annotatedTarget rdf:resource="&onto;weather"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;atmosphere"/>
+        <owl:annotatedTarget rdf:resource="&onto;gas"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#carbon -->
+
+    <owl:Class rdf:about="&onto;carbon"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#carbon_dioxide -->
+
+    <owl:Class rdf:about="&onto;carbon_dioxide">
+        <rdfs:subClassOf rdf:resource="&onto;dioxide"/>
+        <rdfs:subClassOf rdf:resource="&onto;gas"/>
+        <rdfs:subClassOf rdf:resource="&onto;greenhouse_gas"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;carbon_dioxide"/>
+        <owl:annotatedTarget rdf:resource="&onto;gas"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;carbon_dioxide"/>
+        <owl:annotatedTarget rdf:resource="&onto;dioxide"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;carbon_dioxide"/>
+        <owl:annotatedTarget rdf:resource="&onto;greenhouse_gas"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#carbon_pollution -->
+
+    <owl:Class rdf:about="&onto;carbon_pollution">
+        <rdfs:subClassOf rdf:resource="&onto;pollution"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;carbon_pollution"/>
+        <owl:annotatedTarget rdf:resource="&onto;pollution"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#climate -->
+
+    <owl:Class rdf:about="&onto;climate"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#climate_change -->
+
+    <owl:Class rdf:about="&onto;climate_change">
+        <rdfs:subClassOf rdf:resource="&onto;global_warming"/>
+    </owl:Class>
+    <owl:Axiom>
+        <rdfs:comment rdf:datatype="&xsd;boolean">false</rdfs:comment>
+        <owl:annotatedSource rdf:resource="&onto;climate_change"/>
+        <owl:annotatedTarget rdf:resource="&onto;global_warming"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#coal -->
+
+    <owl:Class rdf:about="&onto;coal">
+        <rdfs:subClassOf rdf:resource="&onto;carbon"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;carbon"/>
+        <owl:annotatedSource rdf:resource="&onto;coal"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#diesel -->
+
+    <owl:Class rdf:about="&onto;diesel">
+        <rdfs:subClassOf rdf:resource="&onto;ice"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;diesel"/>
+        <owl:annotatedTarget rdf:resource="&onto;ice"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#dioxide -->
+
+    <owl:Class rdf:about="&onto;dioxide"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#drought -->
+
+    <owl:Class rdf:about="&onto;drought"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#earth -->
+
+    <owl:Class rdf:about="&onto;earth"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#electricity -->
+
+    <owl:Class rdf:about="&onto;electricity">
+        <rdfs:subClassOf rdf:resource="&onto;energy"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;electricity"/>
+        <owl:annotatedTarget rdf:resource="&onto;energy"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#emission -->
+
+    <owl:Class rdf:about="&onto;emission"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#energy -->
+
+    <owl:Class rdf:about="&onto;energy"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#environment -->
+
+    <owl:Class rdf:about="&onto;environment"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#evidence -->
+
+    <owl:Class rdf:about="&onto;evidence"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#flood -->
+
+    <owl:Class rdf:about="&onto;flood"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#flooding -->
+
+    <owl:Class rdf:about="&onto;flooding"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#fracking -->
+
+    <owl:Class rdf:about="&onto;fracking"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#fuel -->
+
+    <owl:Class rdf:about="&onto;fuel">
+        <rdfs:subClassOf rdf:resource="&onto;coal"/>
+        <rdfs:subClassOf rdf:resource="&onto;gas"/>
+        <rdfs:subClassOf rdf:resource="&onto;oil"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;coal"/>
+        <owl:annotatedSource rdf:resource="&onto;fuel"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;fuel"/>
+        <owl:annotatedTarget rdf:resource="&onto;gas"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;fuel"/>
+        <owl:annotatedTarget rdf:resource="&onto;oil"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#gas -->
+
+    <owl:Class rdf:about="&onto;gas">
+        <rdfs:subClassOf rdf:resource="&onto;weather"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;gas"/>
+        <owl:annotatedTarget rdf:resource="&onto;weather"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#global_warming -->
+
+    <owl:Class rdf:about="&onto;global_warming">
+        <rdfs:subClassOf rdf:resource="&onto;warming"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;global_warming"/>
+        <owl:annotatedTarget rdf:resource="&onto;warming"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#greenhouse -->
+
+    <owl:Class rdf:about="&onto;greenhouse"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#greenhouse_gas -->
+
+    <owl:Class rdf:about="&onto;greenhouse_gas">
+        <rdfs:subClassOf rdf:resource="&onto;gas"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;gas"/>
+        <owl:annotatedSource rdf:resource="&onto;greenhouse_gas"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#heat -->
+
+    <owl:Class rdf:about="&onto;heat">
+        <rdfs:subClassOf rdf:resource="&onto;energy"/>
+        <rdfs:subClassOf rdf:resource="&onto;temperature"/>
+        <rdfs:subClassOf rdf:resource="&onto;warming"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;heat"/>
+        <owl:annotatedTarget rdf:resource="&onto;temperature"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;heat"/>
+        <owl:annotatedTarget rdf:resource="&onto;warming"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;energy"/>
+        <owl:annotatedSource rdf:resource="&onto;heat"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#heating -->
+
+    <owl:Class rdf:about="&onto;heating">
+        <rdfs:subClassOf rdf:resource="&onto;global_warming"/>
+        <rdfs:subClassOf rdf:resource="&onto;heat"/>
+        <rdfs:subClassOf rdf:resource="&onto;melting"/>
+        <rdfs:subClassOf rdf:resource="&onto;warming"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;global_warming"/>
+        <owl:annotatedSource rdf:resource="&onto;heating"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;heating"/>
+        <owl:annotatedTarget rdf:resource="&onto;melting"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;heating"/>
+        <owl:annotatedTarget rdf:resource="&onto;warming"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;heat"/>
+        <owl:annotatedSource rdf:resource="&onto;heating"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#hydrogen -->
+
+    <owl:Class rdf:about="&onto;hydrogen">
+        <rdfs:subClassOf rdf:resource="&onto;gas"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;gas"/>
+        <owl:annotatedSource rdf:resource="&onto;hydrogen"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#ice -->
+
+    <owl:Class rdf:about="&onto;ice"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#keystone -->
+
+    <owl:Class rdf:about="&onto;keystone"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#melting -->
+
+    <owl:Class rdf:about="&onto;melting"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#methane -->
+
+    <owl:Class rdf:about="&onto;methane">
+        <rdfs:subClassOf rdf:resource="&onto;gas"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;gas"/>
+        <owl:annotatedSource rdf:resource="&onto;methane"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#nitrogen -->
+
+    <owl:Class rdf:about="&onto;nitrogen">
+        <rdfs:subClassOf rdf:resource="&onto;gas"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;gas"/>
+        <owl:annotatedSource rdf:resource="&onto;nitrogen"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#ocean -->
+
+    <owl:Class rdf:about="&onto;ocean">
+        <rdfs:subClassOf rdf:resource="&onto;sea"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;ocean"/>
+        <owl:annotatedTarget rdf:resource="&onto;sea"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#oil -->
+
+    <owl:Class rdf:about="&onto;oil">
+        <rdfs:subClassOf rdf:resource="&onto;temperature"/>
+        <rdfs:subClassOf rdf:resource="&onto;warming"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;oil"/>
+        <owl:annotatedTarget rdf:resource="&onto;temperature"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;oil"/>
+        <owl:annotatedTarget rdf:resource="&onto;warming"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#ozone -->
+
+    <owl:Class rdf:about="&onto;ozone">
+        <rdfs:subClassOf rdf:resource="&onto;gas"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;gas"/>
+        <owl:annotatedSource rdf:resource="&onto;ozone"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#pipeline -->
+
+    <owl:Class rdf:about="&onto;pipeline"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#pollution -->
+
+    <owl:Class rdf:about="&onto;pollution"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#precipitation -->
+
+    <owl:Class rdf:about="&onto;precipitation">
+        <rdfs:subClassOf rdf:resource="&onto;rain"/>
+        <rdfs:subClassOf rdf:resource="&onto;snow"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;precipitation"/>
+        <owl:annotatedTarget rdf:resource="&onto;snow"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;precipitation"/>
+        <owl:annotatedTarget rdf:resource="&onto;rain"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#production -->
+
+    <owl:Class rdf:about="&onto;production"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#rain -->
+
+    <owl:Class rdf:about="&onto;rain">
+        <rdfs:subClassOf rdf:resource="&onto;pollution"/>
+        <rdfs:subClassOf rdf:resource="&onto;water"/>
+        <rdfs:subClassOf rdf:resource="&onto;weather"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;rain"/>
+        <owl:annotatedTarget rdf:resource="&onto;water"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;pollution"/>
+        <owl:annotatedSource rdf:resource="&onto;rain"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;rain"/>
+        <owl:annotatedTarget rdf:resource="&onto;weather"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#research -->
+
+    <owl:Class rdf:about="&onto;research"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#science -->
+
+    <owl:Class rdf:about="&onto;science"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#scientist -->
+
+    <owl:Class rdf:about="&onto;scientist"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#sea -->
+
+    <owl:Class rdf:about="&onto;sea"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#sea_ice -->
+
+    <owl:Class rdf:about="&onto;sea_ice">
+        <rdfs:subClassOf rdf:resource="&onto;ice"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;ice"/>
+        <owl:annotatedSource rdf:resource="&onto;sea_ice"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#sea_level -->
+
+    <owl:Class rdf:about="&onto;sea_level"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#snow -->
+
+    <owl:Class rdf:about="&onto;snow">
+        <rdfs:subClassOf rdf:resource="&onto;weather"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">true</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;snow"/>
+        <owl:annotatedTarget rdf:resource="&onto;weather"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#soil -->
+
+    <owl:Class rdf:about="&onto;soil">
+        <rdfs:subClassOf rdf:resource="&onto;earth"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;earth"/>
+        <owl:annotatedSource rdf:resource="&onto;soil"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#storm -->
+
+    <owl:Class rdf:about="&onto;storm">
+        <rdfs:subClassOf rdf:resource="&onto;rain"/>
+        <rdfs:subClassOf rdf:resource="&onto;weather"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedSource rdf:resource="&onto;storm"/>
+        <owl:annotatedTarget rdf:resource="&onto;weather"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;rain"/>
+        <owl:annotatedSource rdf:resource="&onto;storm"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#study -->
+
+    <owl:Class rdf:about="&onto;study">
+        <rdfs:subClassOf rdf:resource="&onto;science"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;science"/>
+        <owl:annotatedSource rdf:resource="&onto;study"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#temperature -->
+
+    <owl:Class rdf:about="&onto;temperature"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#warming -->
+
+    <owl:Class rdf:about="&onto;warming"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#water -->
+
+    <owl:Class rdf:about="&onto;water">
+        <rdfs:subClassOf rdf:resource="&onto;sea"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;sea"/>
+        <owl:annotatedSource rdf:resource="&onto;water"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#weather -->
+
+    <owl:Class rdf:about="&onto;weather">
+        <rdfs:subClassOf rdf:resource="&onto;warming"/>
+    </owl:Class>
+    <owl:Axiom>
+        <onto:uComp_subclass_check rdf:datatype="&xsd;boolean">false</onto:uComp_subclass_check>
+        <owl:annotatedTarget rdf:resource="&onto;warming"/>
+        <owl:annotatedSource rdf:resource="&onto;weather"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#winter -->
+
+    <owl:Class rdf:about="&onto;winter"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#atmosphere -->
+
+    <owl:NamedIndividual rdf:about="&onto;atmosphere"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#carbon -->
+
+    <owl:NamedIndividual rdf:about="&onto;carbon">
+        <onto:relation_1 rdf:resource="&onto;carbon_dioxide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#carbon_dioxide -->
+
+    <owl:NamedIndividual rdf:about="&onto;carbon_dioxide"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#climate -->
+
+    <owl:NamedIndividual rdf:about="&onto;climate">
+        <onto:relation_1 rdf:resource="&onto;climate_change"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#climate_change -->
+
+    <owl:NamedIndividual rdf:about="&onto;climate_change"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#drought -->
+
+    <owl:NamedIndividual rdf:about="&onto;drought">
+        <onto:relation_6 rdf:resource="&onto;climate_change"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#earth -->
+
+    <owl:NamedIndividual rdf:about="&onto;earth">
+        <onto:relation_11 rdf:resource="&onto;atmosphere"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#emission -->
+
+    <owl:NamedIndividual rdf:about="&onto;emission">
+        <onto:relation_13 rdf:resource="&onto;carbon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#energy -->
+
+    <owl:NamedIndividual rdf:about="&onto;energy">
+        <onto:relation_10 rdf:resource="&onto;climate_change"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#environment -->
+
+    <owl:NamedIndividual rdf:about="&onto;environment">
+        <onto:relation_7 rdf:resource="&onto;climate_change"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#evidence -->
+
+    <owl:NamedIndividual rdf:about="&onto;evidence">
+        <onto:relation_9 rdf:resource="&onto;global_warming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#flood -->
+
+    <owl:NamedIndividual rdf:about="&onto;flood">
+        <onto:relation_17 rdf:resource="&onto;flooding"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#flooding -->
+
+    <owl:NamedIndividual rdf:about="&onto;flooding">
+        <onto:relation_2 rdf:resource="&onto;climate_change"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#fracking -->
+
+    <owl:NamedIndividual rdf:about="&onto;fracking">
+        <onto:relation_12 rdf:resource="&onto;oil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#global_warming -->
+
+    <owl:NamedIndividual rdf:about="&onto;global_warming"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#greenhouse -->
+
+    <owl:NamedIndividual rdf:about="&onto;greenhouse">
+        <onto:relation_1 rdf:resource="&onto;greenhouse_gas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#greenhouse_gas -->
+
+    <owl:NamedIndividual rdf:about="&onto;greenhouse_gas"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#ice -->
+
+    <owl:NamedIndividual rdf:about="&onto;ice">
+        <onto:relation_7 rdf:resource="&onto;global_warming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#keystone -->
+
+    <owl:NamedIndividual rdf:about="&onto;keystone">
+        <onto:relation_12 rdf:resource="&onto;climate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#melting -->
+
+    <owl:NamedIndividual rdf:about="&onto;melting">
+        <onto:relation_5 rdf:resource="&onto;global_warming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#oil -->
+
+    <owl:NamedIndividual rdf:about="&onto;oil"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#pipeline -->
+
+    <owl:NamedIndividual rdf:about="&onto;pipeline">
+        <onto:relation_11 rdf:resource="&onto;environment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#pollution -->
+
+    <owl:NamedIndividual rdf:about="&onto;pollution">
+        <onto:relation_3 rdf:resource="&onto;climate_change"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#production -->
+
+    <owl:NamedIndividual rdf:about="&onto;production">
+        <onto:relation_16 rdf:resource="&onto;oil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#research -->
+
+    <owl:NamedIndividual rdf:about="&onto;research">
+        <onto:relation_15 rdf:resource="&onto;sea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#science -->
+
+    <owl:NamedIndividual rdf:about="&onto;science">
+        <onto:relation_4 rdf:resource="&onto;global_warming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#scientist -->
+
+    <owl:NamedIndividual rdf:about="&onto;scientist">
+        <onto:relation_13 rdf:resource="&onto;science"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#sea -->
+
+    <owl:NamedIndividual rdf:about="&onto;sea">
+        <onto:relation_8 rdf:resource="&onto;global_warming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#sea_level -->
+
+    <owl:NamedIndividual rdf:about="&onto;sea_level">
+        <onto:relation_18 rdf:resource="&onto;climate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#temperature -->
+
+    <owl:NamedIndividual rdf:about="&onto;temperature">
+        <onto:relation_6 rdf:resource="&onto;global_warming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#weather -->
+
+    <owl:NamedIndividual rdf:about="&onto;weather"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#winter -->
+
+    <owl:NamedIndividual rdf:about="&onto;winter">
+        <onto:relation_14 rdf:resource="&onto;weather"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

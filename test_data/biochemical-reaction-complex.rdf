@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY owl11 "http://www.w3.org/2006/12/owl11#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY dl "http://ontology.dumontierlab.com/" >
+    <!ENTITY snap "http://www.ifomis.org/bfo/1.0/snap#" >
+    <!ENTITY span "http://www.ifomis.org/bfo/1.0/span#" >
+    <!ENTITY owl11xml "http://www.w3.org/2006/12/owl11-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://ontology.dumontierlab.com/biochemical-reaction-complex"
+     xml:base="http://ontology.dumontierlab.com/biochemical-reaction-complex"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl11="http://www.w3.org/2006/12/owl11#"
+     xmlns:owl11xml="http://www.w3.org/2006/12/owl11-xml#"
+     xmlns:snap="http://www.ifomis.org/bfo/1.0/snap#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dl="http://ontology.dumontierlab.com/"
+     xmlns:span="http://www.ifomis.org/bfo/1.0/span#">
+    <owl:Ontology rdf:about="">
+	<dc:title rdf:datatype="&xsd;string">Biochemical Reaction Ontology</dc:title>
+        <dc:description rdf:datatype="&xsd;string"
+            >Biochemical pathway knowledge represention and reasoning.</dc:description>
+        <owl:imports rdf:resource="&dl;nulo"/>
+        <dc:creator rdf:datatype="&xsd;string"
+            >Michel Dumontier</dc:creator>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&dc;description"/>
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontology.dumontierlab.com/derivesFrom -->
+
+    <owl:ObjectProperty rdf:about="&dl;derivesFrom"/>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/derivesInto -->
+
+    <owl:ObjectProperty rdf:about="&dl;derivesInto"/>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/hasFunction -->
+
+    <owl:ObjectProperty rdf:about="&dl;hasFunction"/>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/hasPart -->
+
+    <owl:ObjectProperty rdf:about="&dl;hasPart"/>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/hasParticipant -->
+
+    <owl:ObjectProperty rdf:about="&dl;hasParticipant"/>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/isFunctionOf -->
+
+    <owl:ObjectProperty rdf:about="&dl;isFunctionOf"/>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/isParticipantIn -->
+
+    <owl:ObjectProperty rdf:about="&dl;isParticipantIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontology.dumontierlab.com/AcetylCoA -->
+
+    <owl:Class rdf:about="&dl;AcetylCoA">
+        <rdfs:subClassOf rdf:resource="&dl;Molecule"/>
+        <owl:disjointWith rdf:resource="&dl;HSCoA"/>
+        <owl:disjointWith rdf:resource="&dl;CarbonDioxide"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/CarbonDioxide -->
+
+    <owl:Class rdf:about="&dl;CarbonDioxide">
+        <rdfs:subClassOf rdf:resource="&dl;Molecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/CarboxylateDonor -->
+
+    <owl:Class rdf:about="&dl;CarboxylateDonor">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&dl;Molecule"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;hasPart"/>
+                        <owl:someValuesFrom rdf:resource="&dl;CarboxylicAcidGroup"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="&dl;Molecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/CarboxylicAcidGroup -->
+
+    <owl:Class rdf:about="&dl;CarboxylicAcidGroup">
+        <rdfs:subClassOf rdf:resource="&dl;OrganicGroup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/Catalysis -->
+
+    <owl:Class rdf:about="&dl;Catalysis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="&dl;Catalyst"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="&dl;CatalyticActivity"/>
+                    </owl:Restriction>
+                    <rdf:Description rdf:about="&span;Process"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&span;Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/Catalyst -->
+
+    <owl:Class rdf:about="&dl;Catalyst">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;hasFunction"/>
+                        <owl:someValuesFrom rdf:resource="&dl;CatalyticActivity"/>
+                    </owl:Restriction>
+                    <rdf:Description rdf:about="&dl;Molecule"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&dl;Molecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/CatalyticActivity -->
+
+    <owl:Class rdf:about="&dl;CatalyticActivity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dl;MolecularFunction"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&dl;isFunctionOf"/>
+                                <owl:someValuesFrom rdf:resource="&dl;Catalyst"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;isParticipantIn"/>
+                        <owl:someValuesFrom rdf:resource="&dl;ChemicalReaction"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&dl;MolecularFunction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/ChemicalReaction -->
+
+    <owl:Class rdf:about="&dl;ChemicalReaction">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&span;Process"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;hasParticipant"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&dl;Molecule"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&dl;derivesFrom"/>
+                                        <owl:someValuesFrom rdf:resource="&dl;Molecule"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&span;Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/HSCoA -->
+
+    <owl:Class rdf:about="&dl;HSCoA">
+        <rdfs:subClassOf rdf:resource="&dl;Molecule"/>
+        <owl:disjointWith rdf:resource="&dl;CarbonDioxide"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/MolecularFunction -->
+
+    <owl:Class rdf:about="&dl;MolecularFunction">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;isFunctionOf"/>
+                        <owl:someValuesFrom rdf:resource="&dl;Molecule"/>
+                    </owl:Restriction>
+                    <rdf:Description rdf:about="&snap;Function"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&snap;Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/Molecule -->
+
+    <owl:Class rdf:about="&dl;Molecule">
+        <rdfs:subClassOf rdf:resource="&snap;Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/OrganicGroup -->
+
+    <owl:Class rdf:about="&dl;OrganicGroup">
+        <rdfs:subClassOf rdf:resource="&snap;Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/OxidativeDecarboxylation -->
+
+    <owl:Class rdf:about="&dl;OxidativeDecarboxylation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;hasParticipant"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&dl;Molecule"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&dl;hasPart"/>
+                                        <owl:someValuesFrom rdf:resource="&dl;CarboxylicAcidGroup"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <rdf:Description rdf:about="&dl;ChemicalReaction"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="&dl;CarbonDioxide"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&dl;ChemicalReaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/Pyruvate -->
+
+    <owl:Class rdf:about="&dl;Pyruvate">
+        <rdfs:subClassOf rdf:resource="&dl;Molecule"/>
+        <owl:disjointWith rdf:resource="&dl;HSCoA"/>
+        <owl:disjointWith rdf:resource="&dl;CarbonDioxide"/>
+        <owl:disjointWith rdf:resource="&dl;AcetylCoA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/PyruvateDecarboxylation -->
+
+    <owl:Class rdf:about="&dl;PyruvateDecarboxylation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="&dl;Pyruvate"/>
+                    </owl:Restriction>
+                    <rdf:Description rdf:about="&dl;OxidativeDecarboxylation"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="&dl;CarbonDioxide"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&dl;hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="&dl;Pyruvate"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="&dl;OxidativeDecarboxylation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/biochemical-reaction-complex#CatalyticActivity -->
+
+    <owl:Class rdf:about="#CatalyticActivity"/>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.0/snap#Function -->
+
+    <owl:Class rdf:about="&snap;Function"/>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.0/snap#Object -->
+
+    <owl:Class rdf:about="&snap;Object"/>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.0/span#Process -->
+
+    <owl:Class rdf:about="&span;Process"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontology.dumontierlab.com/CO2 -->
+
+    <dl:Molecule rdf:about="&dl;CO2">
+        <dl:derivesFrom rdf:resource="&dl;pyruvate"/>
+    </dl:Molecule>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/HSCoA -->
+
+    <dl:Molecule rdf:about="&dl;HSCoA">
+        <dl:derivesInto rdf:resource="&dl;acetyl-coa"/>
+    </dl:Molecule>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/acetyl-coa -->
+
+    <dl:Molecule rdf:about="&dl;acetyl-coa"/>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/catalysis -->
+
+    <span:Process rdf:about="&dl;catalysis">
+        <dl:hasParticipant rdf:resource="&dl;pyruvate_dehydrogenase"/>
+        <dl:hasParticipant rdf:resource="&dl;pd_catalytic_activity"/>
+    </span:Process>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/pd_catalytic_activity -->
+
+    <CatalyticActivity rdf:about="&dl;pd_catalytic_activity"/>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/pyruvate -->
+
+    <dl:Molecule rdf:about="&dl;pyruvate">
+        <dl:derivesInto rdf:resource="&dl;CO2"/>
+        <dl:derivesInto rdf:resource="&dl;acetyl-coa"/>
+    </dl:Molecule>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/pyruvate_dehydrogenase -->
+
+    <dl:Molecule rdf:about="&dl;pyruvate_dehydrogenase">
+        <dl:hasFunction rdf:resource="&dl;pd_catalytic_activity"/>
+    </dl:Molecule>
+    
+
+
+    <!-- http://ontology.dumontierlab.com/reaction -->
+
+    <span:Process rdf:about="&dl;reaction">
+        <dl:hasParticipant rdf:resource="&dl;pyruvate_dehydrogenase"/>
+        <dl:hasParticipant rdf:resource="&dl;pyruvate"/>
+        <dl:hasParticipant rdf:resource="&dl;HSCoA"/>
+        <dl:hasParticipant rdf:resource="&dl;acetyl-coa"/>
+        <dl:hasParticipant rdf:resource="&dl;CO2"/>
+        <dl:hasPart rdf:resource="&dl;catalysis"/>
+    </span:Process>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&rdf;List"/>
+        <rdf:rest rdf:parseType="Collection">
+            <rdf:Description rdf:about="&dl;hasPart"/>
+        </rdf:rest>
+        <rdfs:subPropertyOf rdf:resource="&dl;hasParticipant"/>
+        <rdf:first rdf:resource="&dl;hasParticipant"/>
+    </rdf:Description>
+</rdf:RDF>

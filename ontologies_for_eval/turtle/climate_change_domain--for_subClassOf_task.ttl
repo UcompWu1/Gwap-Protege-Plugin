@@ -1,0 +1,361 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix onto: <http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://137.208.51.84:5000/owl/2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3> a owl:Ontology ;
+	dc:title "2014_03_02+07%3A00%3A02+spectral_brute_limit_200%2F3/3" .
+
+onto:soil
+	a owl:Class ;
+	rdfs:subClassOf onto:earth .
+
+onto:atmosphere
+	a owl:Class ;
+	rdfs:subClassOf onto:weather ;
+	rdfs:subClassOf onto:gas .
+
+onto:nitrogen
+	a owl:Class ;
+	rdfs:subClassOf onto:gas .
+
+onto:climate_change
+	a owl:Class ;
+	rdfs:subClassOf onto:global_warming .
+
+onto:energy
+	a owl:Class ;
+	onto:relation_10 onto:climate_change .
+
+onto:evidence
+	a owl:Class ;
+	onto:relation_9 onto:global_warming .
+
+onto:weather
+	a owl:Class ;
+	rdfs:subClassOf onto:warming .
+
+onto:greenhouse
+	a owl:Class ;
+	onto:relation_1 onto:greenhouse_gas .
+
+onto:sea
+	a owl:Class ;
+	onto:relation_8 onto:global_warming .
+
+onto:earth
+	a owl:Class ;
+	onto:relation_11 onto:atmosphere .
+
+onto:hydrogen
+	a owl:Class ;
+	rdfs:subClassOf onto:gas .
+
+onto:temperature
+	a owl:Class ;
+	onto:relation_6 onto:global_warming .
+
+onto:electricity
+	a owl:Class ;
+	rdfs:subClassOf onto:energy .
+
+onto:winter
+	a owl:Class ;
+	onto:relation_14 onto:weather .
+
+onto:diesel
+	a owl:Class ;
+	rdfs:subClassOf onto:ice .
+
+onto:snow
+	a owl:Class ;
+	rdfs:subClassOf onto:weather .
+
+onto:ice
+	a owl:Class ;
+	onto:relation_7 onto:global_warming .
+
+onto:research
+	a owl:Class ;
+	onto:relation_15 onto:sea .
+
+onto:environment
+	a owl:Class ;
+	onto:relation_7 onto:climate_change .
+
+onto:flood
+	a owl:Class ;
+	onto:relation_17 onto:flooding .
+
+onto:production
+	a owl:Class ;
+	onto:relation_16 onto:oil .
+
+onto:keystone
+	a owl:Class ;
+	onto:relation_12 onto:climate .
+
+onto:storm
+	a owl:Class ;
+	rdfs:subClassOf onto:weather ;
+	rdfs:subClassOf onto:rain .
+
+onto:carbon_dioxide
+	a owl:Class ;
+	rdfs:subClassOf onto:gas ;
+	rdfs:subClassOf onto:greenhouse_gas ;
+	rdfs:subClassOf onto:dioxide ;
+	owl:equivalentClass onto:CO2 .
+
+onto:fuel
+	a owl:Class ;
+	rdfs:subClassOf onto:oil ;
+	rdfs:subClassOf onto:gas ;
+	rdfs:subClassOf onto:coal .
+
+onto:oil
+	a owl:Class ;
+	rdfs:subClassOf onto:warming ;
+	rdfs:subClassOf onto:temperature .
+
+onto:gas
+	a owl:Class ;
+	rdfs:subClassOf onto:weather .
+
+onto:pipeline
+	a owl:Class ;
+	onto:relation_11 onto:environment .
+
+onto:greenhouse_gas
+	a owl:Class ;
+	rdfs:subClassOf onto:gas .
+
+onto:emission
+	a owl:Class ;
+	onto:relation_13 onto:carbon .
+
+onto:water
+	a owl:Class ;
+	rdfs:subClassOf onto:sea .
+
+onto:heat
+	a owl:Class ;
+	rdfs:subClassOf onto:energy ;
+	rdfs:subClassOf onto:warming ;
+	rdfs:subClassOf onto:temperature .
+
+onto:global_warming
+	a owl:Class ;
+	rdfs:subClassOf onto:warming .
+
+onto:rain
+	a owl:Class ;
+	rdfs:subClassOf onto:weather ;
+	rdfs:subClassOf onto:water ;
+	rdfs:subClassOf onto:pollution .
+
+onto:carbon
+	a owl:Class ;
+	onto:relation_1 onto:carbon_dioxide .
+
+onto:drought
+	a owl:Class ;
+	onto:relation_6 onto:climate_change .
+
+onto:precipitation
+	a owl:Class ;
+	rdfs:subClassOf onto:rain ;
+	rdfs:subClassOf onto:snow .
+
+onto:sea_ice
+	a owl:Class ;
+	rdfs:subClassOf onto:ice .
+
+onto:melting
+	a owl:Class ;
+	onto:relation_5 onto:global_warming .
+
+onto:climate
+	a owl:Class ;
+	onto:relation_1 onto:climate_change .
+
+onto:fracking
+	a owl:Class ;
+	onto:relation_12 onto:oil .
+
+onto:science
+	a owl:Class ;
+	onto:relation_4 onto:global_warming .
+
+onto:study
+	a owl:Class ;
+	rdfs:subClassOf onto:science .
+
+onto:heating
+	a owl:Class ;
+	rdfs:subClassOf onto:heat ;
+	rdfs:subClassOf onto:warming ;
+	rdfs:subClassOf onto:melting ;
+	rdfs:subClassOf onto:global_warming .
+
+onto:sea_level
+	a owl:Class ;
+	onto:relation_18 onto:climate .
+
+onto:ocean
+	a owl:Class ;
+	rdfs:subClassOf onto:sea .
+
+onto:ozone
+	a owl:Class ;
+	rdfs:subClassOf onto:gas .
+
+onto:coal
+	a owl:Class ;
+	rdfs:subClassOf onto:carbon .
+
+onto:scientist
+	a owl:Class ;
+	onto:relation_13 onto:science .
+
+onto:carbon_pollution
+	a owl:Class ;
+	rdfs:subClassOf onto:pollution .
+
+onto:methane
+	a owl:Class ;
+	rdfs:subClassOf onto:gas .
+
+onto:flooding
+	a owl:Class ;
+	onto:relation_2 onto:climate_change .
+
+onto:pollution
+	a owl:Class ;
+	onto:relation_3 onto:climate_change .
+
+onto:relation_1
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:climate ;
+	 rdfs:range onto:climate_change ;
+	 rdfs:label "modifierOf" .
+
+onto:relation_2
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:flooding ;
+	 rdfs:range onto:climate_change ;
+	 rdfs:comment "1.042" ;
+	 rdfs:label "relation" .
+
+onto:relation_3
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:pollution ;
+	 rdfs:range onto:climate_change ;
+	 rdfs:comment "1.043" ;
+	 rdfs:label "relation" .
+
+onto:relation_4
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:science ;
+	 rdfs:range onto:global_warming ;
+	 rdfs:comment "1.060" ;
+	 rdfs:label "relation" .
+
+onto:relation_5
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:melting ;
+	 rdfs:range onto:global_warming ;
+	 rdfs:comment "1.034" ;
+	 rdfs:label "relation" .
+
+onto:relation_6
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:drought ;
+	 rdfs:range onto:climate_change ;
+	 rdfs:comment "1.045" ;
+	 rdfs:label "relation" .
+
+onto:relation_7
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:environment ;
+	 rdfs:range onto:climate_change ;
+	 rdfs:comment "1.052" ;
+	 rdfs:label "relation" .
+
+onto:relation_8
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:sea ;
+	 rdfs:range onto:global_warming ;
+	 rdfs:comment "1.044" ;
+	 rdfs:label "relation" .
+
+onto:relation_9
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:evidence ;
+	 rdfs:range onto:global_warming ;
+	 rdfs:comment "1.037" ;
+	 rdfs:label "relation" .
+
+onto:relation_10
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:energy ;
+	 rdfs:range onto:climate_change ;
+	 rdfs:comment "1.050" ;
+	 rdfs:label "relation" .
+
+onto:relation_11
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:pipeline ;
+	 rdfs:range onto:environment ;
+	 rdfs:comment "1.013" ;
+	 rdfs:label "relation" .
+
+onto:relation_12
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:keystone ;
+	 rdfs:range onto:climate ;
+	 rdfs:comment "1.014" ;
+	 rdfs:label "relation" .
+
+onto:relation_13
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:scientist ;
+	 rdfs:range onto:science ;
+	 rdfs:comment "1.018" ;
+	 rdfs:label "relation" .
+
+onto:relation_14
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:winter ;
+	 rdfs:range onto:weather ;
+	 rdfs:comment "1.022" ;
+	 rdfs:label "relation" .
+
+onto:relation_15
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:research ;
+	 rdfs:range onto:sea ;
+	 rdfs:comment "1.029" ;
+	 rdfs:label "relation" .
+
+onto:relation_16
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:production ;
+	 rdfs:range onto:oil ;
+	 rdfs:comment "1.019" ;
+	 rdfs:label "relation" .
+
+onto:relation_17
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:flood ;
+	 rdfs:range onto:flooding ;
+	 rdfs:comment "1.017" ;
+	 rdfs:label "relation" .
+
+onto:relation_18
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:sea_level ;
+	 rdfs:range onto:climate ;
+	 rdfs:comment "1.010" ;
+	 rdfs:label "relation" .

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.logging.jar"/>
+	<classpathentry kind="lib" path="/home/matyas/Programmierung/wu_workspace/java_workspace/protege_plugin/Libraries/com.googlecode.json-simple.jar"/>
+	<classpathentry kind="lib" path="/home/matyas/Programmierung/wu_workspace/java_workspace/protege_plugin/Libraries/org.apache.httpcomponents.httpclient.jar"/>
+	<classpathentry kind="lib" path="/home/matyas/Programmierung/wu_workspace/java_workspace/protege_plugin/Libraries/org.apache.httpcomponents.httpcore.jar"/>
+	<classpathentry kind="lib" path="/home/matyas/Programmierung/wu_workspace/java_workspace/protege_plugin/Libraries/org.protege.editor.core.application.jar"/>
+	<classpathentry kind="lib" path="/home/matyas/Programmierung/wu_workspace/java_workspace/protege_plugin/Libraries/org.protege.editor.owl.jar"/>
+	<classpathentry kind="lib" path="/home/matyas/Programmierung/wu_workspace/java_workspace/protege_plugin/Libraries/org.semanticweb.owl.owlapi.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

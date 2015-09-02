@@ -1,0 +1,1600 @@
+External Upper Lip
+External Lower Lip
+Mucosa of the Upper Lip
+Mucosa of the Lower Lip
+Base of the Tongue
+Hard Palate
+Uvula
+Sublingual Salivary Gland
+Tonsillar Pillar
+Vallecula
+Posterior Wall of the Oropharynx
+Lateral Wall of the Nasopharynx
+Hypopharynx
+Posterior Wall of the Hypopharynx
+Abdominal Esophagus
+Upper Third of the Esophagus
+Cardia
+Antrum Pylori
+Lesser Curvature
+Greater Curvature
+Duodenum
+Ascending Colon
+Hepatic Flexure
+Splenic Flexure
+Descending Colon
+Body of the Pancreas
+Middle Ear
+Maxillary Sinus
+Ethmoid Sinus
+Frontal Sinus
+Subglottis
+Mandible
+External Ear
+Skin of Other and Unspecified Parts of Face
+Skin of the Scalp and Neck
+Skin of the Lower Limb and Hip
+Nipple
+Central Portion of the Breast
+Upper-inner Quadrant of the Breast
+Lower-inner Quadrant of the Breast
+Upper-outer Quadrant of the Breast
+Lower-outer Quadrant of the Breast
+Labium Majus
+Labium Minus
+Clitoris
+Ectocervix
+Cervix
+Fundus Uteri
+Broad Ligament
+Parametrium
+Glans Penis
+Body of the Penis
+Spermatic Cord
+Bladder Trigone
+Lateral Wall of the Bladder
+Anterior Wall of the Bladder
+Posterior Wall of the Bladder
+Paraurethral Gland
+Cornea
+Choroid
+Orbit
+Cerebral Meninges
+Frontal Lobe
+Occipital Lobe
+Craniopharyngeal Duct
+Intrathoracic Lymph Node
+Intra-abdominal Lymph Node
+Pelvic Lymph Node
+Mammary Gland
+Areola
+Breast Fat Pad
+Myocardium
+Anal Canal
+Gastrointestinal System
+Large Intestine
+Vermiform Appendix
+Cecum
+Colon
+Right Colon
+Sigmoid Colon
+Transverse Colon
+Small Intestine
+Ileum
+Esophagus
+Rectum
+Stomach
+Ear
+Pineal Gland
+Pituitary Gland
+Thyroid Gland
+Female Reproductive System
+Vagina
+Vulva
+Penis
+Prostate Gland
+Urinary System
+Bladder
+Head and Neck
+Head
+Tongue
+Nasopharynx
+Nasal Cavity
+Pharynx
+Trachea
+Bone Marrow
+Spleen
+Central Nervous System
+Amygdala
+Brain Stem
+Hippocampus
+Corpus Callosum
+Corpus Striatum
+Globus Pallidus
+Caudate Nucleus
+Prosencephalon
+Diencephalon
+Epithalamus
+Hypothalamus
+Spinal Cord
+Synovial Membrane
+Fibroblast
+Base of the Skull
+Foramen Magnum
+Sella Turcica
+Internal Ear
+Eustachian Tube
+Tympanic Membrane
+Mastoid Process
+Mantle Field
+Infratentorial Brain
+Mesencephalon
+Supratentorial Brain
+Inferior Sagittal Sinus
+Superior Sagittal Sinus
+Basophil
+Eosinophil
+Neutrophil
+Non-Granular Leukocyte
+Type 1 Helper Cell
+Type 2 Helper Cell
+Suppressor-Inducer T-Lymphocyte
+Suppressor-Effector T-Lymphocyte
+Tumor Infiltrating Lymphocyte
+Bone Marrow Blood-Forming Cell
+Megakaryocyte
+Adipocyte
+Chondrocyte
+Kupffer Cell
+Peritoneal Macrophage
+Odontoblast
+Osteoblast
+Osteocyte
+Osteoclast
+Enterochromaffin Cell
+Enterochromaffin-Like Cell
+G-Cell
+Merkel Cell
+Paneth Cell
+Sertoli Cell
+Head of the Spermatozoon
+Spermatocyte
+Spermatogonium
+Leydig Cell
+Muscle Fibers Fast-Twitch
+Microglia
+Follicular Dendritic Cell
+Preganglionic Autonomic Fiber
+Cone
+Rod
+Rod Outer Segment
+Retinal Ganglion Cell
+Anterior Horn Cell
+Gamma Motor Neuron
+Postganglionic Parasympathetic Fiber
+Postganglionic Sympathetic Fiber
+Purkinje s Cell
+Anterior Chamber of the Eye
+Aorta
+Aortic Valve
+Autonomic Nervous System
+Axilla
+Basilar Artery
+Biliary Tract
+Brachial Artery
+Brachial Plexus
+Cardiovascular System
+Cauda Equina
+Cerebral Artery
+Cerebrospinal Fluid
+Clavicle
+Coccyx
+Corneal Stroma
+Dermis
+Endocrine System
+Corneal Endothelium
+Ethmoid Bone
+Facial Nerve
+Femoral Artery
+Geniculate Ganglion
+Male Reproductive System
+Glottis
+Gonad
+Heart
+Humerus
+Iris
+Renal Cortex
+Renal Medulla
+Crystalline Lens
+Mast Cell
+Mediastinum
+Mitral Valve
+Nose
+Occipital Bone
+Oculomotor Nerve
+Optic Disc
+Optic Nerve
+Oropharynx
+Parasympathetic Nervous System
+Peritoneal Cavity
+Peyer s Patch
+Posterior Lobe of the Pituitary Gland
+Respiratory System
+Scapula
+Seminal Vesicle
+Skeletal System
+Skull
+Sternum
+Subclavian Vein
+Sympathetic Nervous System
+Temporal Bone
+Thorax
+Tibia
+Trabecular Meshwork
+Trigeminal Nerve
+Trigeminal Nucleus
+Trochlear Nerve
+Genitourinary System
+Uvea
+Superior Vena Cava
+Vertebral Artery
+Tibial Artery
+Posterior Tibial Artery
+Anterior Cerebral Artery
+Middle Cerebral Artery
+Conus Medullaris
+Nucleus Ambiguus
+Abducens Nucleus
+Pleural Cavity
+Skin Graft
+Stratum Spinosum
+Female Breast
+Vertebral Body
+Scaphoid Bone
+Pisiform Bone
+Capitate Bone
+Trapezial Bone
+Trapezoid Bone
+Hamate Bone
+Middle Phalanx of the Hand
+Distal Phalanx of the Hand
+Endothelial Cell
+Alveolar Epithelium
+Left Atrium
+Right Ventricle
+Right Coronary Artery
+Posterior Spinal Artery
+Great Cardiac Vein
+Middle Cardiac Vein
+Small Cardiac Vein
+Brachial Vein
+Renal Pelvis
+Visual System
+Cervical Spinal Cord
+Cervical Spinal Nerve Root
+Lumbar Spinal Cord
+Posterior Chamber of the Eye
+Palpebral Conjunctiva
+Bulbar Conjunctiva
+Axillary Lymph Node
+Posterior Eye Segment
+Integumentary System
+Other Unique Body System
+Hematopoietic System
+Lumbar Spinal Nerve Root
+Thoracic Spinal Nerve Root
+Renal Calyx
+Intrapulmonary Bronchus
+Xenograft
+Mammary Epithelium
+Intrathecal Space
+Medial Supraclavicular Lymph Node
+Neuroendocrine System
+Somatic Cell
+Splenocyte
+Nervous System Fluids and Secretions
+Peripheral Blood Mononuclear Cell
+Neuro-Ocular System
+Exocrine System
+Trachea and Bronchus
+Ascending Spinal Cord Tract
+Tumor-Associated Vasculature
+Descending Spinal Cord Tract
+Pontine Base
+Cervicomedullary Junction
+Interval Lymph Node
+Neural Stem Cell
+Splenic White Pulp
+Vestibulocochlear Nerve
+Vertebral Column
+Rhabdomyocyte
+Cardiocyte
+Pericardium
+Monoblast
+Male Genital Organ
+Body
+Seminiferous Tubule
+Nephron
+Reticular Cell
+Back
+Neck
+Sphincter of Oddi
+Solitary Nucleus
+Face
+Masseter Muscle
+Afferent Pathway
+Internal Capsule
+Medial Forebrain Bundle
+Perforant Pathway
+Capsule of the Prostate
+Apex of the Prostate
+Base of the Prostate
+Anterior Surface of the Prostate
+Inferolateral Surface of the Prostate
+Posterior Lobe of the Prostate
+Posterior Surface of the Prostate
+Mucosal Tissue of Human Prostate
+Orifice of Human Prostatic Duct
+Submucosal Tissue of Human Prostate
+Prostatic Muscular Tissue
+Prostatic Portion of the Male Urethra
+Prostatic Duct
+Prostatic Stroma
+Retired Anatomy Concepts
+Immature Granulocyte
+Megakaryoblast
+Immature Platelet
+Proerythroblast
+Polychromatophilic Erythroblast
+Orthochromatophilic Erythroblast
+Squamous Alveolar Lining Cell
+Light Cell
+Type III Epithelial Receptor Cell
+Supporting Cell
+Bipolar Neuron
+Receptor Cell
+Juxtaglomerular Cell
+Epicardium
+Hassall s Corpuscle
+Nociceptor
+Endosteum
+Periosteum
+Blood-Brain Barrier
+Extracellular Matrix
+Exudate
+Feces
+Glomerulus
+Lymph
+Breast Milk
+Myelin Sheath
+Saliva
+Sebum
+Semen
+Sputum
+Urine
+Hair Follicle
+Serum
+Stoma
+Aspirate
+Plasma
+Fundus
+Lobe
+Anatomic Sites Other
+Bronchial Secretion
+Mechanoreceptor
+Proprioceptor
+Muscle Spindle
+Golgi Tendon Organ
+Calcium Channel
+Potassium Channel
+Sodium Channel
+Other Multiple Areas
+Continent Reservoir
+Genitalia
+Infraclavicular Region
+Anatomic Border
+Cervical Neck Region
+Phalanx of the Foot
+Ductal Epithelium
+Dopaminergic Cell
+Fovea Centralis
+Macula
+Corpus Luteum
+Maxilla
+Alpha Granule
+Cleaved Cell
+Effector Cell
+Viscera
+Chiasma
+Olfactory Bulb
+Subcellular Anatomy
+Subsegmental Lymph Node
+Accessory Nerve
+Acetabulum
+Achilles Tendon
+Acromial Thoracic Artery
+Acromion
+Adrenal Gland Capsule
+Alveolar Cell Type I
+Alveolar Cell Type II
+Alveus
+Ambient Cistern
+Ampullary Crest
+Amygdaloid Body
+Anal Column
+Anal Gland
+Anastomotica Magna Artery
+Angular Artery
+Anterior Annular Ligament
+Anterior Carpal Artery
+Anterior Caudate Vein
+Anterior Choroidal Artery
+Anterior Circumflex Artery
+Anterior Commissure
+Anterior Communicating Artery
+Anterior Descending Coronary Artery
+Anterior Fossa
+Anterior Inferior Cerebellar Artery
+Anterior Inferior Frontal Convolution
+Anterior Olfactory Lobule
+Anterior Parietal Artery
+Anterior Part of the Calcarine Fissure
+Anterior Portion of the Corpus Callosum Cistern
+Anterior Quadrigeminal Body
+Anterior Surface of the Kidney
+Anterior Surface of the Lens
+Anterior Surface of the Stomach
+Anterior Temporal Artery
+Anterior Tibial Vein
+Antihelix
+Antitragus
+Apex of the Heart
+Apex of the Lung
+Aqueduct of Sylvius
+Arch of the Vertebra
+Area of Broca
+Arm
+Articular Bone Surface
+Articular Cartilage
+Aryteno-epiglottic Fold
+Arytenoid Muscle
+Ascending Aorta
+Ascending Frontal Artery
+Ascending Frontal Convolution
+Ascending Limb of the Henle s Loop
+Astragalus
+Atlanto-axial Joint
+Atrioventricular Bundle
+Atrioventricular Node
+Atrium of the Middle Ear
+Axillary Artery
+Axillary Vein
+Axial Skeleton
+Axis of the Vertebra
+Azygos Articular Artery
+Basal Cerebral Vein of the Rosenthal
+Basal Domain of the Epithelium
+Basal Lamina of the Vascular Endothelium
+Basal Layer of the Endometrium
+Base of the Brain
+Basilar Membrane of the Membranous Canal of the Cochlea
+Basilic Vein
+Beta Cell
+Bile Salt
+Body of the Corpus Callosum
+Body of the Nail
+Body of the Spermatozoon
+Bone Matrix
+Brain Infundibulum
+Bronchial Artery
+Bronchial Lymph Node
+Bronchial Tree
+Bronchus-Associated Lymphoid Tissue
+Brown Adipose Tissue
+Buccal Salivary Gland
+C2 Vertebra
+C3 Vertebra
+C5 Vertebra
+CA2 Field of the Cornu Ammonis
+CA3 Field of the Cornu Ammonis
+Calcarine Artery
+Calcarine Sulcus
+Callosomarginal Artery
+Canal of Schlemm
+Canalis Radicis Dentis
+Capsular Ligament
+Cardia Gland
+Cardia Orifice
+Carotid Cistern
+Carpometacarpal Joint
+Carpus Bone
+Cartilage Matrix
+Cementoblast
+Cementocyte
+Central Artery
+Central Lobe
+Central Sulcus of Rolando
+Central Vein
+Centromedian Nucleus of the Thalamus
+Cerebral Aqueduct
+Cervical Curve
+Cervical Gland
+Cervical Nerve
+Chief Cell of the Stomach
+Chordae Tendineae
+Choroid Plexus of the Fourth Ventricle
+Choroid Plexus of the Lateral Ventricle
+Choroidal Artery
+Ciliary Epithelium
+Ciliary Muscle
+Ciliary Process
+Cilium
+Circular Ligament of the Tooth
+Cisterna Magna
+Classic Lobule
+Coccygeal Vertebra
+Cochlear Duct
+Cochlear Nucleus
+Collagen Fiber
+Collecting Cell
+Collecting Tube
+Collum Dentis
+Colorectal Zone of the Anal Canal
+Colostrum
+Common Canaliculus
+Common Femoral Artery
+Common Hepatic Duct
+Common Thymocyte
+Common Ulnar Vein
+Connecting Segment of the Photoreceptor Cell
+Corneoscleral Coat
+Corniculate Cartilage
+Cornu Ammonis
+Coronary Valve
+Corpora Albicantia
+Corpus Callosum Cistern
+Cortical Arch
+Cortical Column
+Cortical Nephron
+Cortical Vein
+Corticotrope Cell
+Costochondral Joint
+Cowper s Gland
+Cremaster Muscle
+Cricoarytenoid Joint
+Cricoid Cartilage
+Cricothyroid Ligament
+Cricothyroid Muscle
+Cricotracheal Ligament
+Crossed Pyramidal Tract
+Crural Cistern
+Crus Helicis
+Cuboid Bone
+Curved Tube
+Cymba Conchae
+Cystic Vein
+Decidua Capsularis
+Decidua Parietalis
+Decidual Cell
+Deep Cervical Lymph Node
+Deep Epigastric Artery
+Deep Epigastric Vein
+Deep Femoral Artery
+Deep Intracranial Venous System
+Deep Lymphatic Vessel
+Deep Palmar Fascia
+Deep Palmar Vein
+Deltoid
+Dendrite
+Dentin
+Descemet s Membrane
+Descending Aorta
+Diaphragma Sellae
+Diaphysis of the Bone
+Diarthrosis
+Digastric Muscle
+Dilator Pupillae Muscle
+Direct Pyramidal Tract
+Discontinuous Capillary
+Distal Convoluted Tubule
+Dorsal Cochlear Nucleus
+Dorsal Curve
+Dorsal Horn of the Spinal Cord
+Dorsal Nucleus of the Vagus Nerve
+Dorsalis Pedis Artery
+Dorsomedial Nucleus of the Thalamus
+Dorsum
+Dorsum of the Tongue
+Duct Salivary Gland System
+Ductus Santorini
+Ectocervical Os
+Efferent Ductule
+Ejaculatory Duct
+Elastic Fiber
+Elastin Fiber
+Elbow Joint
+Enamel
+Endocrine Ovary
+Endocrine Pancreas
+Endometrial Cavity
+Endometrial Cell
+Endomysium
+Endoneurium
+Endosteal Cell
+Endothelium of the Glomerular Capillary
+Eparterial Branch
+Epidermal Ridges
+Epigastric Region
+Epithelial Plica
+Epitympanic Recess
+Esophageal Artery
+Esophageal Gland
+Esophageal Muscular Coat
+Esophageal Muscularis Mucosa
+Esophageal Squamous Cell
+Eustachian Valve
+Exocrine Pancreas
+External Abdominal Ring
+External Anal Sphincter
+External Capsule
+External Carotid Artery
+External Cuneiform Bone of the Foot
+External Elastic Membrane
+External Geniculate Body
+External Iliac Artery
+External Iliac Vein
+External Intercostal Muscle
+External Jugular Vein
+External Maleolus
+External Malleolar Artery
+External Nose
+External Parieto-occipital Fissure
+External Plantar Artery
+External Pterygoid Muscle
+External Pyramidal Cell Layer
+Extraglomerular Mesangial Cell
+Eyebrow
+Facet Joint
+Facial Artery
+Facies Posterior Lentis
+Falciform Ligament
+False Vocal Cord
+Fascicle
+Female Prepuce
+Female Urethra
+Fenestra Ovalis
+Fibrillin
+Fibrocartilage
+Fibrous Coat of the Liver
+Filiform Papilla
+Fimbria
+Fimbriated End of the Fallopian tube
+First Portion of the Duodenum
+Fissure of the Gallbladder
+Fissure of the Inferior Vena Cava
+Fissure of Rolando
+Floor of the Fourth Ventricle
+Foliate Papilla
+Foot
+Foot Process
+Foramen Apicis Dentis
+Foramen of Magendie
+Foramen of Monroe
+Forearm
+Fossa of the Antihelix
+Fossa of the Helix
+Fourth Portion of the Duodenum
+Free Edge of the Nail
+Frontopolar Artery
+FSH Cell
+Gallbladder Body
+Gallbladder Neck
+Gastric Muscular Coat
+Gastric Pit
+Gastric Vein
+Gastrocolic Ligament
+Gastroesophageal Junction
+Gastrophrenic Ligament
+Gastrosplenic Omentum
+Genito-urinary Region
+Genu of the Corpus Callosum
+Germinal Epithelium
+Gland of Wolfring
+Glomerular Capillary
+Glomeruloza Zone
+Gluteal Artery
+Graafian Follicle
+Granulosa Lutein Cell
+Gray Commissure
+Greater Omentum
+Great Trochanter
+Growing Follicle
+Gyri Breves Insulae
+Gyrus Longus Insulae
+Hair Follicle Inferior Segment
+Hair Follicle Isthmus
+Hand
+Haversian Canal
+Haversian System
+Head of the Humerus
+Head of the Tibia
+Helicotrema
+Helix
+Hemisphere of the Cerebellum
+Hemorrhoidal Plexus
+Hepatic Sinusoid
+Hepatic Vein
+Hepatogastric Ligament
+Herring Body
+High Endothelial Venule
+Hilar Area of the Kidney
+Epencephalon
+Hip Joint
+Hippocampal Fissure
+Hippocampal Sulcus
+Hydatid of Morgani
+Hymen
+Hyoid Bone
+Hyparterial Branch
+Hypogastric Region
+Hypothalamohypophyseal Portal System
+Iliacus
+Iliocostal Muscle
+Iliopsoas Muscle
+Immature Bone
+Incus
+Inferior Anastomotic Vein of the Labbe
+Inferior External Articular Artery
+Inferior Frontal Sulcus
+Inferior Hypophyseal Artery
+Inferior Maxillary Nerve
+Inferior Mesenteric Vein
+Inferior Oblique Muscle
+Inferior Parathyroid Gland
+Inferior Parietal Convolution
+Inferior Profunda Artery
+Inferior Temporal Convolution
+Inferior Temporal Gyrus
+Inferior Vena Cava Opening
+Infraspinatus
+Inguinal Lymph Node
+Inner Hair Cell of the Organ of the Corti
+Inner Plexiform Layer
+Inner Rod of the Corti
+Inner Supporting Cell
+Inner Wall of the Vestibule
+Innominate Artery
+Intercostal Artery
+Intercostal Fascia
+Intercostal Nerve
+Interlobular Bile Duct
+Interlobular Duct
+Intermediate Fiber
+Internal Abdominal Ring
+Internal Anal Sphincter
+Internal Calcanean Artery
+Internal Cerebral Vein
+Internal Circumflex Artery
+Internal Cuneiform Bone of the Foot
+Internal Elastic Membrane
+Internal Geniculate Body
+Internal Iliac Artery
+Internal Iliac Vein
+Internal Intercostal Muscle
+Internal Jugular Vein
+Internal Lateral Ligament of the Ankle
+Internal Mammary Lymph Node
+Internal Maxillary Vein
+Internal Nare
+Internal Oblique Muscle
+Internal Occipital Vein
+Internal Plantar Artery
+Internal Pterygoid Muscle
+Internal Pubic Artery
+Internal Wall of the Tympanum
+Interphalangeal Joint of the Foot
+Interphase Cell
+Interstitial Cell of Cajal
+Intracellular Membrane
+Intralaminar Nucleus
+Intraparietal Sulcus
+Intra-thoracic Lymph Node
+Irregular Tubule
+Ischium
+Thyroid Gland Isthmus
+Juxtamedullary Nephron
+Kidney Posterior Surface
+Kidney Upper Lobe
+Kinocilium
+Knee Joint
+L3 Vertebra
+L5 Vertebra
+Labial Salivary Gland
+Lacrimal Apparatus
+Lacrimal Bone
+Lacrimal Canaliculus
+Lacrimal Nerve
+Lactotrope Cell
+Lamella of Harvesian System
+Lamina Rara Interna
+Lamina Spiralis Ossea
+Lamina Terminalis Cistern
+Large Cleaved Cell
+Large Intestinal Crypt of the Lieberkuhn
+Large Intestinal Glandular Cell
+Large Intestinal Muscular Coat
+Large Intestinal Serosal Surface
+Large Non-cleaved Cell
+Lateral Horn of the Spinal Cord
+Lateral Ligament
+Lateral Orbitofrontal Artery
+Lateral Posterior Nucleus of the Thalamus
+Lateral Rectus Muscle
+Lateral Sulcus of Sylvius
+Lateral Surface of the Prostate
+Lateral-occipital Sulcus
+Left Cerebral Hemisphere
+Left Common Carotid Artery
+Left Fallopian Tube
+Left Inferior Frontal Convolution
+Left Inguinal Region
+Left Lobe of the Liver
+Left Main Bronchus
+Left Pulmonary Artery
+Left Subclavian Artery
+Left Thyroid Gland Lobe
+Lens Capsule
+Lens Fiber
+Lentiform Nucleus
+Leptomeninges
+Lesser Omentum
+Lesser Trochanter
+LH Cell
+Lingual Salivary Gland
+Lingual Tonsil
+Lipoblast
+Liver Acinus
+Liver Acinus Zone 1
+Liver Acinus Zone 2
+Liver Acinus Zone 3
+Lobule of the Auricle
+Lobus Caudatus
+Lobus Quadratus
+Lobus Spigelii
+Long Saphenous Vein
+Loop of Henle
+Low Columnar Cell
+Lower Esophageal Sphincter
+Lower Opening of the Thorax
+Lower Respiratory System
+Lumbar Artery
+Lumbar Curve
+Lunate Sulcus
+Lower Lobe of the Left Lung
+Lower Lobe of the Right Lung
+Upper Lobe of the Right Lung
+Lunula
+Lymph Node Capsule
+Lymph Node Cortex
+Lymph Node Efferent Vessel
+Lymph Node Medullary Portion
+Lymph Node Trabecula
+Lymphatic Capillary
+Lymphokine-Activated Natural Killer Cell
+Macula Densa
+Macula Lutea
+Macula of Utricle
+Magendie s Foramen
+Male Breast
+Male Prepuce
+Malleus
+Mantle Zone
+Marginal Cusp
+Marginal Zone of Lymph Node
+Maturation-stage Ameloblast
+Mature Bone
+Mature Thymocyte
+Medial Collateral Ligament of the Knee
+Medial Lenticulostriate Artery
+Medial Rectus Muscle
+Medial Vestibular Nucleus
+Median Basilic Vein
+Median Vein
+Medullary Artery
+Meibomian Gland
+Vestibular Membrane
+Membranous Canal of the Cochlea
+Membranous Labyrinth
+Membranous Urethra
+Meningeal Layer of the Dura Mater
+Meningothelial Cell
+Meniscus Lateralis
+Menses
+Mesencephalic Perforating Artery
+Mesentery
+Metatarsophalangeal Joint
+Microcirculatory Bed
+Microvillus
+Midcortical Nephron
+Middle Cuneiform Bone of the Foot
+Middle Fossa
+Middle Frontal Convolution
+Middle Hemorrhoidal Artery
+Middle Inferior Frontal Convolution
+Middle Occipital Convolution
+Middle Temporal Convolution
+Middle Temporal Gyrus
+Middle Temporal Sulcus
+Molecular Layer
+Motor Nucleus of the Trigeminal Nerve
+Mucous Salivary Gland
+Muscle and Fasciae of the Thorax
+Musculus Latissimus Dorsi
+Myofibroblast
+Nasal Bone
+Nasal Septum
+Navicular Bone
+Neck of the Humerus
+Nissl Body
+Node of Bizzozero
+Node of Ranvier
+Non-articular Bone Surface
+Nostril
+Nucleus of the Mesencephalic Tract of the Trigeminal Nerve
+Nucleus of the Solitary Tract
+Nucleus of the Spinal Tract of the Trigeminal Nerve
+Obturator Artery
+Occipital Artery
+Occipital Sulcus
+Olecranon
+Olfactory Chemoreceptor
+Olfactory Cistern
+Olfactory Mucosa
+Olfactory Sulcus
+Olfactory Tract
+Opening of the Vena Cava
+Ophthalmic Nerve
+Opthalmic Artery
+Optic Tract
+Orbit Disc
+Orbital Part of the Inferior Frontal Gyrus
+Orifice of the Eustachian Tube
+Osseous Labyrinth
+Osteoid
+Other Body Part
+Otolith
+Outer Hair Cell of the Organ of the Corti
+Outer Plexiform Layer
+Outer Segment of the Photoreceptor Cell
+Outer Supporting Cell
+Outer Wall of the Vestibule
+Ovarian Cortex
+Ovarian Medulla
+Palatine Salivary Gland
+Palatine Tonsil
+Pancreatic Exocrine Secretion
+Papillary Muscle
+Parahippocampal Gyrus
+Parathyroid Gland Chief Cell
+Parathyroid Gland Follicle
+Parathyroid Gland Oxyphil Cell
+Parietal Pleura
+Parieto-occipital Artery
+Parotid Duct
+Parotid Gland Lymph Node
+Pars Externa
+Pars Media
+Pectoralis Minor
+Pelvic Curve
+Pericallosal Artery
+Perimetrium
+Perimysium
+Perineal Muscle
+Perineum
+Peripheral Zone of the Prostatic Parenchyma
+Perisinusoidal Space
+Peritoneal Mesothelial Cell
+Perivitelline Space
+Peroneal Artery
+Pharyngeal Tonsil
+Pillar Cell
+Platysma Myoides
+Pluripotential Bone Marrow Stem Cell
+Popliteal Artery
+Popliteus Muscle
+Portal Lobule
+Portal Triad
+Portal Vein
+Postcentral Sulcus
+Posterior Annular Ligament
+Posterior Auricular Vein
+Posterior Carpal Artery
+Posterior Column
+Posterior Cricoarytenoid Ligament
+Posterior Cruciate Ligament
+Posterior Fossa
+Posterior Inferior Cerebellar Artery
+Posterior Inferior Frontal Convolution
+Posterior Median Fissure
+Posterior Meningeal Artery
+Posterior Nucleus of the Thalamus
+Posterior Olfactory Lobule
+Posterior Parietal Artery
+Posterior Part of the Ambient Cistern
+Posterior Pigment Epithelium
+Posterior Portion of the Corpus Callosum Cistern
+Posterior Semicircular Canal
+Posterior Surface of the Liver
+Posterior Surface of the Stomach
+Posterior Surface of the Vagina
+Posterior Temporal Artery
+Posterior Ulnar Vein
+Posterior Wall of the Tympanum
+Postero-lateral Fissure
+Precentral Artery
+Precentral Sulcus
+Precentral Vermian Vein
+Prepontine Cistern
+Pre-Thymocyte
+Primordial Follicle
+Principal Sensory Nucleus of the Trigeminal Nerve
+Promontory
+Prostatic Duct Tissue
+Prostatic Glandular Cell
+Protoplasmic Astrocyte
+Proximal Convoluted Tube
+Psoas Major
+Pubic Symphisis
+Pulmonary Lobule
+Pupil
+Purkinje Fiber
+Pyramid
+Pyramid of Ferrein
+Pyramid of Malpighi
+Pyramidal Lobe
+Pyramidalis
+Pyriform Sinus
+Quadrigeminal Artery
+Quadrigeminal Cistern
+Radial Vein of the Upper Extremity
+Radix Dentis
+Recto-Vesical Pouch
+Rectus Abdominis
+Recurrent Artery of Heubner
+Red Fiber
+Refractile Media
+Regular Dense Connective Tissue
+Renal Cell
+Renal Corpuscle
+Renal Efferent Vessel
+Renal Interstitial Tissue
+Renshaw Cell
+Reserve Stem Cell
+Rete Malpighii
+Reticular Fiber
+Retinal Pigment Epithelium
+Ridge of the Aqueductus Fallopii
+Right Cerebral Hemisphere
+Right Common Carotid Artery
+Right Common Iliac Artery
+Right Fallopian Tube
+Right Hypochondriac Region
+Right Inferior Frontal Convolution
+Right Innominate Vein
+Right Lumbar Region
+Right Lung
+Right Lymphatic Duct
+Right Lymphatic Trunk
+Right Main Bronchus
+Right Thyroid Gland Lobe
+Root of the Nail
+Rostrum of the Corpus Callosum
+S5 Vertebra
+Sacrococcygeal Joint
+Sacroiliac Joint
+Sacrum
+Sarcolemma
+Sarcoplasm
+Scalene Muscle
+Sebaceous Gland Duct
+Second Portion of the Duodenum
+Secondary Oocyte
+Segmental Bronchus
+Seminal Fluid
+Sensory Receptor of the Ear
+Septal Vein
+Septum Pellucidum
+Serosal Surface of the Liver
+Serratus Magnus
+Sesamoid Bone
+Shaft of the Hair
+Sheath of Schwann
+Shoulder Girdle
+Sinus of Valsava
+Slow-twitch Motor Unit
+Small Intestinal Glandular Cell
+Small Intestinal Muscular Coat
+Small Intestinal Muscularis Mucosa
+Small Intestinal Serosal Surface
+Small Intestinal Submucosa
+Smegma
+Space of Fontana
+Space of Mall
+Sphenomaxillary Fossa
+Sphenoparietal Sinus
+Sphincter Pupillae Muscle
+Spinal Dorsal Nerve
+Spinal Vestibular Nucleus
+Spiral Organ of Corti
+Splenic Lymphoid Follicle
+Splenic Trabecula
+Stapedius Muscle
+Stereocilium
+Sternoclavicular Joint
+Sternocleidomastoid Muscle
+Sternocostal Joint
+Straight Artery
+Stratified Cuboidal Epithelium
+Stratum Corneum
+Stratum Disjunctum
+Stratum Granulosum
+Stratum Lucidum
+Stratum Papillare
+Stratum Reticulare
+Striae Medullares
+Striated Border
+Striated Duct
+Stroma of the Ovarian Cortex
+Stylopharyngeus
+Lymph Node Subcapsular Sinus
+Subcutis
+Subendothelial Layer
+Subiculum
+Subscapularis
+Subtalar Joint
+Sulcus Centralis
+Sulcus Centralis Insulae
+Sulcus Limitans
+Sulcus Terminalis
+Superficial Cervical Lymph Node
+Superficial Fascia
+Superficial Intracranial Venous System
+Superficial Lymphatic Vessel
+Superficial Middle Cerebral Vein
+Superficial Palmar Arch
+Superficial Vein of the Hand
+Superior Cerebellar Artery
+Superior Cerebellopontine Cistern
+Superior Constrictor Muscle
+Superior External Articular Artery
+Superior Frontal Convolution
+Superior Frontal Gyrus
+Superior Frontal Sulcus
+Superior Hemorrhoidal Artery
+Superior Hypophyseal Artery
+Superior Internal Articular Artery
+Superior Maxillary Bone
+Superior Maxillary Nerve
+Superior Mesenteric Artery
+Superior Mesenteric Vein
+Superior Occipital Convolution
+Superior Parietal Convolution
+Superior Rectus Muscle
+Superior Semicircular Canal
+Superior Surface of the Liver
+Superior Temporal Sulcus
+Superior Thoracic Artery
+Suprachorioid Lamina
+Supramarginal Gyrus
+Sweat Gland Duct
+Synovial Bursa
+T1 Vertebra
+T11 Vertebra
+T2 Vertebra
+T3 Vertebra
+T6 Vertebra
+T7 Vertebra
+T8 Vertebra
+T9 Vertebra
+Tail of the Spermatozoon
+Tarsal Joint
+Tarsal Plate
+Tarsus Bone
+Temporal Artery
+Temporo-maxillary Vein
+Tendinocyte
+Teres Major Muscle
+Teres Minor Muscle
+Terminal Bar
+Terminal Bronchiole Epithelium
+Terminal Ductal Lobular Unit Cell
+Terminal Ileum
+Thick Filament
+Thigh
+Third Portion of the Duodenum
+Thoracic Aorta
+Thoracic Duct
+Thymic Lobule
+Thymic Trabecula
+Thymus Cortex
+Thymus Medulla
+Thyroarytenoid Muscle
+Thyroepiglottic Muscle
+Thyroid Cartilage
+Thyroid Gland Capsule
+Thyroid Gland Follicle
+Thyroid Gland Follicular Cell
+Thyrotrope Cell
+Toe Joint
+Toe Nail
+Tonsillohemispheric Artery
+Totipotent Neuroepithelial Stem Cell
+Tracheal Epithelium
+Tract of Burdach
+Tract of Goll
+Tract of Lissauer
+Transitional Zone of the Prostatic Parenchyma
+Trapezius Muscle
+Triangular Ligament
+Trunk
+Tunica Albuginea
+Tunica Intima
+Tunica Vasculosa
+Type I Epithelial Receptor Cell
+Type II Epithelial Receptor Cell
+Uncus
+Undersurface of the Temporal Lobe
+Unipolar Neuron
+Unmyelinated Nerve Fiber
+Upper Gastrointestinal Tract
+Upper Respiratory System
+Uterine Gland
+Utero-Vesical Pouch
+Utricle
+Utriculosaccular Duct
+Vagal Triangle
+Valve of Kerckring
+Valve of Vieussens
+Vasa Vasorum
+Vascular System
+Velum Interpositum Cistern
+Ventral Horn of the Spinal Cord
+Ventral Nerve Root
+Ventroanterior Nucleus of the Thalamus
+Ventrolateral Nucleus of the Thalamus
+Ventroposterior Lateral Nucleus of the Thalamus
+Vermian Cistern
+Vermis
+Vertebral Bone
+Vertebral Canal
+Vestibular Labyrinth
+Virchow s Cell
+Visceral Afferent Neuron
+Visceral Efferent Neuron
+Visceral Striated Muscle Tissue
+Vitreous Body
+Vomer
+White Adipose Tissue
+White Commissure
+Wrist Joint
+Xiphoid Process
+Zona Pellucida
+Zygomatic Fossa
+Reserve Cell
+Mucinous Bronchial Cell
+B-Prolymphocyte
+Left Colon
+B-Lymphoblast
+Right Kidney
+Left Kidney
+Round Ligament of the Liver
+Radial Artery of the Upper Extremity
+Radial Artery of the Endometrium
+T-Immunoblast
+Gastrointestinal Tract
+Peripheral Epidermotropic T-Lymphocyte
+Immature Peripheral Alpha-Beta Cell of Cytotoxic Type
+Thymic B-Lymphocyte
+Germinal Center B-Lymphocyte
+Interdigitating Dendritic Cell
+Postgerminal Center Memory B-Lymphocyte
+Postgerminal Center B-Lymphocyte of Unknown Differentiation Stage
+Mature B-Lymphocyte at the Germinal Center Stage of Differentiation
+Interfollicular Area of the Lymph Node
+Thymic Lymphoid Tissue
+Cytotrophoblastic Cell
+Intrahepatic Portion of the Left Hepatic Duct
+Intrahepatic Portion of the Right Hepatic Duct
+Hilar Portion of the Right Hepatic Duct
+T-Cell Large Granular Lymphocyte
+T-Lymphocyte with a Post-Thymic Immunophenotype
+Transformed Skin-Homing T-Lymphocyte
+Activated Mature Cytotoxic T-Lymphocyte
+Hind-Brain
+Lingula
+Salivary Gland Myoepithelial Cell
+Bone Marrow-Homing Plasma Cell
+Bone Marrow Myeloid Stem Cell with Predominant Neutrophil Differentiation
+Hematopoietic and Lymphatic System
+Eosinophil Precursor Cell
+Subsegmental Bronchus of Left Lung
+Subsegmental Bronchus of Right Lung
+Wall of Body of Uterus
+Perineural Tissue
+Perineurial Cell
+Visual Pathway
+Subependymal Tissue
+Intradural Extramedullary Spinal Canal Space
+Pineal Parenchyma
+Head Ears Eyes Nose and Throat
+Suprasellar Region
+Multipotent Bone Marrow Stem Cell with Wide Myeloid Potential
+Primitive Stem Cell with Some Degree of Commitment to the Erythroid Lineage
+Bone Marrow Stem Cell with Potential for Megakaryocytic and Erythroid Differentiation
+Bone Marrow Stem Cell Committed to the Basophil Lineage
+Primitive Bone Marrow Myeloid Stem Cell
+Sebocyte
+Anal Margin
+Apocrine Cell
+Adult Stem Cell
+Mesenchymal Stem Cell
+Hepatobiliary System
+Intrahepatic Bile Duct Epithelium
+Extrahepatic Bile Duct Epithelium
+Mature Activated Gamma Delta T-Lymphocyte
+Thymic Medullary Epithelial Cell
+Thymic Epithelial Cell Capable of Differentiating Towards Both Cortical and Medullary Type
+Thymic Epithelial Cell Capable of Differentiating Towards Cortical Cell Type
+Matrix
+Tuberculum Sellae
+Pituitary Stalk
+Left Breast
+Adrenal Cortical Cell
+Paraaortic Region
+Postero-Lateral Part of the Prostate
+Skeletal Muscle Cell
+Remnants of the Notochord
+Upper Jaw
+Lower Jaw
+Lumbosacral Region
+Bladder Fundus
+Respiratory Bronchiole Epithelium
+Left Pulmonary Vein
+Right Pulmonary Vein
+Dartoic Muscle
+Molecular Layer of the Cerebellum
+Aorta Smooth Muscle Tissue
+Arteriole Endothelium
+Arteriole Smooth Muscle Tissue
+Artery Smooth Muscle Tissue
+Bronchus Basement Membrane
+Bronchus Cartilage
+Bronchus Lamina Propria
+Cerebellar Cortex
+Cerebellum White Matter
+Cervix Squamous Epithelium
+Esophageal Squamous Epithelium
+Esophageal Lamina Propria
+Eyelid Subcutaneous Connective Tissue
+Gallbladder Epithelium
+Gallbladder Lamina Propria
+Choroid Plexus Epithelium of the Fourth Ventricle
+Fourth Ventricle Ependyma
+Gingival Epithelium
+Intestinal Epithelium
+Laryngeal Connective Tissue
+Laryngeal Mucosa
+Laryngeal Epithelium
+Lateral Ventricle Ependyma
+Hilar Area of the Left Lung
+Lower Respiratory Tract Cartilage
+Lymphatic Vessel Endothelium
+Lymphatic Vessel Smooth Muscle Tissue
+Nasal Cavity Respiratory Epithelium
+Oropharynx Epithelium
+Ovarian Capsule
+Intercalated Duct of the Salivary Gland System
+Pancreatic Acinus
+Penis Erectile Tissue
+Prepuce Epithelium
+Renal Tubule Basement Membrane
+Renal Tubule Epithelium
+Right Lung Alveolar Duct
+Right Lung Bronchiole
+Hilar Area of the Right Lung
+Right Lung Respiratory Bronchiole
+Seminal Vesicle Epithelium
+Seminiferous Epithelium
+Large Intestinal Lamina Propria
+Tongue Skeletal Muscle Tissue
+Trachea Smooth Muscle Tissue
+Trachea Submucosa
+Tympanic Epithelium
+Urethra Transitional Cell Epithelium
+Vaginal Squamous Epithelium
+Vena Cava Endothelium
+Venous System Smooth Muscle Tissue
+Left Adrenal Gland
+Arterial System Endothelium
+Arterial System Smooth Muscle Tissue
+Cerebral Dura Mater
+Ear Skin
+Eyelid Connective Tissue
+Inner Canthus
+Intervertebral Disc
+Joint of the Rib
+Vertebral Joint
+Lower Eyelid
+Upper Eyelid
+Lower Jaw Incisor
+Lower Jaw Molar
+Nasal Turbinate
+Oral Cavity Epithelium
+Oropharyngeal Lymphoid Tissue
+Outer Canthus
+Peyer s Patch Germinal Center
+Lymph Node Germinal Center
+Spleen Germinal Center
+Splenic Marginal Zone
+Splenic Marginal Sinus
+Splenic Trabecular Vein
+Upper Jaw Incisor
+Spinal Cord Arachnoid Membrane
+Spinal Cord Pia Mater
+Nasal Mucus
+Seminal Vesicle Secretion
+Bulbourethral Gland Secretion
+Gluteus Maximus
+Buccal Surface
+Occlusal Surface
+Pulp Horn
+Superior Vesical Artery
+Left Renal Vein
+Right Renal Vein
+Internal Thoracic Vein
+Deep Temporal Vein
+Dorsal Foot Interosseous Muscle
+Plantar Foot Interosseus Muscle
+Dorsal Hand Interosseous Muscle
+Palmar Hand Interosseus Muscle
+Intrinsic Tongue Muscle Transverse Component
+Intrinsic Tongue Muscle Vertical Component
+Anterior Olfactory Nucleus
+Arcuate Nucleus
+Auditory Cortex
+Cingulate Cortex
+Costal Arch
+Cuneate Nucleus
+Dorsal Thalamus
+Metaphysis
+Rib Tubercle
+Sternal Manubrium
+Ventral Thalamus
+Accumbens Nucleus
+External Sural Artery
+Left Renal Artery
+Plantar Metatarsal Artery
+Common Palmar Digital Artery
+Palatine Bone
+Submucous Nerve Plexus
+Arm Skin
+Elbow Skin
+Neck Skin
+Abdominal Skin
+Rib 7
+Rib 5
+Rib 4
+Rib 3
+Rib 2
+Rib 12
+Rib 11
+Rib 1
+Hand Digit 5 Phalanx
+Hand Digit 4 Phalanx
+Hand Digit 2 Phalanx
+Hand Digit 1 Phalanx
+Foot Digit 1 Phalanx
+Foot Digit 2 Phalanx
+Distal Phalanx of Foot
+Distal Phalanx of Hand
+Proximal Phalanx of Foot
+Metatarsal Bone Digit 5
+Metatarsal Bone Digit 1
+Metacarpal Bone Digit 5
+Metacarpal Bone Digit 4
+Talus
+Orbitalis Muscle
+Levator Palpebrae Superioris
+Lumbosacral Plexus
+Tibial Nerve
+Radial Nerve
+Phrenic Nerve
+Median Nerve
+Femoral Nerve
+Axillary Nerve
+Thoracic Sympathetic Nerve Trunk
+Lumbar Sympathetic Nerve Trunk
+Thoracic Ganglion
+Hand Digit 1
+Hand Digit 3
+Hand Digit 4
+Foot Digit 2
+Foot Digit 3
+Foot Digit 4
+Cerebellar Artery
+Coeliac Artery
+Buccal Artery
+Alveolar Artery
+Auricular Artery
+Ethmoidal Artery
+Frontal Artery
+Gastroepiploic Artery
+Iliolumbar Artery
+Inferior Epigastric Artery
+Superficial Circumflex Iliac Artery
+Abductor Pollicis Longus
+Cleidobrachial
+Cleidocephalic
+Cleidooccipital
+Erector Spinae
+Extensor Carpi Radialis Brevis
+Flexor Digitorum Profundus
+Flexor Hallucis Longus
+Genioglossus
+Geniohyoid
+Gluteus Medius
+Ischiocavernosus
+Levator Nasolabialis
+Longus Capitis
+Lingual Artery
+Median Artery
+Omohyoid
+Omotransverse
+Mental Artery
+Parotidoauricular
+Dorsal Metacarpal Artery
+Middle Colic Artery
+Scalenus Medius
+Semimembranosus
+Semispinalis Capitis
+Semispinalis Cervicis
+Retinal Artery
+Subcostal Artery
+Superficial Cervical Artery
+Serratus Dorsalis Caudalis
+Serratus Ventralis
+Sphincter Colli Superficialis
+Thoracodorsal Artery
+Superior Thyroid Artery
+Thyroid Ima Artery
+Anterior Auricular Vein
+Bronchial Vein
+Spinalis Thoracis
+Cutaneous Vein
+Ileocolic Vein
+Masseteric Artery
+Ophthalmic Plexus
+Ovarian Vein
+Pancreatic Vein
+Pericardiacophrenic Vein
+Phrenic Vein
+Sternooccipital
+Tibialis
+Tibialis Cranialis
+Submental Vein
+Right Suprarenal Vein
+Left Suprarenal Vein
+Thymic Vein
+Popliteal Lymph Node
+Biceps Femoris
+Flexor Carpi Ulnaris
+Levator Labii Superioris
+Longissimus Capitis
+Palatoglossus Muscle
+Rectus Femoris
+Transversus Abdominis
+Transversus Thoracis
+Triceps Surae
+Zygomaticus Major
+Zygomaticus Minor
+Merged Anatomy Concepts

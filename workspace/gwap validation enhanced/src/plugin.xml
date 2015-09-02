@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<plugin>
+  <extension id="at.ac.wu.ucompvalidation.GwapClassValidation" point="org.protege.editor.core.application.ViewComponent">
+      <label value="uComp Class Validation"/>
+      <class value="at.ac.wu.ucompvalidation.GwapClassValidation"/>
+      <headerColor value="@org.protege.classcolor"/>
+      <category value="@org.protege.classcategory"/>
+  </extension>
+  <extension id="at.ac.wu.ucompvalidation.GwapSubclassValidation" point="org.protege.editor.core.application.ViewComponent">
+      <label value="uComp Subclass Validation"/>
+      <class value="at.ac.wu.ucompvalidation.GwapSubclassValidation"/>
+      <headerColor value="@org.protege.classcolor"/>
+      <category value="@org.protege.classcategory"/>
+  </extension>
+  <extension id="at.ac.wu.ucompvalidation.GwapPropertyDomainVerification" point="org.protege.editor.core.application.ViewComponent">
+      <label value="uComp Object Property Domain Verification"/>
+      <class value="at.ac.wu.ucompvalidation.GwapPropertyDomainVerification"/>
+      <headerColor value="@org.protege.objectpropertycolor"/>
+      <category value="@org.protege.objectpropertycategory"/>
+  </extension>
+    <extension id="at.ac.wu.ucompvalidation.GwapPropertyRangeVerification" point="org.protege.editor.core.application.ViewComponent">
+      <label value="uComp Object Property Range Verification"/>
+      <class value="at.ac.wu.ucompvalidation.GwapPropertyRangeVerification"/>
+      <headerColor value="@org.protege.objectpropertycolor"/>
+      <category value="@org.protege.objectpropertycategory"/>
+  </extension>
+  <extension id="at.ac.wu.ucompvalidation.GwapRelationValidation" point="org.protege.editor.core.application.ViewComponent">
+      <label value="uComp Relation Label Suggestion"/>
+      <class value="at.ac.wu.ucompvalidation.GwapRelationValidation"/>
+      <headerColor value="@org.protege.objectpropertycolor"/>
+      <category value="@org.protege.objectpropertycategory"/>
+  </extension>
+  <extension id="at.ac.wu.ucompvalidation.GwapIndividualValidation" point="org.protege.editor.core.application.ViewComponent">
+      <label value="uComp Individual Validation"/>
+      <class value="at.ac.wu.ucompvalidation.GwapIndividualValidation"/>
+      <headerColor value="@org.protege.individualcolor"/>
+      <category value="@org.protege.individualcategory"/>
+  </extension>
+  <extension id="at.ac.wu.ucompvalidation.GwapJobOverView" point="org.protege.editor.core.application.ViewComponent">
+      <label value="uComp Job Overview"/>
+      <class value="at.ac.wu.ucompvalidation.GwapJobOverView"/>
+      <headerColor value="@org.protege.objectpropertycolor"/>
+      <category value="@org.protege.objectpropertycategory"/>
+  </extension> 
+   <extension id="at.ac.wu.ucompvalidation.ExampleWorkspaceTab" point="org.protege.editor.core.application.WorkspaceTab">
+      <label value="GwapJobOverview Tab"/>
+      <class value="org.protege.editor.owl.ui.OWLWorkspaceViewsTab"/>
+      <index value="X"/>
+      <editorKitId value="OWLEditorKit"/>
+      <defaultViewConfigFileName value="GwapJobOverview_Tab.layout3.xml"/>
+   </extension>
+</plugin>

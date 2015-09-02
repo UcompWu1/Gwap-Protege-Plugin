@@ -1,0 +1,10 @@
+Using input file: a625087_class_relevance_CF_result.csv
+Total number of results found: 4304
+Number of gold units and worker units: 20 4284
+Number of relevant and non-relevant concepts in result set: 3303 1000
+Number of positive and negative worker judgements in result set: 3272 1032
+Number of true positive and false positive: 3265 7
+Number of true negative and false negative: 995 37
+Number of correct and incorrect judgements 4260 44
+False positive terms: ['Sensation', 'Hiatus', 'Sceptic', 'Paleoclimatology', 'Milk Supply', 'Operation', 'Forehand']
+False negative terms: ['Orbit', 'Duct', 'Graft', 'Joint By Site', 'Astragalus', 'Aspirate', 'Matrix', 'Extremities', 'All Sites', 'Other Multiple Areas', 'Cone', 'Continent Reservoir', 'White Fiber', 'Merged Anatomy Concepts', 'Colloid', 'Trunk', 'White Commissure', 'Space Of Mall', 'Microcirculatory Bed', 'Lunula', 'Hair Part', 'Hair Bulb', 'Rete Malpighii', 'Elastin Fiber', 'Free Edge Of The Nail', 'Slow-Twitch Motor Unit', 'Ground Substance', 'Extracellular Structure', 'Terminal Bar', 'Basal Domain Of The Epithelium', 'Reticular Fiber', 'Proximal Convoluted Tube', 'Curved Tube', 'Collecting Tube', 'Refractile Media', 'Helix', 'Pyramid', 'Stapes']

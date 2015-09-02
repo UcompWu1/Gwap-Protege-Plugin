@@ -1,0 +1,111 @@
+YYYYYYYYYYYY ['tennis_relation_suggestion.ttl'] ../evaluators/relation_suggestion/matyas/tennis_relation_suggestion.ttl matyas
+YYYYYYYYYYYY ['tennis_relation_suggestion.ttl'] ../evaluators/relation_suggestion/stefan/tennis_relation_suggestion.ttl stefan
+YYYYYYYYYYYY ['tennis_relation_suggestion.ttl'] ../evaluators/relation_suggestion/FJ/tennis_relation_suggestion.ttl FJ
+YYYYYYYYYYYY ['tennis_relation_suggestion.ttl'] ../evaluators/relation_suggestion/gerhard/tennis_relation_suggestion.ttl gerhard
+YYYYYYYYYYYY ['tennis_relation_suggestion.ttl'] ../evaluators/relation_suggestion/olga/tennis_relation_suggestion.ttl olga
+YYYYYYYYYYYY ['tennis.pickle'] ../evaluators/relation_suggestion/cf_results1/tennis.pickle cf_results1
+Number of data files as input found: 6
+
+
+Next file: ../evaluators/relation_suggestion/olga/tennis_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'is-part-of', 'relation_23': 'has-effect-on', 'relation_20': 'modifierOf', 'relation_21': 'has-effect-on', 'relation_24': 'is-opposite-of', 'relation_25': 'has-effect-on', 'relation_19': 'is-affected-by', 'relation_18': 'other', 'relation_13': 'other', 'relation_12': 'is-part-of', 'relation_11': 'has-effect-on', 'relation_10': 'other', 'relation_17': 'other', 'relation_16': 'other', 'relation_15': 'is-part-of', 'relation_14': 'other', 'relation_9': 'modifierOf', 'relation_8': 'other', 'relation_3': 'modifierOf', 'relation_2': 'has-part', 'relation_1': 'is-affected-by', 'relation_7': 'has-effect-on', 'relation_6': 'other', 'relation_5': 'is-affected-by', 'relation_4': 'is-affected-by'}
+
+
+Next file: ../evaluators/relation_suggestion/stefan/tennis_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'is-part-of', 'relation_23': 'has-effect-on', 'relation_20': 'modifierOf', 'relation_21': 'has-effect-on', 'relation_24': 'is-opposite-of', 'relation_25': 'is-affected-by', 'relation_19': 'has-effect-on', 'relation_18': 'is-part-of', 'relation_13': 'is-part-of', 'relation_12': 'is-part-of', 'relation_11': 'has-effect-on', 'relation_10': 'other', 'relation_17': 'is-part-of', 'relation_16': 'is-part-of', 'relation_15': 'is-part-of', 'relation_14': 'is-part-of', 'relation_9': 'is-part-of', 'relation_8': 'has-part', 'relation_3': 'has-part', 'relation_2': 'has-effect-on', 'relation_1': 'is-affected-by', 'relation_7': 'other', 'relation_6': 'has-part', 'relation_5': 'is-part-of', 'relation_4': 'is-part-of'}
+
+
+Next file: ../evaluators/relation_suggestion/matyas/tennis_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'other', 'relation_23': 'has-effect-on', 'relation_20': 'modifierOf', 'relation_21': 'is-part-of', 'relation_24': 'is-opposite-of', 'relation_25': 'is-affected-by', 'relation_19': 'has-part', 'relation_18': 'has-effect-on', 'relation_13': 'is-part-of', 'relation_12': 'other', 'relation_11': 'is-part-of', 'relation_10': 'is-part-of', 'relation_17': 'is-part-of', 'relation_16': 'is-part-of', 'relation_15': 'is-part-of', 'relation_14': 'is-affected-by', 'relation_9': 'is-part-of', 'relation_8': 'has-part', 'relation_3': 'has-part', 'relation_2': 'has-part', 'relation_1': 'is-affected-by', 'relation_7': 'has-part', 'relation_6': 'is-affected-by', 'relation_5': 'has-part', 'relation_4': 'is-part-of'}
+
+
+Next file: ../evaluators/relation_suggestion/FJ/tennis_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'is-part-of', 'relation_23': 'has-effect-on', 'relation_20': 'modifierOf', 'relation_21': 'has-effect-on', 'relation_24': 'is-opposite-of', 'relation_25': 'is-affected-by', 'relation_19': 'has-effect-on', 'relation_18': 'is-part-of', 'relation_13': 'is-part-of', 'relation_12': 'is-part-of', 'relation_11': 'has-effect-on', 'relation_10': 'used-by', 'relation_17': 'modifierOf', 'relation_16': 'modifierOf', 'relation_15': 'is-part-of', 'relation_14': 'used-by', 'relation_9': 'is-part-of', 'relation_8': 'is-affected-by', 'relation_3': 'has-part', 'relation_2': 'has-part', 'relation_1': 'is-affected-by', 'relation_7': 'other', 'relation_6': 'uses', 'relation_5': 'has-part', 'relation_4': 'is-part-of'}
+
+
+Next file: ../evaluators/relation_suggestion/gerhard/tennis_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'other', 'relation_23': 'has-effect-on', 'relation_20': 'modifierOf', 'relation_21': 'other', 'relation_24': 'is-opposite-of', 'relation_25': 'is-affected-by', 'relation_19': 'other', 'relation_18': 'is-part-of', 'relation_13': 'is-part-of', 'relation_12': 'is-part-of', 'relation_11': 'is-part-of', 'relation_10': 'used-by', 'relation_17': 'is-part-of', 'relation_16': 'is-part-of', 'relation_15': 'is-part-of', 'relation_14': 'used-by', 'relation_9': 'is-part-of', 'relation_8': 'has-part', 'relation_3': 'has-part', 'relation_2': 'has-part', 'relation_1': 'uses', 'relation_7': 'other', 'relation_6': 'has-part', 'relation_5': 'has-part', 'relation_4': 'other'}
+
+
+Next file: ../evaluators/relation_suggestion/cf_results1/tennis.pickle
+Starting subClassOf_parse_into_resultlist
+../evaluators/relation_suggestion/cf_results1/tennis.pickle
+Number of data sets extracted from files: 6
+olga : number of classes/relations 25
+stefan : number of classes/relations 25
+matyas : number of classes/relations 25
+FJ : number of classes/relations 25
+gerhard : number of classes/relations 25
+cf_results1 : number of classes/relations 25
+Length of resultlist 25
+../results/tennis_results.csv
+Kappa:
+YYYY relation_1 ['is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by', 'uses', 'uses']
+YYYYYYYYYYYYYYYYY [0, 4, 0, 0, 0, 0, 0, 2, 0, 0]
+YYYY relation_10 ['other', 'other', 'is-part-of', 'used-by', 'used-by', 'other']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 1, 2, 0, 3, 0]
+YYYY relation_11 ['has-effect-on', 'has-effect-on', 'is-part-of', 'has-effect-on', 'is-part-of', 'other']
+YYYYYYYYYYYYYYYYY [3, 0, 0, 0, 0, 2, 0, 0, 1, 0]
+YYYY relation_12 ['is-part-of', 'is-part-of', 'other', 'is-part-of', 'is-part-of', 'is-part-of']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 5, 0, 0, 1, 0]
+YYYY relation_13 ['other', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 5, 0, 0, 1, 0]
+YYYY relation_14 ['other', 'is-part-of', 'is-affected-by', 'used-by', 'used-by', 'is-part-of']
+YYYYYYYYYYYYYYYYY [0, 1, 0, 0, 0, 2, 2, 0, 1, 0]
+YYYY relation_15 ['is-part-of', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 6, 0, 0, 0, 0]
+YYYY relation_16 ['other', 'is-part-of', 'is-part-of', 'modifierOf', 'is-part-of', 'is-part-of']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 4, 0, 0, 1, 1]
+YYYY relation_17 ['other', 'is-part-of', 'is-part-of', 'modifierOf', 'is-part-of', 'other']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 3, 0, 0, 2, 1]
+YYYY relation_18 ['other', 'is-part-of', 'has-effect-on', 'is-part-of', 'is-part-of', 'is-part-of']
+YYYYYYYYYYYYYYYYY [1, 0, 0, 0, 0, 4, 0, 0, 1, 0]
+YYYY relation_19 ['is-affected-by', 'has-effect-on', 'has-part', 'has-effect-on', 'other', 'other']
+YYYYYYYYYYYYYYYYY [2, 1, 0, 0, 1, 0, 0, 0, 2, 0]
+YYYY relation_2 ['has-part', 'has-effect-on', 'has-part', 'has-part', 'has-part', 'other']
+YYYYYYYYYYYYYYYYY [1, 0, 0, 0, 4, 0, 0, 0, 1, 0]
+YYYY relation_20 ['modifierOf', 'modifierOf', 'modifierOf', 'modifierOf', 'modifierOf', 'modifierOf']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 0, 0, 0, 0, 6]
+YYYY relation_21 ['has-effect-on', 'has-effect-on', 'is-part-of', 'has-effect-on', 'other', 'other']
+YYYYYYYYYYYYYYYYY [3, 0, 0, 0, 0, 1, 0, 0, 2, 0]
+YYYY relation_22 ['is-part-of', 'is-part-of', 'other', 'is-part-of', 'other', 'other']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 3, 0, 0, 3, 0]
+YYYY relation_23 ['has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [6, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_24 ['is-opposite-of', 'is-opposite-of', 'is-opposite-of', 'is-opposite-of', 'is-opposite-of', 'is-opposite-of']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 6, 0, 0, 0, 0, 0, 0]
+YYYY relation_25 ['has-effect-on', 'is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by']
+YYYYYYYYYYYYYYYYY [1, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_3 ['modifierOf', 'has-part', 'has-part', 'has-part', 'has-part', 'uses']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 4, 0, 0, 1, 0, 1]
+YYYY relation_4 ['is-affected-by', 'is-part-of', 'is-part-of', 'is-part-of', 'other', 'other']
+YYYYYYYYYYYYYYYYY [0, 1, 0, 0, 0, 3, 0, 0, 2, 0]
+YYYY relation_5 ['is-affected-by', 'is-part-of', 'has-part', 'has-part', 'has-part', 'is-part-of']
+YYYYYYYYYYYYYYYYY [0, 1, 0, 0, 3, 2, 0, 0, 0, 0]
+YYYY relation_6 ['other', 'has-part', 'is-affected-by', 'uses', 'has-part', 'has-part']
+YYYYYYYYYYYYYYYYY [0, 1, 0, 0, 3, 0, 0, 1, 1, 0]
+YYYY relation_7 ['has-effect-on', 'other', 'has-part', 'other', 'other', 'other']
+YYYYYYYYYYYYYYYYY [1, 0, 0, 0, 1, 0, 0, 0, 4, 0]
+YYYY relation_8 ['other', 'has-part', 'has-part', 'is-affected-by', 'has-part', 'has-part']
+YYYYYYYYYYYYYYYYY [0, 1, 0, 0, 4, 0, 0, 0, 1, 0]
+YYYY relation_9 ['modifierOf', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 5, 0, 0, 0, 1]
+[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+24
+n 6
+[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+6 raters.
+25 subjects.
+10 categories.
+p = [0.12, 0.1, 0.0, 0.04, 0.13333333333333333, 0.30666666666666664, 0.02666666666666667, 0.02666666666666667, 0.18, 0.06666666666666667]
+P = [0.4666666666666667, 0.26666666666666666, 0.26666666666666666, 0.6666666666666666, 0.6666666666666666, 0.13333333333333333, 1.0, 0.4, 0.26666666666666666, 0.4, 0.13333333333333333, 0.4, 1.0, 0.26666666666666666, 0.4, 1.0, 1.0, 0.6666666666666666, 0.4, 0.26666666666666666, 0.26666666666666666, 0.2, 0.4, 0.4, 0.6666666666666666]
+Pbar = 0.48
+PbarE = 0.176088888889
+kappa = 0.368863955119
+percentage true 0.0
+Majority check for cf_results -- skipping

@@ -1,0 +1,77 @@
+
+\textbf{Results.} 
+Similar to the feasibility study on concept relevance and subsumption relations, 
+we applied Fleiss' Kappa for a comparative evaluation of inter-rater aggreement 
+regarding relation name suggestion. Apart from retrieving judgements from crowd workers, 
+five domain experts assess relation labels for the 24 relations
+each in the domains of climate change and tennis. Table~\ref{table:eval_rel_sugg} 
+provides Fleiss' Kappa results, with the number of raters per task given in parentheses.  
+\emph{S\_Manual} refers to the ratings of the five domain experts, \emph{S\_ManualCrowd} 
+adds the result from the crowd to these five judgements.
+
+\begin{table}
+\center
+\begin{tabular}{|c|c|c|} \hline
+                                       & \textbf{Climate Change} & \textbf{Tennis}  \\ \hline
+  \textbf{S\_Manual}                   & 0.536 (5)               & 0.366 (5)        \\ \hline
+  \textbf{S\_ManualCrowd}              & 0.531 (6)               & 0.368 (6)        \\ \hline
+\end{tabular}
+\caption{Fleiss' Kappa values of inter-rater agreement of the relation suggestion task, for two domains.}
+\label{table:eval_rel_sugg}
+\end{table}
+
+The aggreement in the domain of climate change is moderate, in the domain of tennis it is fair -- 
+according to Landis and Koch~\cite{landis1977}. 
+The lower aggreement values (compared to table~\ref{table:eval_qual}) are intuitive, as this task 
+is harder and requires users to select a relation label from nine candidates. 
+To complicate matters further, in many cases multiple relations labels are suitable candidates.
+The addition of crowd worker judgements to the judgements of domain experts influences the Fleiss' 
+Kappa values only slightly, which suggests that the quality of crowd worker results is comparable 
+to domain experts' quality.
+
+%   CC ALL:
+%   
+%       6 raters.
+%       24 subjects.
+%       10 categories.
+%       p = [0.4236111111111111, 0.22916666666666666, 0.013888888888888888, 0.0, 0.0625, 0.1388888888888889, 0.006944444444444444, 0.041666666666666664, 0.08333333333333333, 0.0]
+%       P = [1.0, 1.0, 1.0, 1.0, 0.66, 0.133, 1.0, 1.0, 0.266, 1.0, 1.0, 0.4, 0.2666, 0.4, 0.1333, 0.6666, 1.0, 0.6666, 0.2, 0.2666, 0.4, 1.0, 0.26666, 1.0]
+%       Pbar = 0.655555555556
+%       PbarE = 0.264081790123
+%       kappa = 0.531952817824
+%   
+%   
+%   CC DOM_EXPERTS:
+%   
+%       5 raters.
+%       24 subjects.
+%       10 categories.
+%       p = [0.4083333333333333, 0.25833333333333336, 0.008333333333333333, 0.0, 0.05, 0.13333333333333333, 0.008333333333333333, 0.05, 0.08333333333333333, 0.0]
+%       P = [1.0, 1.0, 1.0, 1.0, 0.6, 0.1, 1.0, 1.0, 0.2, 1.0, 1.0, 0.6, 0.3, 0.3, 0.1, 0.6, 1.0, 0.6, 0.3, 0.2, 0.6, 1.0, 0.3, 1.0]
+%       Pbar = 0.658333333333
+%       PbarE = 0.263333333333
+%       kappa = 0.536199095023
+%   
+%   
+%   TENNIS ALL:
+%   
+%       6 raters.
+%       25 subjects.
+%       10 categories.
+%       p = [0.12, 0.1, 0.0, 0.04, 0.13333333333333333, 0.30666666666666664, 0.02666666666666667, 0.02666666666666667, 0.18, 0.06666666666666667]
+%       P = [0.466666666, 0.2666666, 0.266666, 0.666, 0.6666, 0.133333, 1.0, 0.4, 0.2666, 0.4, 0.1333, 0.4, 1.0, 0.26666, 0.4, 1.0, 1.0, 0.6666, 0.4, 0.26666, 0.26666, 0.2, 0.4, 0.4, 0.66666]
+%       Pbar = 0.48
+%       PbarE = 0.176088888889
+%       kappa = 0.368863955119
+%   
+%   
+%   TENNIS DOM_EXPERTS:
+%   
+%       5 raters.
+%       25 subjects.
+%       10 categories.
+%       p = [0.136, 0.112, 0.0, 0.04, 0.144, 0.304, 0.032, 0.016, 0.144, 0.072]
+%       P = [0.6, 0.2, 0.4, 0.6, 0.6, 0.1, 1.0, 0.3, 0.3, 0.3, 0.1, 0.6, 1.0, 0.3, 0.4, 1.0, 1.0, 0.6, 0.6, 0.3, 0.3, 0.1, 0.3, 0.3, 0.6]
+%       Pbar = 0.476
+%       PbarE = 0.172992
+%       kappa = 0.366390651602

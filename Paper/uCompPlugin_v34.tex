@@ -1,0 +1,1217 @@
+
+%%%%%%%%%%%%%%%%%%%%%%% file typeinst.tex %%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This is the LaTeX source for the instructions to authors using
+% the LaTeX document class 'llncs.cls' for contributions to
+% the Lecture Notes in Computer Sciences series.
+% http://www.springer.com/lncs Springer Heidelberg 2006/05/04
+%
+% It may be used as a template for your own input - copy it
+% to a new file with a new name and use it as the basis
+% for your article.
+%
+% NB: the document class 'llncs' has its own and detailed documentation, see
+% ftp://ftp.springer.de/data/pubftp/pub/tex/latex/llncs/latex2e/llncsdoc.pdf
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[runningheads,a4paper]{llncs}
+
+\usepackage{amssymb}
+\setcounter{tocdepth}{3}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{lscape}
+
+\usepackage{url}
+\urldef{\mailsa}\path|{gerhard.wohlgenannt, florian.hanika}@wu.ac.at|
+\urldef{\mailsb}\path|marta.sabou@ifs.tuwien.ac.at|
+%\urldef{\mailsb}\path|marta.sabou|
+%\urldef{\mailsc}\path|{erika.siebert-cole, peter.strasser, lncs}@springer.com|
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+\noindent\keywordname\enspace\ignorespaces#1}
+
+\begin{document}
+
+\mainmatter % start of an individual contribution
+
+% first the title is needed
+%\title{Crowdsourcing Enabled Ontology Engineering}
+\title{Crowd-based Ontology Engineering with the uComp Prot\'eg\'e Plugin}
+%EKAW Title - \title{The uComp Prot\'eg\'e Plugin:\\ Crowdsourcing Enabled Ontology Engineering}
+%\title{The uComp Prot\'eg\'e Plugin:\\ Towards Embedded Human Computation for Ontology Engineering}
+%Alternatives
+%* Crowd-based ontology engineering
+%* Tool support for crowd-based ontology engineering
+%* The uComp Prot\'eg\'e Plugin: Towards Embedded Human Computation for Ontology Engineering
+%* Enabling Embedded Human Computation in Ontology Engineering with the uComp Prot\'eg\'e Plugin
+
+% a short form should be given in case it is too long for the running head
+\titlerunning{Crowd-based Ontology Engineering}
+
+% the name(s) of the author(s) follow(s) next
+%
+% NB: Chinese authors should write their first names(s) in front of
+% their surnames. This ensures that the names appear correctly in
+% the running heads and the author index.
+%
+\author{Gerhard Wohlgenannt\inst{1}
+\and Marta Sabou\inst{2,3}
+\and Florian Hanika\inst{1}}
+
+%
+\authorrunning{Wohlgenannt et al.}
+% (feature abused for this document to repeat the title also on left hand pages)
+
+% the affiliations are given next; don't give your e-mail address
+% unless you accept that it will be published
+
+\institute{WU\
+Vienna\\
+\mailsa\\
+%\url{http://www.wu.ac.at}
+\and
+Vienna University Of Technology\\
+\and
+MODUL University Vienna\\
+\mailsb\\
+%\url{http://modul.ac.at}
+}
+
+
+
+
+%\author{Ivar Ekeland\inst{1} \and Roger Temam\inst{2}
+%Jeffrey Dean \and David Grove \and Craig Chambers \and Kim~B.~Bruce \and
+%Elsa Bertino}
+%
+%\institute{Princeton University, Princeton NJ 08544, USA,\\
+%\email{I.Ekeland@princeton.edu},\\ WWW home page:
+%\texttt{http://users/\homedir iekeland/web/welcome.html}
+%\and
+%Universit\'{e} de Paris-Sud,
+%Laboratoire d'Analyse Num\'{e}rique, B\^{a}timent 425,\\
+%F-91405 Orsay Cedex, France}
+
+%
+% NB: a more complex sample for affiliations and the mapping to the
+% corresponding authors can be found in the file "llncs.dem"
+% (search for the string "\mainmatter" where a contribution starts).
+% "llncs.dem" accompanies the document class "llncs.cls".
+%
+
+%\toctitle{Lecture Notes in Computer Science}
+%\tocauthor{Authors' Instructions}
+\maketitle
+
+
+\begin{abstract}
+
+%Embedded Human Computation advocates a tight integration of Human Computation (HC) methods into computational workflows. 
+%HC used a lot in OE with good results, but now time to move.
+%In this paper we discuss two enabling elements for EHC in the domain of ontology engineering. Firstly, we show that a set of basic HC tasks are used recurrently to solve a range of ontology engineering tasks. Secondly, we present the \textit{uComp Prot\'eg\'e plugin} that facilitates the integration of such typical HC tasks into the ontology engineering process from within the ontology editing environment in the spirit of EHC. An evaluation of the plugin in a typical ontology engineering scenario where ontologies are built from automatically learned semantic structures, shows that its use reduces the working times for the ontology engineers 11 times, reduces the overall task costs with 40\% to 83\% depending on the HC settings used and leads to data quality comparable with that of tasks performed by ontology engineers. 
+
+% is an emerging trend that moves beyond the use of HC methods for data acquisition towards their
+
+
+%Since HC methods have been already successfully used to solve various OE tasks, their tighter integration into OE processes high adoption and routine inclusion 
+
+%The successful use of Human Computation (HC) to solve various ontology engineering tasks (e.g., vocabulary building, ontology alignment) 
+
+%makes it logical to tightly couple such methods into ontology engineering workflows, a novel paradigm we call Embedded Human Computation (EHC). 
+%
+%Which HC tasks are most frequently used? How to support ontology experts without much HC knowledge to solve parts of their ontology engineering tasks using HC?
+
+%The development of this novel paradigm, is however currently hampered by 1) a lack of understanding of which HC tasks are most often used in the ontology engineering process and 2) tool support in ontology engineering platforms that would allow easy insertion of HC into ontology engineering workflows.
+
+%TBD: clarify novelty (e.g., which new tasks we introduce?), sum up some important evaluation results.
+
+Crowdsourcing techniques have been shown to provide effective means for solving a variety of ontology engineering problems. Yet, they are mainly being used as external means to ontology engineering, without being closely integrated into the work of ontology engineers. In this paper we investigate how to closely integrate crowdsourcing into ontology engineering practices.
+Firstly, we show that a set of basic crowdsourcing tasks are used recurrently to solve a range of ontology engineering problems. Secondly, we present the \textit{uComp Prot\'eg\'e plugin} that facilitates the integration of such typical crowdsourcing tasks into ontology engineering work from within the Prot\'eg\'e ontology editing environment. An evaluation of the plugin in a typical ontology engineering scenario where ontologies are built from automatically learned semantic structures, shows that its use reduces the working times for the ontology engineers 11 times, lowers the overall task costs with 40\% to 83\% depending on the crowdsourcing settings used and leads to data quality comparable with that of tasks performed by ontology engineers. Evaluations on a large ontology from the anatomy domain confirm that crowdsourcing is a scalable and effective method: good quality results (accuracy of 89\% and 99\%) are obtained while achieving cost reductions with 75\% from the ontology engineer costs and providing comparable overall task duration.
+
+%use by ontology engineers is not straightforward.
+\keywords{crowdsourcing, ontology engineering, ontology learning, Prot\'eg\'e plugin}
+\end{abstract}
+
+
+\section{Introduction}
+
+%Context & Scenario- KA
+The advent of the Web has significantly changed the context surrounding knowledge rich systems, which became distributed, cater for many users with different levels of expertise and integrate knowledge sources of varying quality~\cite{Gil2011}. This novel context required a change in the knowledge acquisition methods, the trend being that of gradually extending knowledge creation processes to include groups of users with varying levels of expertise and training~\cite{Gil2011}. This trend started by opening knowledge creation tools to wider groups of contributors. Indeed, WebProt\'eg\'e~\cite{Tudorache2013} is an extension of the Prot\'eg\'e ontology editor that allows the ontology engineering process to be performed by a larger, distributed group of contributors. Similarly, in the area of natural language processing, GATE Teamware extends the GATE linguistic annotation toolkit with distributed knowledge creation capabilities~\cite{Bontcheva2013}. While these extensions primarily support the collaborative and distributed work of knowledge experts (ontology engineers and linguists), a natural step is further broadening this process by allowing large populations of \textit{non-experts} to create knowledge through the use of Crowdsourcing platforms such as games or mechanised labour platforms. Crowdsourcing methods provide effective means to solve a variety of knowledge acquisition tasks~\cite{Sabou2013} by outsourcing these to ``an undefined, generally large group of people in the form of an open call"~\cite{Howe2009}. 
+
+A crucial knowledge acquisition process in the area of the Semantic Web is ontology engineering. Ontology engineering is the process spanning the creation and maintenance of ontologies during their entire life-cycle. Similarly to other knowledge creation tasks, ontology engineering is traditionally performed by ontology experts and therefore it tends to be a complex, costly and, above all, time-consuming process. 
+
+Let's consider the task of ontology creation. To reduce its complexity, ontology construction is often bootstrapped by re-using existing or automatically derived ontologies. Ontology learning methods, for example, automatically extract ontologies from (a combination of) unstructured and structured resources. Although the extracted ontologies already provide a good basis for building the ontology, they typically contain questionable or wrong ontological elements and require a phase of verification and redesign (especially pruning) by the ontology engineer. The ontology verification phase involves, among others, checking that the ontology concepts are relevant to the domain of interest and that the extracted subsumption relations are correct. As detailed in Section~\ref{ss:HCKAq}, crowdsourcing has been used effectively to solve a range of such ontology verification tasks and therefore it could be employed to support the ontology engineer in performing such tedious tasks. 
+
+Unfortunately, crowdsourcing techniques require high upfront investments (understanding the techniques, creating appropriate tasks) and therefore, despite their proven usefulness, these techniques remain outside the reach of most ontology engineers. Therefore, in this paper we investigate how to more closely embed crowdsourcing into ontology engineering in line with the current trends of open and extended knowledge acquisition processes. In the area of Natural Language Processing (NLP), where the use of crowdsourcing is highly popular~\cite{Sabou_Bontcheva_Scharl_2012}, there already exists an effort towards supporting easy integration of crowdsourcing methods into linguists' work: the GATE Crowdsourcing Plugin is a component in the popular GATE NLP platform that allows inserting crowdsourcing tasks into larger NLP workflows, from within GATE's user interface~\cite{Bontcheva2014}. In the Semantic Web area, recent approaches, such as ZenCrowd~\cite{Demartini2012} and CrowdMap~\cite{Sarasua2012}, involve large groups of non-experts to solve specific knowledge acquisition tasks such as entity linking or ontology matching, respectively. There has been however no work in including crowdsourcing to support a broad range of ontology engineering tasks, although Noy and colleagues~\cite{Noy2013} introduce a vision for tool support to facilitate the integration of crowdsourcing into ontology engineering after experimentally proving that micro-workers are a viable alternative for verifying subclass-superclass relations. 
+
+To achieve our goal we seek answer to the following research questions:
+
+\begin{description}
+\item [Which tasks can be crowdsourced?] Based on an extensive literature review, we distill a set of crowdsourcing tasks that are likely to be common to solving a variety of ontology engineering problems and which should be implemented by the desired tool support (Section~\ref{ss:HCKAq}).
+
+\item [How to implement crowdsourcing enabled ontology engineering?] We\\ present a tool, the uComp Prot\'eg\'e plugin, which allows ontology engineers to crowdsource tasks directly from within the popular ontology engineering tool and as part of their ontology engineering work (Section~\ref{s:plugin}).
+
+\item [Is crowd-based ontology engineering feasible and scalable?] We conduct a variety of experimental evaluations focusing both on understanding the feasibility and the scalability of crowd-based ontology engineering. Feasibility evaluations focus on assessing the extent to which the plugin leads to improvements over manually solving a set of tasks in terms of time and cost reductions, while maintaining good data quality. Scalability evaluations assess the plugin's effect on the time, cost and quality of the ontology engineering process for large, real-life and domain specific ontologies. The details of the evaluation setup are described in Section~\ref{sec:eval} while the results of the feasibility and scalability evaluations are detailed in Sections~\ref{sec:feasRes} and~\ref{sec:evalscale}.
+\end{description}
+%\end{enumerate}
+
+Our findings show that, in a scenario where automatically extracted ontologies are verified and pruned, the use of the plugin significantly reduces the time spent by the ontology engineer (11 times) and leads to important cost reductions (40\% to 83\% depending on the crowdsourcing settings used) without a loss of quality with respect to a manual process. Experimental evaluations on a large and domain specific ontology has lead to comparable task durations and significant cost reductions (of 75\%) while obtaining good quality results that are in line with results obtained by other studies~\cite{Eckert2010,Noy2013}. 
+
+
+\section{Use of Crowdsourcing for Knowledge Acquisition}\label{ss:HCKAq}
+
+Crowdsourcing methods are usually classified in three major genres depending on the motivation of the human contributors (i.e., payment vs. fun vs. altruism). 
+
+ Mechanised labour (MLab) is a type of paid-for crowdsourcing, where contributors choose to carry out small tasks (or micro-tasks) and are paid a small amount of money in return.
+Popular crowdsourcing marketplaces include Amazon's Mechanical Turk (MTurk) and CrowdFlower (CF). MTurk allows requesters to post their micro-tasks in the form of Human Intelligence Tasks (or HITs) to a large population of micro-workers (often referred to as “turkers”). Games with a purpose (GWAPs) enable human contributors to carry out computation tasks as a side effect of playing online games~\cite{vonAhn2008}. An example from the area of computational biology is the Phylo game (phylo.cs.mcgill.ca) that disguises the problem of multiple sequence alignment as a puzzle like game thus “intentionally decoupling the scientific problem from the game itself” (Kawrykow et al, 2008). The challenges in using GWAPs in scientific context are in designing appealing games and attracting a critical mass of players.
+Finally, in altruistic crowdsourcing a task is carried out by a large number of volunteer contributors, such as in the case of the Galaxy Zoo (www.galaxyzoo.org) project where over 250K volunteers willing to help with scientific research classified Hubble Space Telescope galaxy images (150M galaxy classifications). 
+
+\begin{sidewaystable*}[!htbp]
+%\begin{table}
+%\footnotesize
+
+\center
+\begin{tabular}{|l|l|c|c|} \hline
+\textbf{SW Life-cycle}&\textbf{Approach}&\textbf{Genre}& \textbf{Solved Task}\\ 
+\textbf{Stage}&&&\\ \hline
+
+& Verbosity~\cite{vonAhn2006a} & GWAP & (T3) Specification of Relation Type \\ 
+\cline{2-4}
+& Common Consensus~\cite{Lieberman2007} & GWAP & Provide goal related information\\ 
+\cline{2-4}
+& Categorilla~\cite{Vickrey2008} & GWAP & (T3) Specification of Relation Type\\ 
+\cline{2-4}
+& Free Association~\cite{Vickrey2008} & GWAP & (T1) Specification of Term Relatedness\\ 
+\cline{2-4}
+Stage 1: Build and & InPho~\cite{Eckert2010} & MLab & (T3) Specification of Relation Type (subs)\\ 
+\cline{4-4}
+	maintain 				 & & & (T1) Specification of Term Relatedness \\ 
+					 
+ \cline{2-4}
+					 
+Semantic Web & Noy~\cite{Noy2013} & MLab & (T2) Verification of Relation Correctness (subs) \\ 
+
+ \cline{2-4}
+vocabularies & OntoPronto~\cite{Siorpaes2008} & GWAP & Class vs. instance decisions \\ 
+ \cline{4-4}
+ &&& (T3) Specification of Relation Type (subs/instOf) \\ 
+ \cline{2-4}
+ 
+&Climate Quiz~\cite{Scharl2012a} & GWAP & (T3) Specification of Relation Type (8 relations) \\
+ \cline{2-4}
+ 
+&Guess What?!~\cite{Markotschi2010}& GWAP & Verify complex class definitions \\ 
+ \cline{4-4}
+& & & Generate class names for complex defs \\ \hline
+ Stage 2: Align &CrowdMap~\cite{Sarasua2012} & MLab & (T2) Verification of Relation Correctness (subs/eqv) \\
+ \cline{4-4}
+Semantic Web & && (T3) Specification of Relation Type (subs/eqv) \\ 
+ \cline{2-4}
+vocabularies &SpotTheLink~\cite{Thaler2011a} & GWAP & (T1) Specification of Term Relatedness \\
+ \cline{4-4}
+& & & (T3) Specification of Relation Type (subs/eqv) \\ 
+ \cline{2-4}
+
+ & Cheatham~\cite{Cheatham2014} & MLab & T2. Verification of Relation Correctness (eqv) \\ 
+ \hline
+Stage 3: Annotate & ZenCrowd~\cite{Demartini2012} & MLab & Text to URL mapping (annotation) \\
+ \cline{2-4}
+content, maintain & WhoKnows?~\cite{Waitelonis2011}& GWAP& Answering quiz questions\\
+ \cline{2-4}
+annotations &RISQ!~\cite{Wolf2011}&GWAP& Answering quiz questions\\ 
+
+ \cline{2-4}
+ &UrbanMatch~\cite{Celino2012} &GWAP& Associate LOD concepts to images\\ 
+
+
+\hline
+
+\end{tabular}
+\caption{Overview of approaches addressing problems in various stages of the Semantic Web life-cycle~\cite{Siorpaes2008}, their genres and the type of crowdsourcing tasks that they employ.}
+\center \label{table:tasksFromRW}
+%\end{table}
+\end{sidewaystable*}
+
+
+
+Crowdsourcing methods have been used to support several knowledge acquisition and, more specifically, ontology engineering tasks. To provide an overview of these methods we will group them along the three major stages of the Semantic Life-cycle as identified by Siorpaes in~\cite{Siorpaes2008} and sum them up in Table \ref{table:tasksFromRW}.\\
+
+
+\noindent \textbf{Stage 1: Build and maintain Semantic Web vocabularies.} Acquisition of terminological knowledge has been addressed through games from as early as 2006 when von Ahn built Verbosity~\cite{vonAhn2006a}, a GWAP inspired from the Taboo game (where a narrator offers hints and a guesser must guess the concept), which collects a database of common-sense facts. Verbosity uses the cards metaphor to guide the types of hints that the narrator gives. For example, the “Type” card allows providing hints about the super-classes of the concept, by generating appropriate natural language templates to be filled by the narrator. This approach ensures that the game collects a broad range of relations, such as type, purpose, is related, is opposite, and a variety of spatial relations. Built one year after Verbosity, the Common Consensus GWAP focuses on acquiring a particular type of knowledge, namely goals~\cite{Lieberman2007}. Inspired from the Family Feud TV show, the game asks players to answer questions such as “What are some things you would use to watch a movie?” in order to elicit common-sense knowledge about goals. The game relies on a handful of question templates which allow acquiring different types of knowledge about goals (e.g., parent and children goals or orthogonal connections between goals). As a multi-player game, players receive points in real time for all their answers that are also given by other players. Vickrey and colleagues~\cite{Vickrey2008} report on three games (inspired from the Scattegories and Taboo games) that aim to collect semantically related words: Categorilla (players must supply a phrase fitting a specific category, e.g., “things that fly”, and starting with a given letter), Categodzilla (same as Categorilla but without the letter restriction) and Free Association, where players must type words related to a given “seed” word.
+
+The OntoPronto game~\cite{Siorpaes2008} aims to support the creation and extension of Semantic Web vocabularies. Players are presented with a Wikipedia page of an entity and they have to (1) judge whether this entity denotes a concept or an instance; and then (2) relate it to the most specific concept of the PROTON ontology, therefore extending PROTON with new classes and instances. Climate Quiz~\cite{Scharl2012a} is a Facebook game where players evaluate whether two concepts are related (e.g. “environmental activism”, “activism”), and which label is the most appropriate to describe their relation. The possible relation set contains both generic (“is a sub-category of”, “is identical to”, “is the opposite of”) and domain-specific (“opposes”, “supports”, “threatens”, “influences”, “works on/with”) relations. Two further relations, “other” and “is not related to” were added for cases not covered by the previous eight relations. The game’s interface allows players to switch the position of the two concepts or to skip ambiguous pairs.
+Guess What?!~\cite{Markotschi2010} goes beyond eliciting or verifying relations between concepts to creating complex concept definitions. The game explores instance data available as linked open data. Given a seed concept (e.g., banana), the game engine collects relevant instances from DBpedia, Freebase and OpenCyc and extracts the main features of the concept (e.g., fruit, yellowish) which are then verified through the collective process of game playing. The tasks performed by players are: 
+Players (1) assign a class name to a complex class description (e.g., assign $Banana$ to $fruit \& yellow \& grows\ on\ trees$) and (2) verify such class definitions.
+
+Eckert and colleagues~\cite{Eckert2010} relied on MTurk micro-workers to build a concept hierarchy in the philosophy domain. Crowdsourcing complemented the output of an automatic hierarchy learning method in: a) judging the relatedness of concept pairs (on a 5-points scale between unrelated and related)
+ and b) specifying the level of generality between two terms (more/less specific than). 
+Noy and colleagues~\cite{Noy2013} focused on verifying the correctness of taxonomic relations as a critical task while building ontologies.\\
+
+\noindent \textbf{Stage 2: Align Semantic Web vocabularies}
+The CrowdMap system enlists micro-workers to solve the ontology alignment task~\cite{Sarasua2012} by asking them to 1) verify whether a given relation is correct (e.g., ``Is conceptA the same as conceptB? yes/no ") and 2) specify how two given terms are related, in particular by choosing between sameAs, isAKindOf and notRelated. CrowdMap is designed to allow sameAs, subsumption or generic mappings between classes, properties and axioms, but currently it only supports equivalence and subsumption mappings between classes. 
+SpotTheLink has been instantiated to align the eCl@ss and UNSWPC~\cite{Siorpaes2008} as well as the DBpedia and PROTON ontologies~\cite{Thaler2011a}. The final version of the game solves ontology alignment through two atomic tasks: (1) choosing a related concept -- given a DBpedia concept players choose and agree upon a related PROTON concept; (2) specifying the type of relation between two concepts in terms of equivalence or subsumption. More recently, Cheatham and Hitzler~\cite{Cheatham2014} made use of MTurk to generate mapping for the Conference track of the Ontology Alignment Evaluation Initiative (OAEI) thus pioneering the use of crowdsourcing for generating benchmark data in the Semantic Web research area. They conclude that crowdsourcing offers a scalable, cost-effective methods for generating benchmarks that highly agree with expert opinion. \\
+\\
+%[TBD if time and place] Community focused efforts in Noy2013
+
+\noindent \textbf{Stage 3: Annotate content and maintain annotations} In ZenCrowd~\cite{Demartini2012} crowd-workers verify the output of automatic entity linking algorithms. Concretely, given a named entity, e.g., ``Berlin", and a set of DBpedia URLs generated automatically, crowd-workers choose all the URLs that represent that entity or ``None of the above" if no URL is suitable. In essence, this is an annotation task. WhoKnows?~\cite{Waitelonis2011} and RISQ!~\cite{Wolf2011} are GWAPs which rely on similar mechanisms: they use LOD facts to generate questions and use the answers to (1) evaluate property rankings (which property of an instance is the most important/relevant); (2) detect inconsistencies; and (3) find doubtful facts. The obtained property rankings reflect the “wisdom of the crowd” and are an alternative to semantic rankings generated algorithmically based on statistical and linguistic techniques. The games differ in the gaming paradigm they adopt. While WhoKnows?! uses a classroom paradigm and aims towards being an educational game, RISQ! is a Jeopardy-style quiz game. UrbanMatch~\cite{Celino2012} relies on players’ mobility to link LOD concepts to representative images from an image database. 
+
+%[TBD: More:; Sioarpaes ebay and video annotations]
+
+
+ \subsection{Typical Crowdsourcing Tasks in Ontology Engineering}\label{ss:crowdtasks}
+
+Based on the analysis above, we distill a set of recurrent basic crowdsourcing task types used to solve a variety of ontology engineering problems, as follows.\\ 
+
+\begin{description}
+\item[T1. Specification of Term Relatedness.] Crowd-workers judge whether two terms (typically representing ontology concepts) are related. In some cases they are presented with pairs of terms~\cite{Eckert2010} while in others they might need to choose a most related term from a set of given terms~\cite{Thaler2011a}. This type of crowdsourcing task is suitable both in ontology creation~\cite{Eckert2010} and in ontology alignment scenarios~\cite{Thaler2011a}. 
+
+\item[T2. Verification of Relation Correctness.] Presented with a pair of terms (typically representing ontology concepts) and a relation between these terms, crowd-workers judge whether the suggested relation holds. Frequently verified relations include generic ontology relations such as equivalence~\cite{Cheatham2014,Sarasua2012} and subsumption~\cite{Noy2013,Sarasua2012}, which are relevant both in ontology evaluation~\cite{Noy2013} and ontology alignment scenarios~\cite{Sarasua2012}. 
+
+\item[T3. Specification of Relation Type.] In these tasks, crowd-workers are presented with two terms (typically corresponding to ontology concepts) and choose an appropriate relation from a set of given relations. Most efforts focus on the specification of generic ontology relations such as equivalence~\cite{Scharl2012a,Sarasua2012,Thaler2011a}, subsumption~\cite{Scharl2012a,Eckert2010,Siorpaes2008,Sarasua2012,Thaler2011a}, disjointness~\cite{Scharl2012a} or instanceOf~\cite{Siorpaes2008,Scharl2012a}. The verification of domain-specific named relations such as performed by Climate Quiz~\cite{Scharl2012a} is less frequent. 
+
+ %This is also a very difficult task in OL in general - the
+\item[T4. Verification of Domain Relevance.] For this task, the crowdworkers confirm whether a given term is relevant for a domain of discourse. This task is mostly needed to support scenarios where ontologies are extracted using automatic methods, for example, through ontology learning. \\
+\end{description} 
+
+
+The core crowdsourcing tasks above have been used by several approaches and across diverse stages of ontology engineering, thus being of interest in a wide range of ontology engineering scenarios. As such, they guided the development of our plugin, which currently supports tasks T2, T4, and partially T3.
+
+
+
+\section{The uComp Prot\'eg\'e Plugin}~\label{s:plugin}
+
+In order to support ontology engineers to easily and flexibly integrate crowdsourcing tasks within their work, we implemented a plugin in Prot\'eg\'e, one of the most widely used ontology editors. The typical workflow of using the plugin involves the following main stages (as also depicted in Figure~\ref{fig:process}).
+
+\begin{figure*}[htb]
+\centering
+{\centering \resizebox*{1.0\textwidth}{!}{\includegraphics{images/process.png}}}
+ \caption{\label{fig:process} Main stages when using the uComp plugin.}
+\end{figure*}
+
+
+\begin{description}
+\item[1. Task Specification.] An ontology engineer using Prot\'eg\'e can invoke the functionalities of the plugin from within the ontology editor at any time within his current work. The plugin allows specifying some well defined ontology engineering tasks, such as those discussed in Section~\ref{ss:crowdtasks} above. The view of the plugin that is appropriate for the task at hand is added to the editor's user interface via the \emph{Window $\rightarrow{}$ Views} menu. The ontology engineer then specifies the part of the ontology to verify (eg. a specific class or all classes in the ontology), provides additional information and options in the plugin view and then starts the evaluation. Crowdsourced tasks can be canceled (or paused) anytime during the crowdsourcing process. We further detail the plugin's functionality in Section~\ref{ss:functionality}.
+
+\item[2. Task Request.] The plugin uses the uComp API\footnote{\url{http://tinyurl.com/uCompAPI}} to request the processing of the task by the crowd.
+
+\item[3. Creation of Crowdsourcing Tasks.] The crowdsourcing process happens through the uComp platform\footnote{The platform is being developed in the uComp project (\url{http://www.ucomp.eu/})}, a hybrid-genre crowdsourcing platform which facilitates various knowledge acquisition tasks by flexibly allocating the received tasks to GWAPs and/or mechanised labour platforms alike (in particular, CrowdFlower)~\cite{Sabou2013} depending on user settings. In Section~\ref{ss:crowdtasks} we present the crowdsourcing tasks created by the uComp platform.
+
+%NEW_wohlg -- extended (R1 last paragraph) version
+\item[4. Collection of Crowd Results.] The uComp platform collects crowd-work harvested by individual genres (GWAPs and micro-task crowdsourcing). Mechanisms for evaluating the quality of each contribution are in place, which aim to filter out potential spammers.
+
+
+\item[5. Combination of Crowd Results.] 
+When all crowdsourcing tasks of a job have completed, the platform combines the results and provides them to the plugin. If the task was crowdsourced to different genres, then the results provided by different platforms must be merged. Subsequently, the individual judgements can be aggregated using appropriate aggregation mechanisms (e.g., majority voting, weighted majority voting, average, collection).
+
+
+% orig version (before 2014-09-17)
+% \item[4\&5 Collection of Crowd Results.] The uComp platform collects crowd-work harvested by various genres in step 4.
+%When all task have completed, the platform combines the results and provides them to the plugin (step 5). 
+
+
+
+\item[6. Result Presentation and Interpretation.] As soon as available, the plugin presents the results to the ontology engineer and saves them in the ontology. All data collected by the plugin %which should be persistent [TBD - what is persistent?]
+is stored in the ontology in \texttt{rdfs:comment} fields, for example information about the ontology domain, the crowdsourcing job ID, and the crowd-created results. Depending on the result, the ontology engineer will perform further actions such as deleting parts of the ontology which have been validated as non-relevant.
+\end{description}
+
+\subsection{Plugin Functionality}\label{ss:functionality}
+
+The plugin provides a set of views for crowdsourcing the following tasks:
+
+%COMMENT: maybe we should switch to a more OWL/Protege-ish terminology (as suggested by R2). Relation -> property, ... (see his "minor comments")
+\begin{itemize}
+\item Verification of Domain Relevance (T4)
+\item Verification of Relation Correctness - Subsumption (T2)
+
+\item Verification of Relation Correctness - InstanceOf (T2) - the verification of \emph{instanceOf} relations between an individual and a class.%, i.e.~the crowd helps to verify if a given \emph{instanceOf} is valid.
+
+\item Specification of Relation Type (T3) is a Prot\'eg\'e view component that collects suggestions for labeling unlabeled relations by assigning to them a relation type from a set of relation types specified by the ontology engineer.
+
+%COMMENT: changed "restrictions" to "axioms" (R2)
+\item Verification of Domain and Range where crowd-workers validate whether a property's \emph{domain} and \emph{range} axioms are correct.
+%This results in two separate sub-tasks (domain, range). [<=TBD: what does this do exactly] 
+
+\end{itemize}
+
+
+The following subsections contain detailed descriptions of all plugin functionalities.
+
+%Florian: The CF key has to be associated with the uComp-API key, therefore it has to be communicated to the uComp-API team (see http://soc.ecoresearch.net/facebook/election2008/ucomp-quiz-beta/api/v1/documentation/)
+%Florian: The uComp-API key itself must be put into a textfile named "ucomp_api_key.txt" at the users home directory, in the folder ".Protege" (which is created by Prot\'eg\'e during installation on both Windows and Linux plattforms) 
+
+%Florian: all information about the task is stored (depends on the kind of task): domain, validation of whole subtree going on?, additional information, sent to crowdflower or ucomp-quiz, ucomp-api job-id, ...
+
+% give an example SCREEENSHOT with a quick introduction 
+\begin{figure*}[htb]
+\centering
+{\centering \resizebox*{1.0\textwidth}{!}{\includegraphics{images/cc_class_new.png}}}
+ \caption{\label{fig:screen_cr} The interface of the uComp Class Validation view used to create a Verification of Domain Relevance (T4) task.} %TBD: Gerhard: could you make a new screenshot, with another term that is more know and also shown highlighte in the left side hierarchy list - "climate" would be great. Also, can you add some example text in "Additional information for validators": for example: "You can check any external resources if needed."}
+\end{figure*}
+%[TBD: Gerhard: could you make a new screenshot, with another term that is more know and also shown highlighte in the left side hierarchy list - "climate" would be great. Also, can you add some example text in "Additional information for validators": for example: "You can check any external resources if needed."]
+
+
+
+% COMMON FIELDS in the UI: domain and additional information & validate subtree
+% TASKs
+\textbf{Verification of Domain Relevance (T4)} is supported by the ``uComp Class Validation'' view of the plugin and crowdsources the decision of whether a concept (class) is relevant for a domain. %First, the ontology engineer adds the corresponding view (\emph{Window} $\rightarrow{}$ \emph{Views} $\rightarrow{}$ \emph{Class Views} $\rightarrow{}$ \emph{uComp Class Validation}) to the editor's UI. 
+Figure~\ref{fig:screen_cr} shows the screenshot of this view for the class ``energy'' before initiating the verification. 
+%[TBD - how does the returned result look like? Do we have a screenshot?] 
+The plugin view's interface contains the following information:
+
+\begin{description}
+\item[Task Specific Information] such as the concept selected by the user for validation. This part of the view is diverse among different plugin functionalities.
+\item[Generic information] such as the \emph{domain} of the ontology, i.e., the field of knowledge which the ontology covers, is present in all views of the plugin. If entered once, the domain will be stored in the ontology (as \texttt{rdfs:comment}) and be pre-filled subsequently, but it can also be changed at any time.
+\item[Additional information] For every task, the plugin contains a predefined task description (typically including examples) which is presented to the crowd-worker. If the ontology engineer wants to extend this task description, (s)he can provide more guidelines in the \emph{additional information} field. This functionality is present in all the views of the plugin.
+\item[Recursive control] allows performing a task (e.g., domain relevance validation) not only for the current class, but for a larger part of or even the entire ontology. If the \emph{Validate subtree} option is selected, the plugin crowdsources the specified task for the current concept and all its subconcepts recursively. To apply the functionality to the entire ontology, the plugin is invoked from the uppermost class, i.e., (\emph{Thing}). 
+% gerhard added 11.10
+For example, in Figure~\ref{fig:screen_cr}, the class ``energy'' has 3 subconcepts, which adds up to 4 units being verified if \emph{recursive control} is activated.
+% gerhard added 11.10
+\item[Calculate costs] is a button that computes and displays expected cost of HC verification before actually starting the job. The button is only available in the user interface if CrowdFlower has been selected as crowdsourcing method (and not the GWAP).
+\item[\texttt{GO} button] to start the crowdsourcing process. 
+\end{description}
+
+
+%Florian: domain will be stored as rdfs:comment in the head of the ontology
+
+% T1. Verification of Domain Relevance. Is a concept/instance relevant for a domain?
+% T2. Verification of Relation Correctness. Does a certain relation between two ontology entities hold? These could be a set of generic relations (sameAs, subClassOf, instanceOf), but also arbitrary named relations to be specified by the ontology engineer. The crowd here would have to vote (yes/no) for a given triple (Subject - Relation - Object). This task is the focus of [1].
+
+\begin{figure*}[htb]
+\centering
+{\centering \resizebox*{1.00\textwidth}{!}{\includegraphics{images/subclass_val_new.png}}}
+ \caption{\label{fig:screen_sub}Screenshot showing the interface for subClassOf relation validation, including the display of results.}
+\end{figure*}
+
+
+\textbf{Verification of Relation Correctness - Subsumption (T2)}
+%The second task is the verification of relation correctness, more precisely the verification of IS-A (subClassOf) relations between classes. The corresponding view is named 
+ is achieved with the \emph{uComp SubClass Validation}. When selecting a class in Prot\'eg\'e,
+the plugin automatically detects its superclasses (if any) and fills the boxes in the plugin UI.
+%NEW_wohlg (next sentence):
+As with any plugin functionality, the elements of the user interface are described in the plugin documentation, and additional information is also given interactively as mouse-over overlays.
+%Additional information about the elements of the interface are presented to the user as mouse-over 
+As soon as results are available these are presented in the UI, as shown in Figure~\ref{fig:screen_sub}. The screenshot gives an example
+with one evaluator, who rated the \emph{IS-A} relation between ``electricity'' and ``energy'' as valid (positive) in the domain of ``Climate Change''. 
+If the majority of judgements is negative, a button to remove the relation is displayed.
+
+\textbf{Verification of Relation Correctness - InstanceOf (T2)} validates the instanceOf (\emph{rdf:type}) between an individual and a class. It is performed with the \emph{uComp Individual Validation} view. The user simply selects an individual, and the plugin automatically displays the individual's type in the user interface. The user can either validate single individuals, or all individuals of a certain type (eg. all individuals of type \emph{Region} as in Figure~\ref{fig:screen_ind}) at once.
+
+\begin{figure*}[htb]
+\centering
+{\centering \resizebox*{1.00\textwidth}{!}{\includegraphics{images/screenshot_indiv.png}}}
+ \caption{\label{fig:screen_ind}Screenshot showing the interface for individual validation, currently waiting for results from the uComp API.}
+\end{figure*}
+
+
+
+\textbf{Specification of Relation Type (T3)} is a Prot\'eg\'e view named \emph{uComp Relation Label Suggestion}, found in the \emph{Object property} views.
+This view is used to assign relation types to unlabeled object properties. As a convention, unlabeled object properties are all existing 
+properties with the label ``relation''. This task type is relevant in systems that learn association between classes, but not a specific relation type, for
+example in ontology learning scenarios. The Prot\'eg\'e user selects relation type candidates from the existing object properties. Figure~\ref{fig:screen_rel_sugg} gives an example with 9 candidates selected. Crowd workers choose one option from the list of candidates (or the option ``Other''). 
+As in other tasks, either a single relation can be specified by the crowd, or all unlabeled relations at once, by marking ``Suggest for all relations'' in the user interface.
+
+
+\begin{figure*}[htb]
+\centering
+{\centering \resizebox*{1.00\textwidth}{!}{\includegraphics{images/sc_rel_sugg.png}}}
+ \caption{\label{fig:screen_rel_sugg}The interface of relation type suggestion, the user selects candidates from all existing properties.}
+\end{figure*}
+
+
+
+\textbf{Verification of Domain and Range} is another view applied to object properties, named \emph{uComp Object Property Validation}.
+This view helps to verify the correctness of domain and range restrictions. For each property, two validation units are generated, one for the 
+property's domain, and one for the range axiom.
+
+
+
+\subsection{Crowdsourcing Task Interfaces}\label{ss:crowdtasks}
+
+Upon receiving the request from the Prot\'eg\'e plugin, the uComp API selects the appropriate crowdsourcing genre and creates the relevant crowd-jobs. Currently the platform can crowdsource tasks either to GWAPs such as Climate Quiz~\cite{Scharl2012a} or to CrowdFlower, with a hybrid-genre strategy currently being developed. In this paper, we test the plugin by crowdsourcing only through CrowdFlower. 
+
+Figure~\ref{fig:CFUI} depicts the crowdsourcing interfaces created automatically by the uComp platform for the verification of domain relevance (part a) and the validation of subsumption relations (part b) while Figure~\ref{fig:CFUIinstanceof} shows the interface of instance verification tasks. Figure~\ref{fig:CFRelSpec} displays the automatically generated crowdsourcing interface for the relation specification task.
+
+%COMMENT: not sure if the next sentence is correct -- ie if the uComp API or the Protege plugin will provide the gold units => %MS let's leave this here as it is a small thing
+The uComp platform requires only the task data from the Prot\'eg\'e plugin and it provides relevant instructions as well as gold units to all tasks. 
+Additionally, each crowdsourcing interface is extended with straightforward verification questions (i.e., typing some letters of the input terms). It has been shown experimentally (e.g.~\cite{Kittur2008,Laws2011}), that extending task interfaces with explicitly verifiable questions forces workers to process the content of the task and also signals that their answers are being scrutinized. This seemingly simple technique had a significant positive effect on the quality of the collected data for~\cite{Kittur2008,Laws2011}.
+
+\begin{figure}%[htbp]
+ \centering
+  \begin{tabular}{c c}
+  \includegraphics[scale=0.27]{images/CFdomainRel.png}&
+  \includegraphics[scale=0.27]{images/CFsubclasscheck.png}\\
+  (a) & (b)
+  \end{tabular}
+  \caption{Generated CrowdFlower job interface for (a) the Verification of Domain Relevance (T4) and (b) the Verification of Subsumption (T2) tasks.}
+  \label{fig:CFUI}
+\end{figure}
+
+
+\begin{figure}%[htbp]
+ \centering
+  \includegraphics[scale=0.27]{images/CFinstanceOf.png}
+  \caption{Generated CrowdFlower job interface for the Verification of InstanceOf (T2) task.}
+  \label{fig:CFUIinstanceof}
+\end{figure}
+
+\begin{figure}%[htbp]
+ \centering
+  \includegraphics[scale=0.35]{images/CFRelationChooice.png}
+  \caption{Generated CrowdFlower job interface for the Specification of Relation Type (T3) task.}
+  \label{fig:CFRelSpec}
+\end{figure}
+
+To ensure a good quality output, by default all created jobs are assigned to Level 3 CrowdFlower contributors which are the contributors delivering, on average, the highest quality work. Also, for the moment we assume that the (labels of the) verified ontologies will be in English and therefore we restrict contributors to the main English speaking countries: Australia, United Kingdom and United States. In each created job we present 5 units per task and for each unit we collect 5 individual judgements. A price per task of \$0.05 was specified for all jobs.
+A task is complete when all requested judgments have been collected.
+
+
+% Future versions of the plugin will provide higher control over task settings from within Prot\'eg\'e.
+
+
+%\subsection{Implementation and Installation Details} 
+% Prot\'eg\'e can easily be extended in the form of \emph{plugins} which are typically Java Archive (.jar) files
+%stored in the Prot\'eg\'e \texttt{plugin} directory. The most common form of a Prot\'eg\'e plugin is a \emph{view plugin}, which implements a single view for a specific area of an ontology (e.g. classes, individuals, object properties).
+%Florian: Prot\'eg\'e completely was programmed in Java, therefore all plugins also are programmed in Java. Since Prot\'eg\'e was developed very modular, it is quite easy to create simply plugins and integrate them into Prot\'eg\'e. 
+%Florian: All Prot\'eg\'e plugins are so called jar-Files (Java Archive), and contains the compiled source code and all needed libraries. The most common form of a Prot\'eg\'e plugin is a view plugin, which implements a single view for a specific area of an ontology (e.g. classes, individuals, object properties, ...)
+
+% installation / SETUP 
+%\textbf{Installation and setup.}
+The plugin is available from Prot\'eg\'e's central registry % and can be installed from within Prot\'eg\'e with the \emph{File $\rightarrow{}$ Check for Updates} menu item. A window entitled \emph{Automatic Update} will pop up, where
+as the \emph{uComp Crowdsourcing Validation plugin}. % can be selected from the list of downloads. The download files contain the plugin itself, and a detailed documentation.
+% NEW_wohlg (next sentence):
+The plugin has been tested with Prot\'eg\'e versions 4.2 and 4.3, as well as the recent version 5.0 (beta).
+A local configuration file contains the uComp-API key\footnote{Request a key from the uComp team, see \url{http://tinyurl.com/uCompAPI}} and various adaptable settings (e.g., judgements per unit, price per unit).
+
+%To use the plugin a uComp-API key\footnote{Request a key from the uComp team, see \url{http://tinyurl.com/uCompAPI}} must be stored in the configuration file named \texttt{ucomp\_api\_settings.txt} in the \texttt{.Protege} folder. 
+%The configuration file also contains the settings for the number of judgements per unit and the price per unit.
+%More details are found in the plugin's documentation.
+
+\section{Evaluation Setup}
+\label{sec:eval}
+
+
+We performed two main groups of experimental evaluations of the uComp Plugin. Table~\ref{table:eval_overview} displays an overview of the various experiments we performed including their focus and the various experimental settings, described in what follows.
+
+\begin{table}
+%\begin{sidewaystable*}[!htbp]
+%\footnotesize
+\center
+\begin{tabular}{|c|c|c|c|c|c|c|c|} \hline
+\textbf{Eval.}&\textbf{Evaluation}& \multicolumn{3}{c|}{\textbf{Data}}& \textbf{Manual}& \multicolumn{2}{c|}{\textbf{CF Settings}}\\ 
+\cline{3-8}
+
+\textbf{Type}&\textbf{Task}&\textbf{Ontology}&\textbf{Evaluated}& \textbf{Nr. of}&\textbf{Evalu-}&\textbf{U,P,J/}& \textbf{Worker}\\ 
+&&&\textbf{Feature}& \textbf{Features}&\textbf{ators}&\textbf{Task}& \textbf{selection}\\ \hline
+&T\_DomRel&Cl. Change&Class&101&8&&\\ 
+\cline{2-6}
+&T\_DomRel&Finance&Class&77 &8&&\\
+\cline{2-6}
+Fea-&T\_SubsCorr&Cl. Change&Subs. Rel.&43&8&& Level 3,\\ 
+\cline{2-6}
+sibi-&T\_SubsCorr&Finance&Subs. Rel.&20 &8&5,0.05,5& Australia,\\ 
+\cline{2-6}
+lity&T\_InstOfCorr&Wine&InstOf Rel.&116&8&& UK, USA\\ 
+\cline{2-6}
+&T\_RelTypeSpec&Cl. Change&Unnamed Rel.&24&5&&\\
+\cline{2-6}
+&T\_RelTypeSpec&Tennis&Unnamed Rel.&24 &5&&\\ 
+\cline{1-7}
+\cline{1-7}
+Scala-&T\_DomRel&Human&Class&4304&0&5,0.03,3&\\ 
+\cline{2-7}
+bility&T\_SubsCorr&Human&Subs. Rel.&3761&0&5,0.05,3&\\ \hline
+
+
+\end{tabular}
+\caption{Overview of evaluation tasks performed, including used datasets and settings. U,P,J = Unit, Price (\$), Judgements.}
+\label{table:eval_overview}
+\end{table}
+%\end{sidewaystable*}
+
+
+
+The first set of evaluations focuses on assessing the \textbf{feasibility} of using the uComp plugin as part of various tasks performed during ontology engineering. The primary goal of these feasibility evaluations is understanding the time and cost savings made possible by the use of the plugin in comparison to scenarios where an ontology engineer performs the tasks. As such, they are performed on small ontologies from various domains. The setup involves a group of 8 (or 5) ontology engineers which perform the same tasks over the same datasets but using two different approaches. In the first setting (S\_Manual), all ontology engineers used the traditional (that is manual) approach to perform the ontology engineering tasks. In the second setting (S\_Crowd), four of the eight ontology engineers used the Plugin to crowdsource (that is, create and launch) the same ontology engineering tasks, after being given a brief tutorial about the plugin (30 minutes). The two settings were then compared along the time, cost and quality dimensions. Time was measured as number of minutes to complete a task.
+
+We evaluate the Plugin in the context of an ontology learning scenario as described in the introduction because i) bootstrapping ontology engineering by extracting an initial ontology automatically is a feasible and frequent ontology engineering approach and ii) automatically generated ontologies present errors that are best solved through human intervention. After the verification step with the uComp plugin, the resulting ontologies are used as part of a media monitoring tool\footnote{\url{http://www.ecoresearch.net/climate/}} with the purpose of visualising information extracted from text corpora in a way that is meaningful to the web (i.e., non-specialised) audience. Therefore, agreement on the elements of these ontologies by the general public is, in this particular use case scenario, very important. 
+
+To estimate the cost, time and quality aspects when working on large, real-life ontologies we perform a set of \textbf{scalability} evaluations. 
+
+
+\subsection{Evaluation Tasks}
+We perform the evaluation of the plugin over four different ontology engineering tasks in order to 1) test different functionalities of the plugin; and 2) to obtain evaluation results over a range of tasks. These tasks are:
+
+\begin{description}
+\item[T\_DomRel: Verification of Domain Relevance (T4).] For each concept of the ontology decide whether it is relevant for the domain in question (in our case, climate change and finance). %Input: concept (class) and domain name; Output: true/false ratings --
+%COMMENT: should it really be "Stage 1", isn't it "setting 1" (or "manual setting")
+In S\_Manual, evaluators were asked to perform this task by assigning True/False values to a class level annotation property that we created for the purposes of our experiments (named $uComp\_class\_relevance$).% annotation in Prot\'eg\'e to save the results -- domain experts use true/false 
+%COMMENT: should it really be "Stage 1" .. same as above
+\item[T\_SubsCorr: Verification of Relation Correctness -- Subsumption (T2).] For all subsumption relations in the ontology evaluators verified whether they were correct. In S\_Manual, evaluators recorded their judgements in an annotation property at the relation level created for the purpose of the experiments ($uComp\_subclassof\_check$).
+\item[T\_InstOfCorr: Verification of Relation Correctness -- InstanceOf (T2).] The evaluation of this task has been performed on the Wine ontology. The wine.owl ontology originally has 54 instances of the concepts $WineGrape$ and $Region$. We extended those concepts with 62 instances from other domains, namely famous persons and multi-national companies.
+The ontology engineers were asked to verify all instances of these two classed and record their judgements in the $uComp\_instanceOf\_check$ annotation that we created specifically for the evaluation.
+\item[T\_RelTypeSpec: Specification of Relation Type (T3).] For this task we focused on two automatically learned ontologies from the domains of Climate Change and Tennis 
+%\textbf{@GW- was this CC onto the same as the one in table2? Answer: No, it's a current one}. 
+The domain engineers were asked to visit all unnamed relations and select from a set of relations.
+\end{description}
+
+In the scalability evaluations, we focus on evaluating two functionalities of the plugin, namely the domain relevance check and checking the correctness of subsumption relations. Given the large-scale of these experiments it is not feasible to perform them with domain experts as well. Therefore the focus is not on understanding the time/cost savings with respect to manual work, but rather to measure the time and cost involved when running such large-scale tasks. 
+
+\subsection{Evaluation Measures}
+
+%\subsection{Evaluation Scenario - Ontology Engineering using Ontology Learning}
+
+%Eckert - end goal: construction of hierarchies by aggregating human expert feedback on the relatedness and relative generality of terms; domain philosophy; Similar to us: "automatic OL methods are often weak on the task of determining the type of relation that holds between two terms" - I do not understand all details here ... 
+
+
+% <added by gerhard: 2014-05-07 17:00>
+%MOVED TO INTRO TO GIVE AN EXAMPLE OF A SCENARIO: Ontology construction from scratch is a time-consuming and complex process and it is often bootstrapped by re-using existing ontologies or ontologies derived by automatic methods from non-ontological resources (e.g., text corpora, folksonomies, databases etc). Ontology learning methods, for example, automatically extract ontologies from a variety of unstructured and structured resources or a combination thereof. The extracted ontologies typically contain questionable or wrong ontological elements and require a phase of verification and redesign (especially pruning) by the ontology engineer. The ontology verification phase typically involves, among others, checking that the ontology concepts are relevant to the domain of interest and that the extracted subsumption relations are correct. Since the uComp plugin supports these tasks, we will evaluate them in an ontology engineering scenario by reusing automatically learned ontologies. % obtained through ontology learning.
+
+%In the ontology engineering scenario in this paper we aim to simplify the phase of pruning an ontology of concepts (classes) not relevant to the domain, as well as of \emph{isA} relations that are not valid.
+
+%The uComp Prot\'eg\'e plugin also supports other tasks, such as validating \emph{instanceOf} relations or checking \emph{domain/range} restrictions (see below), but these are not part of the evaluation in this publication.
+
+%THE WAY THE OL ALGO WORKS IS NOT RELEVANT TO US, IT COULD BE ANY OL SYSTEM. The system used to generate the input ontologies for the evaluation scenario~\cite{wohlgenannt2012} is geared towards learning lightweight domain ontologies from heterogeneous sources (text, social media, structured data). %As we are learning domain ontologies in periodic intervals (monthly) from scratch, there is a focus on ontology evolution experiments, too.The learning process starts from a small seed ontology (typically just a few concepts and relations), and extends it with additional concepts and relations based on evidence collected from heterogeneous evidence sources with methods such as co-occurrence analysis or Hearst patterns. The neural network technique of spreading activation is the main algorithm used to determine the most important new concepts from the plethora of evidence. After positioning the new concepts in the ontology, the extended ontology serves as new seed ontology, and another round of extension is initiated. The system currently stops after three extension iterations.
+
+The goal of the evaluation is to assess the improvements that the uComp Plugin could enable in an ontology engineering scenario in terms of typical project completion aspects such as time, cost and quality of output. The usability of the plugin is an additional criteria that should be evaluated. Concretely, the evaluation goals can be summarised into the following questions:
+
+\begin{description}
+\item[Time] \textit{How does the use of the plugin affect the time needed to perform ontology engineering tasks?} We distinguish the total task time ($T_{tt}$) as the time taken from the start of the ontology engineering task until its finalisation; and the time of the ontology engineer spent actively in the task ($T_{oe}$). In a crowdsourced scenario, $T_{oe} < T_{tt}$, because the ontology engineer is only actively working during the outsourcing of the task. In contrast, in a traditional scenario $T_{oe} = T_{tt}$. %What is of interest to us is the time reduction ratio.%, that is $\frac{T_{tt}-T_{oe}}{T_{tt}}$. (this will be computed as an average over multiple measurements, and over various ontology engineering tasks).
+
+\item[Cost] \textit{Are there cost benefits associated with the use of the plugin?} We compute costs related to payments for the involved work-force, that is payments to ontology experts ($C_{oe}$) and payments to crowd-workers ($C_{cs}$). Ontology engineer costs are computed by multiplying the time they spend on the task ($T_{oe}$) with an average monthly wage. To allow comparison to other studies~\cite{Poesio2012}, the wage of a research scientist was assumed to be \$54,000 per annum.
+
+\item[Quality] \textit{What are the implications on the quality of the resulting output when using the Plugin?} Several studies have shown that the quality of various knowledge acquisition tasks performed by crowd-workers is, in general, similar to (or even better than) the quality of tasks performed by ontology engineers~\cite{Thaler2012,Noy2013,Sabou2013a}. While the quality of the obtained data is not the core focus of our evaluation, we expect to obtain similar results to previous studies.
+
+\item[Usability] \textit{Is the plugin usable?} As any end-user tool, the plugin should be easy to understand and use by the average ontology engineer already familiar with the Prot\'eg\'e environment.
+\end{description}
+
+
+\subsection{Evaluation Data}
+
+
+\subsubsection{Feasibility Track}The input to most evaluation tasks are ontologies generated by the ontology learning algorithm described in~\cite{wohlgenannt2012} (primarily) from textual sources. In the feasibility track, we evaluate the plugin over four ontologies covering four diverse domains (climate change, finance, tennis and wine).
+All four domains are more or less general knowledge domains, but some (climate change, tennis) require domain familiarity or interest. 
+
+\begin{table}
+%\footnotesize
+\center
+\begin{tabular}{|l|c|c|c|c|c|} \hline
+\textbf{Nr. of} &\textbf{Climate Change}&\textbf{Finance}&\textbf{Wine}&\textbf{Tennis}&\textbf{Human}\\
+&\textbf{Ontology}&\textbf{Ontology}&\textbf{Ontology}&\textbf{Ontology}&\textbf{Ontology}\\\hline
+\textbf{Classes} & 101 & 77 & 138 & 52 &3304\\ \hline
+\textbf{Relations} & 77 & 50 & - & 67 & - \\ \hline
+\textbf{IsA Relations} & 43 & 20 & 228 & 35 & 37\\ \hline
+\textbf{Unnamed Relations} & 24 & 30 & - & 24 &-\\ \hline
+\textbf{Instances} & 0 & 0 & 206& 0 & 0\\ \hline
+
+\end{tabular}
+\caption{Overview of the ontologies used in the feasibility and scalability evaluations.}
+\label{table:ontology_data}
+\end{table}
+
+%@TBD (remove/change next sentence)
+%More specialised domains will be evaluated as future research, but earlier work has already~\cite{Noy2013} investigated crowd-worker performance across ontologies of different domains/generality.
+The ontologies tested as part of this evaluation experiments are of small to medium size (see Table~\ref{table:ontology_data}). The Climate Change ontology has 101 classes and 81 relations (out of which 43 are taxonomic relations, and 24 unnamed relations) while the Finance ontology has 77 classes and 50 relations (20 of which are taxonomic relations). The tennis ontology was used for the relation suggestion task only, it contains 24 unnamed relations. The ontologies were used as generated.
+
+The ontologies used in the evaluation process, the instructions given to the manual evaluators, and the results, are found online\footnote{http://tinyurl.com/ucomp}. 
+Additionally to automatically generated ontologies, we have made use of the Wine.owl ontology\footnote{\url{http://www.w3.org/TR/owl-guide/wine.rdf}} when evaluating the instanceOf verification tasks.
+%Table~\ref{table:ontology_data} lists some ontology statistics, including the number of classes and subClassOf relations for the two ontologies.
+
+
+\subsubsection{Scalability Track} 
+For the scalability evaluation we chose the human.owl ontology which represents the human anatomy part of the NCI thesaurus and was made available as part of the Anatomy track of the Ontology Matching Initiative\footnote{\url{http://oaei.ontologymatching.org/2014/anatomy/index.html}}. As shown in Table~\ref{table:ontology_data}, this ontology is several degrees of multitude larger than the ontologies used for the feasibility evaluation. Additionally, it is a domain specific ontology and therefore allows evaluating the usefulness of the plugin for medium-sized to large domain specific ontologies, concretely for the anatomy domain.
+
+Unlike in the previous experiments, the data is an approved ontology (not a learned ontology) and therefore we can assume it as correct. This allows us to measure the quality of the crowd work even without having a baseline created by domain experts. Our strategy is that of modifying the human.owl ontology by adding incorrect data to it and assess how effective the crowd is in filtering out the incorrect cases. Accordingly, we have performed the following changes to human.owl. 
+
+For experiments focusing on measuring the domain relevance of ontology concepts, human.owl already provides 3304 concepts. We have extended the ontology with 1000 additional classes with labels extracted using ontology learning techniques from corpora related to the domains of climate change and tennis. The 1000 labels have been manually verified to exclude any labels that might refer to the human body. These 1000 classes have been added as random leaf classes to the ontology resulting in a total of 4304 concept labels to be verified for domain relevance. 
+More precisely, for the 500 terms each from the domains of \emph{climate change} and \emph{tennis}, the insertion algorithm randomly selects a concept from the original ontology and then inserts a new sub-concept which has the term as concept label. This strategy guarantees that non-relevant concepts are evenly distributed in the ontology.
+%TODO check if number of concept labels the same as in result analysis table
+
+For experiments involving the verification of the correctness of subsumption relations, human.owl provides 3761 correct subsumption relations. To introduce incorrect relations, we have identified 800 pairs of leaf concepts and swapped their places in the ontology, therefore creating 1600 incorrect subsumption relations. Again, concepts to be swapped are randomly selected, and marked with an \emph{rdfs:comment} tag to easily find incorrect concepts in subsequent analysis.
+
+
+\subsection{Ontology Engineers and Crowd Contributors}
+
+%COMMENT/TODO: plz change the text to reflect the fact that we have 8 evaluators for the HC process, too?! => but we only have evaluation on CF for 4 users ....
+
+%COMMENT: R2 also wants to know if the tasks were done in a lab or on their own machines .. should we say something about it? 
+Regarding the evaluators, four were experienced Prot\'eg\'e users, the other four work in the Semantic Web
+area but have limited knowledge of Prot\'eg\'e and were shortly trained in Prot\'eg\'e. None of the ontology engineers involved had any strong expertise in a particular domain.
+
+The crowdsourcing job settings are displayed in Table~\ref{table:eval_overview}. For the feasibility evaluations we grouped 5 units/task, paid 
+\$0.05 per task, requested 5 judgement per unit and crowdsourced our jobs to to Level 3\footnote{Level 3 workers are workers that consistently provide the highest quality work on CrowdFlower.} workers from English speaking countries, in particular, UK, USA and Australia. For the scalability evaluations, the job settings were maintained similar to the feasibility level evaluations, with two notable changes. Firstly, we requested only 3 judgements per unit (as opposed to 5 originally) as this setting is more feasible for large-scale tasks where every extra judgement introduces important increases in job costs and duration. We paid \$0.03 for each domain relevance verification task (ie., 5 units) and \$0.05 for a task of verifying subsumption relations to cater for the varying difficulty levels of these two tasks. Secondly, we have selected the \textit{``Units Should be Completed in the Order they were Uploaded"} option offered by CrowdFlower which is recommended for large scale projects. When enabled, this option crowdsources the data in batches of 1000 units at a time. Besides this job setting changes, the pricing model of CrowdFlower has changed from from May 2014, when our first experiments were run, by adding to the actual worker costs 20\% transaction fees. 
+
+\section{Feasibility Evaluation Results}
+\label{sec:feasRes}
+% new wohlg -- time
+% times:
+%     Marta, FJE, Gerhard, Matyas, Michael, Olga, Philipp, Stefan
+% CC: 
+% T1: [29,    32  ,    35    , 31   , 22    , 26   , 25    , 19]
+% T2: [20   , 16  ,    20    , 23   , 30    , 16   , 35    , 24]
+% 
+% Euro: 
+% T1: [15   , 9   ,    30    ,        30    , 19   , 23, 23]
+% T2: [09   , 10  ,    24    ,        12    , 11   , 17, 22]
+
+%python time\_analysis.py
+%27.375
+%avg vari 25.234375
+%stddev 5.02338282435
+
+%23.0
+%avg vari 38.75
+%stddev 6.22494979899
+
+%21.2857142857
+%avg vari 50.4897959184
+%stddev 7.10561720883
+
+%15.0
+%avg vari 31.4285714286
+%stddev 5.60611910581
+
+
+
+% previous version....
+%\begin{table}
+%%\footnotesize
+%\center
+%\begin{tabular}{|c|c|c|c|c|} \hline
+ %   & \multicolumn{2}{|c|}{\textbf{Climate Change}} & \multicolumn{2}{c|}{\textbf{Finance Ontology}}  \\
+  %      & \multicolumn{2}{|c|}{\textbf{Ontology}} &   \\  \hline
+%                                     & Task 1       & Task 2     & Task 1     & Task 2    \\ \hline
+%\textbf{Manual validation - AVG time}&  27.375 (8)  & 23.0 (8)   & 21.28 (7)   & 15.0 ( 7) \\ \hline
+%\textbf{Manual validation - STDDEV}  &  5.023 (8)   & 6.225 (8)  & 7.106 (7)  & 5.610  (7) \\ \hline
+%\textbf{CF     validation - time}  &     &  &   &  \\ \hline
+%\textbf{Time reduction / ratio}  &     &  &   &  \\ \hline
+%\end{tabular}
+%\caption{Time measures .. TODO.}
+%\label{table:eval_qual}
+%\end{table}
+
+
+%COMMENT: R1 suggests to rename Setting 1/2 to Manual / Crowd setting
+\textbf{Task Duration}. Table~\ref{table:eval_time} lists the task duration for the two ontologies and the two settings, detailed in terms of the average time intervals spent by the ontology engineer ($T_{oe}$), by using crowdsourcing ($T_{cs}$) and the total time of the task ($T_{tt}=T_{oe} + T_{cs}$). 
+In the case of S\_Crowd, the time needed for the ontology engineers to create and launch the crowdsourcing task was on average between 1 and 2 minutes. To simplify calculations, we chose to take the average time as 2 minutes across all tasks. We notice that the time reduction ratio for the ontology engineer across the two settings (computed as the ratio of the ontology engineering time in Setting 1 and Setting 2) is significant and ranges from a 13.7 fold reduction to a 7.5 fold reduction, with an overall average of 11: thus ontology engineers need to spend 11 times less time on the task when using the Plugin than in the manual scenario. The duration of the overall task increases and varies between 2.4 and 4.7 hours. Note however, that the current evaluation setup maximizes quality rather than speed. Faster completion rates (possibly at the expense of data quality) could have been obtained by not restricting the geographical location and previous achievements of the crowd-workers.
+
+\begin{table}
+\center 
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|} \hline
+    & \multicolumn{6}{|c|}{\textbf{Climate Change}} & \multicolumn{6}{c|}{\textbf{Finance}}  \\
+            & \multicolumn{6}{|c|}{\textbf{Ontology}} & \multicolumn{6}{|c|}{\textbf{Ontology}}   \\ 
+  \cline{2-13}
+             &  \multicolumn{3}{|c|}{\textbf{T\_DomRel}}      & \multicolumn{3}{|c|}{\textbf{T\_SubsCorr}}     & \multicolumn{3}{|c|}{\textbf{T\_DomRel}}    & \multicolumn{3}{|c|}{\textbf{T\_SubsCorr}}   \\ 
+    \cline{2-13}
+  &$T_{oe}$& $T_{cs}$   & $T_{tt}$      &$T_{oe}$& $T_{cs}$   & $T_{tt}$   &$T_{oe}$& $T_{cs}$   & $T_{tt}$   &$T_{oe}$& $T_{cs}$   & $T_{tt}$       \\ \hline
+ \textbf{S\_Manual (Avg)} &27.4 & 0   & 27.4    &23.0 & 0   & 23.0  & 21.3 & 0   & 21.3   &15.0 & 0   & 15.0  \\ \hline
+ \textbf{S\_Manual  (StdDev)} &5 & 0   & 5    &6.2 & 0   & 6.2  & 7.1 & 0   & 7.1   &5.6 & 0   & 5.6  \\ \hline
+  \textbf{S\_Crowd (Avg)} & 2 & 240   & 242    & 2 & 280   & 282  & 2 & 140  & 142   & 2 & 200  & 202  \\ \hline
+    \textbf{S\_Manual/S\_Crowd} & 13.7 & -   & 0.11    & 12.5 &- & 0.08  & 10.65 & -  & 0.15   & 7.5 & -   & 0.07  \\ \hline
+\end{tabular}
+\caption{Task duration in minutes per ontology, evaluation task and setting.}
+\label{table:eval_time}
+\end{table}
+
+
+% Times 
+%440477, FT1 - running = 2hours; 
+%440476, FT1 - running = 2hours; 
+%440475, FT1 - running = 3hours; 
+%440474, CCT1 - running = 3hours; 
+%440473, CCT1 - running = 3hours; 
+%440473, CCT1 - running = 6hours; 
+%440471, FT2 - running = 3hours; 
+%440470, FT2 - running = 3hours; 
+%440469, FT2 - runing = 4hours; 
+%440468, CCT2 - runing = 4hours; 
+%440467, CCT2 - runing = 4hours; 
+%440464, CCT2 - runing = 6hours; 
+\textbf{Costs}. For the cost analysis, we compute average costs for the total task ($C_{tt}$) as the sum of the average cost of the ontology engineer ($C_{oe}$) and the average cost of the crowd-sourced tasks ($C_{cs}$) as detailed in Table~\ref{table:eval_cost}. Considering an annual salary of \$54,000 and a corresponding \$26 hourly wage\footnote{In practice, considering benefits, overhead and vacation, the actual costs for a productive hour are likely to be higher than \$26. Nevertheless, we decided to keep \$26 in order to be able to compare our findings to similar studies.}, average ontology engineering costs were computed based on the average times shown in Table~\ref{table:eval_time}. Cost savings were then computed for each cost category. 
+
+\begin{table}
+\center
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|} \hline
+    & \multicolumn{6}{|c|}{\textbf{Climate Change}} & \multicolumn{6}{c|}{\textbf{Finance}}  \\
+            & \multicolumn{6}{|c|}{\textbf{Ontology}} & \multicolumn{6}{|c|}{\textbf{Ontology}}   \\ 
+  \cline{2-13}
+             &  \multicolumn{3}{|c|}{\textbf{T\_DomRel}}      & \multicolumn{3}{|c|}{\textbf{T\_SubsCorr}}     & \multicolumn{3}{|c|}{\textbf{T\_DomRel}}    & \multicolumn{3}{|c|}{\textbf{T\_SubsCorr}}   \\ 
+    \cline{2-13}
+  &$C_{oe}$& $C_{cs}$   & $C_{tt}$      &$C_{oe}$& $C_{cs}$   & $C_{tt}$   &$C_{oe}$& $C_{cs}$   & $C_{tt}$   &$C_{oe}$& $C_{cs}$   & $C_{tt}$       \\ \hline
+ \textbf{S\_Manual (Avg)} &11.9 & 0   & 11.9   &9.9& 0   & 9.9  & 9.2 & 0   & 9.2   & 6.5 & 0   & 6.5  \\ \hline
+ %\textbf{Setting 1 (StdDev)} &5 & 0   & 5    &6.2 & 0   & 6.2  & 7.1 & 0   & 7.1   &5.6 & 0   & 5.6  \\ \hline
+\textbf{S\_Crowd (Avg)} & 0.9 & 8.48   & 9.38    & 0.9 & 3.58   & 4.48  & 0.9 & 6.49  & 7.39  & 0.9 & 1.67   & 2.57  \\ \hline
+
+ %  \textbf{Cost red. ratio} & 13.2 & -   & 1.2   & 11 & -  & 2.2  & 10.2 & -  & 1.2  & 7.2 & -  & 2.5  \\ \hline
+  %    \textbf{Cost red. prec.} & 7.5\% & -   & 78.8\%   & 9.1\% & -  & 45.5\%  & 9.8\% & -  & 80.3\%  & 13.8\% & -  & 39.5\%  \\ \hline
+            \textbf{Cost Savings (\%)} & 92.4 & -   & 21.2   & 90.1 & -  & 54.7  & 90.2 & -  & 19.7  & 86.15 & -  & 60.5  \\ \hline
+            \textbf{S\_CrowdCheap (Avg)} & 0.9 & 1.02 & 2.1  & 0.9 & 0.43  & 1.33  & 0.9 & 0.78 & 1.68 & 0.9 &  0.2  & 1.1  \\ \hline
+                   \textbf{Cost Savings (\%)} & 92.4 & -   &  82.3  & 90.1 & -  & 86.5  & 90.2 & -  &  81.7 & 86.15 & -  & 83   \\ \hline
+\end{tabular}
+\caption{Average costs (in \$) for the ontology engineer ($C_{oe}$), crowd-workers ($C_{cs}$) and the entire task ($C_{tt}$) across ontologies and settings.}
+%Setting 3 uses a less expensive HC strategy by requesting 3 judgements per unit and paying \$0.01 per task.}
+\label{table:eval_cost}
+\end{table}
+
+Ontology engineer cost savings are high and range from 92.4\% to 86.15\%, averaged at 89.9\%. For the entire task, cost savings are moderate (19.7\% - 60.5\%, Avg = 39\%), with Setting 2 reducing S\_Manual costs with 40\%. Note, however, that task level cost savings will ultimately depend on the cost that ontology engineers decide to pay to crowd-workers. 
+For example, choosing a cheaper task setting than currently (i.e., 3 judgements, with \$0.01 per task vs. the current 5 judgements and \$0.05 per task) will lead to average cost savings of 83.3\% for the total task (S\_CrowdCheap in Table~\ref{table:eval_cost}). From the plugin's perspective, the major goal is reducing ontology engineering costs, as crowdsourcing costs will depend on the constraints of the ontology engineer and are hard to generalise.
+
+
+%%%%% QUALITY
+
+\textbf{Data Quality.} Lower completion times and costs should not have a negative effect on the quality of the crowdsourced data. Since we do not possess a baseline for either of the two tasks, we will perform a comparative evaluation and contrast inter-rater agreement levels between ontology engineers with those of crowdworkers. We have measured inter-rater agreement with Fleiss' Kappa which is used to assess reliability of agreement with a fixed number of raters and categorical ratings assigned to a number of items.
+
+\begin{table}
+%\footnotesize
+\center
+\begin{tabular}{|c|c|c|c|c|} \hline
+    & \multicolumn{2}{|c|}{\textbf{Climate Change}} & \multicolumn{2}{c|}{\textbf{Finance}}  \\
+   % \cline{2-5}
+        & \multicolumn{2}{|c|}{\textbf{Ontology}} & \multicolumn{2}{c|}{\textbf{Ontology}}  \\
+
+          \cline{2-5}
+                                      & \textbf{T\_DomRel} & \textbf{T\_SubsCorr} & \textbf{T\_DomRel} & \textbf{T\_SubsCorr} \\ \hline
+%\textbf{Setting 1 - Percentage valid} & 0.65          & 0.5             & 0.69            & 0.15            \\ \hline
+\textbf{S\_Manual}                   & 0.338 (8)     & 0.502 (8)       & 0.496 (8)       & 0.419 (8)       \\ \hline
+\textbf{S\_Crowd}                    & 0.633 (4)     & 0.841 (4)       & 0.520 (4)       & 0.826 (4)       \\ \hline
+\textbf{S\_ManualCrowd}              & 0.392 (12)    & 0.582 (12)      & 0.505 (12)      & 0.508 (12)      \\ \hline
+\end{tabular}
+\caption{Fleiss' Kappa values of inter-rater agreement per setting and when combining the data of the two settings.}
+\label{table:eval_qual}
+\end{table}
+
+
+%Table~\ref{table:eval_qual} presents inter-rater agreement per task and per setting. 
+%The number of raters per task is given in parentheses.
+%According to the interpretation of Landis and Koch~\cite{landis1977}
+%the inter-rater agreement among manual expert evaluators (Setting 1) is moderate. Agreement among the four groups of CrowdFlower workers is 
+%substantial. The combined agreement (manual expert and crowdworkers) is always higher than for manual evalators alone, which indicates that 
+%crowdworkers have a high level of agreement with the average opinion of manual evaluators.
+%For the manual setting (Setting 1), inter-rater agreement rates measured with Fleiss' Kappa are consistent and rather high, 
+%except for the class relevance verification task for the \emph{Climate Change} ontology. 
+%For Setting 2: Setting 2 is the inter-rater agreement of CF worker groups (CF only)
+%For Setting 3: Setting 3 is the inter-rater agreement of manual + CF. 
+%\emph{Percentage valid} reflects the ratio of unit where the majority of raters confirm the validity [MS: I do not get this]. 
+
+
+Table~\ref{table:eval_qual} presents inter-rater agreement per task and
+per setting, with the number of raters per task given in parentheses.
+According to the interpretation of Landis and Koch~\cite{landis1977}
+the inter-rater agreement among manual expert evaluators (S\_Manual) is
+moderate. Agreement among the four groups of CrowdFlower workers is
+substantial (S\_Crowd). The combined agreement (manual expert and crowdworkers) is
+always higher than for manual evaluators alone.
+%, which indicates that crowdworkers have a high level of agreement with the average opinion of manual evaluators.
+A detailed inspection of results reveals that judgement is difficult on
+some questions, for example relevance of given concepts for the climate change domain often depends
+on the point of view and granularity of the domain model.
+But in general, crowdworkers have a higher inter-rater
+agreement, which often corresponds with the majority opinion of manual
+experts, thereby raising Fleiss' kappa (S\_ManualCrowd).
+%
+Also, the agreement between the crowd and experts is higher than among experts, possibly because
+crowdsourcing data is the majority view derived from 5 judgements as compared to a single
+expert judgement.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESULTS FROM FLEISS KAPPA
+
+%%%% CC CLASS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ------------------------- manual only -------------------------------
+%
+% Kappa:
+% 8 raters.
+% 100 subjects.
+% 2 categories.
+% p = [0.62375, 0.37625]
+% P = [1.0, 0.4642857142857143, 1.0, 0.5714285714285714, 1.0, 0.4642857142857143, 1.0, 0.5714285714285714, 0.75, 1.0, 0.42857142857142855, 0.75, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5714285714285714, 0.5714285714285714, 0.5714285714285714, 0.42857142857142855, 0.5714285714285714, 0.42857142857142855, 0.5714285714285714, 0.5714285714285714, 0.5714285714285714, 0.75, 1.0, 0.75, 1.0, 0.4642857142857143, 0.5714285714285714, 0.75, 0.5714285714285714, 0.5714285714285714, 1.0, 1.0, 0.4642857142857143, 1.0, 0.5714285714285714, 1.0, 0.5714285714285714, 0.5714285714285714, 1.0, 0.42857142857142855, 1.0, 1.0, 1.0, 0.4642857142857143, 0.4642857142857143, 0.4642857142857143, 0.75, 0.5714285714285714, 0.42857142857142855, 0.4642857142857143, 0.75, 0.4642857142857143, 0.75, 1.0, 0.42857142857142855, 0.75, 1.0, 0.5714285714285714, 1.0, 0.42857142857142855, 0.5714285714285714, 0.4642857142857143, 0.5714285714285714, 0.42857142857142855, 0.4642857142857143, 0.5714285714285714, 0.5714285714285714, 0.42857142857142855, 0.4642857142857143, 0.5714285714285714, 1.0, 1.0, 1.0, 0.75, 0.75, 0.4642857142857143, 0.75, 0.5714285714285714, 1.0, 0.4642857142857143, 0.42857142857142855, 0.5714285714285714, 0.5714285714285714, 0.75, 0.5714285714285714, 0.75, 0.5714285714285714, 0.75, 0.4642857142857143, 0.42857142857142855, 0.5714285714285714, 0.4642857142857143, 0.5714285714285714]
+% Pbar = 0.689642857143
+% PbarE = 0.530628125
+% kappa = 0.338781977814
+% percentage true 0.71
+% 
+
+% ------------------------- crowdflower only -------------------------------
+% Kappa:
+% 4 raters.
+% 100 subjects.
+% 2 categories.
+% p = [0.515, 0.485]
+% P = [1.0, 1.0, 1.0, 1.0, 0.3333333333333333, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3333333333333333, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3333333333333333, 1.0, 0.5, 0.3333333333333333, 1.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 0.5, 0.5, 0.5, 1.0, 0.3333333333333333, 1.0, 0.5, 0.3333333333333333, 1.0, 0.3333333333333333, 1.0, 1.0, 1.0, 0.3333333333333333, 1.0, 0.5, 1.0, 0.3333333333333333, 1.0, 1.0, 0.3333333333333333, 1.0, 1.0, 1.0, 0.5, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 0.3333333333333333, 0.5, 1.0, 1.0, 0.3333333333333333, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5, 0.5, 1.0, 1.0, 0.5, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.3333333333333333, 0.3333333333333333, 1.0, 0.5, 0.5]
+% Pbar = 0.816666666667
+% PbarE = 0.50045
+% kappa = 0.633003036066
+% percentage true 0.58
+
+% ------------------------- manual + crowdflower -------------------------------
+% Kappa:
+% 12 raters.
+% 100 subjects.
+% 2 categories.
+% p = [0.5875, 0.4125]
+% P = [1.0, 0.5909090909090909, 1.0, 0.696969696969697, 0.696969696969697, 0.4696969696969697, 1.0, 0.696969696969697, 0.8333333333333334, 1.0, 0.4696969696969697, 0.5909090909090909, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.696969696969697, 0.696969696969697, 0.696969696969697, 0.5151515151515151, 0.5909090909090909, 0.45454545454545453, 0.696969696969697, 0.5909090909090909, 0.5151515151515151, 0.8333333333333334, 1.0, 0.8333333333333334, 1.0, 0.45454545454545453, 0.696969696969697, 0.8333333333333334, 0.5909090909090909, 0.5909090909090909, 0.8333333333333334, 1.0, 0.4696969696969697, 1.0, 0.5909090909090909, 0.696969696969697, 0.696969696969697, 0.5151515151515151, 1.0, 0.5151515151515151, 1.0, 0.696969696969697, 1.0, 0.5151515151515151, 0.5909090909090909, 0.4696969696969697, 0.8333333333333334, 0.45454545454545453, 0.45454545454545453, 0.5909090909090909, 0.8333333333333334, 0.5909090909090909, 0.5151515151515151, 0.8333333333333334, 0.5151515151515151, 0.8333333333333334, 1.0, 0.696969696969697, 1.0, 0.45454545454545453, 0.5909090909090909, 0.4696969696969697, 0.45454545454545453, 0.45454545454545453, 0.4696969696969697, 0.696969696969697, 0.45454545454545453, 0.5151515151515151, 0.4696969696969697, 0.5909090909090909, 0.8333333333333334, 1.0, 1.0, 0.696969696969697, 0.5151515151515151, 0.4696969696969697, 0.8333333333333334, 0.696969696969697, 1.0, 0.4696969696969697, 0.5151515151515151, 0.696969696969697, 0.696969696969697, 0.8333333333333334, 0.696969696969697, 0.8333333333333334, 0.696969696969697, 0.8333333333333334, 0.4696969696969697, 0.45454545454545453, 0.696969696969697, 0.45454545454545453, 0.4696969696969697]
+% Pbar = 0.705606060606
+% PbarE = 0.5153125
+% kappa = 0.392610827814
+% percentage true 0.62
+
+%%%% CC SUBCLASS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ------------------------- manual only -------------------------------
+% Kappa:  
+% 8 raters.
+% 42 subjects.
+% 2 categories.
+% p = [0.46130952380952384, 0.5386904761904762]
+% P = [0.4642857142857143, 1.0, 1.0, 0.75, 1.0, 1.0, 0.4642857142857143, 1.0, 0.5714285714285714, 1.0, 1.0, 0.5714285714285714, 1.0, 0.5714285714285714, 1.0, 0.42857142857142855, 0.4642857142857143, 0.75, 0.75, 0.75, 1.0, 0.4642857142857143, 0.5714285714285714, 0.75, 0.75, 0.42857142857142855, 1.0, 1.0, 0.75, 0.5714285714285714, 0.75, 1.0, 1.0, 0.5714285714285714, 1.0, 0.4642857142857143, 0.4642857142857143, 0.5714285714285714, 0.75, 0.4642857142857143, 0.75, 1.0]
+% Pbar = 0.752551020408
+% PbarE = 0.502993905896
+% kappa = 0.502120834076
+% percentage true 0.5
+% 
+
+% ------------------------- crowdflower only -------------------------------
+% Kappa:
+% 4 raters.
+% 42 subjects.
+% 2 categories.
+% p = [0.4880952380952381, 0.5119047619047619]
+% P = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5, 1.0, 0.5, 0.3333333333333333, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.3333333333333333, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5, 1.0]
+% Pbar = 0.920634920635
+% PbarE = 0.500283446712
+% kappa = 0.841179807147
+% percentage true 0.5
+% 
+
+% ------------------------- manual + crowdflower -------------------------------
+% Kappa:
+% 12 raters.
+% 42 subjects.
+% 2 categories.
+% p = [0.47023809523809523, 0.5297619047619048]
+% P = [0.4696969696969697, 1.0, 1.0, 0.8333333333333334, 1.0, 1.0, 0.5909090909090909, 1.0, 0.696969696969697, 1.0, 1.0, 0.696969696969697, 1.0, 0.696969696969697, 1.0, 0.4696969696969697, 0.4696969696969697, 0.696969696969697, 0.5909090909090909, 0.8333333333333334, 1.0, 0.5151515151515151, 0.696969696969697, 0.8333333333333334, 0.8333333333333334, 0.5151515151515151, 1.0, 1.0, 0.5909090909090909, 0.696969696969697, 0.8333333333333334, 1.0, 1.0, 0.696969696969697, 1.0, 0.5909090909090909, 0.5909090909090909, 0.696969696969697, 0.8333333333333334, 0.5909090909090909, 0.696969696969697, 1.0]
+% Pbar = 0.791847041847
+% PbarE = 0.50177154195
+% kappa = 0.582213832249
+% percentage true 0.47619047619
+% 
+
+
+%%%% FINANCE CLASS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ------------------------- manual only -------------------------------
+%
+% 8 raters.
+% 77 subjects.
+% 2 categories.
+%
+% p = [0.650974025974026, 0.349025974025974]
+% P = [1.0, 0.75, 1.0, 1.0, 0.5714285714285714, 1.0, 0.75, 0.5714285714285714, 1.0, 0.75, 0.4642857142857143, 0.5714285714285714, 0.75, 0.4642857142857143, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5714285714285714, 0.4642857142857143, 1.0, 1.0, 1.0, 1.0, 0.75, 1.0, 0.5714285714285714, 0.75, 0.5714285714285714, 1.0, 1.0, 1.0, 1.0, 0.5714285714285714, 0.5714285714285714, 0.42857142857142855, 0.75, 0.75, 0.75, 1.0, 1.0, 1.0, 1.0, 0.75, 0.4642857142857143, 0.42857142857142855, 1.0, 1.0, 1.0, 1.0, 0.5714285714285714, 0.42857142857142855, 0.75, 0.4642857142857143, 1.0, 0.75, 0.4642857142857143, 0.42857142857142855, 1.0, 0.4642857142857143, 1.0, 0.5714285714285714, 0.5714285714285714, 0.5714285714285714, 0.42857142857142855, 0.75, 0.5714285714285714, 0.4642857142857143, 1.0, 1.0, 1.0, 0.75, 1.0, 0.5714285714285714, 0.5714285714285714, 0.4642857142857143]
+% Pbar = 0.77133580705
+% PbarE = 0.545586313038
+% kappa = 0.496792901467
+% percentage true 0.727272727273
+
+% ------------------------- crowdflower only -------------------------------
+% Kappa:
+% 4 raters.
+% 77 subjects.
+% 2 categories.
+% p = [0.6331168831168831, 0.36688311688311687]
+% P = [1.0, 1.0, 1.0, 1.0, 0.3333333333333333, 0.5, 1.0, 0.3333333333333333, 1.0, 1.0, 0.5, 0.5, 0.3333333333333333, 0.3333333333333333, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3333333333333333, 0.3333333333333333, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.3333333333333333, 1.0, 1.0, 1.0, 0.3333333333333333, 0.5, 1.0, 0.5, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 1.0, 0.3333333333333333, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.5, 1.0, 1.0, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 1.0, 0.5, 1.0, 0.5, 1.0, 0.5, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 0.3333333333333333, 0.5, 0.5]
+% Pbar = 0.777056277056
+% PbarE = 0.535440209142
+% kappa = 0.520096815672
+% percentage true 0.701298701299
+% Majority check for cf_results -- skipping
+                                                   
+% ------------------------- manual + crowdflower -------------------------------
+% 12 raters.
+% 77 subjects.
+% 2 categories.
+% p = [0.645021645021645, 0.354978354978355]
+% P = [1.0, 0.8333333333333334, 1.0, 1.0, 0.5151515151515151, 0.8333333333333334, 0.8333333333333334, 0.5151515151515151, 1.0, 0.8333333333333334, 0.45454545454545453, 0.5909090909090909, 0.5909090909090909, 0.4696969696969697, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5909090909090909, 0.4696969696969697, 0.696969696969697, 1.0, 1.0, 1.0, 0.8333333333333334, 1.0, 0.696969696969697, 0.8333333333333334, 0.5151515151515151, 1.0, 1.0, 1.0, 0.696969696969697, 0.5909090909090909, 0.696969696969697, 0.4696969696969697, 0.8333333333333334, 0.696969696969697, 0.8333333333333334, 1.0, 1.0, 1.0, 0.8333333333333334, 0.8333333333333334, 0.4696969696969697, 0.4696969696969697, 1.0, 1.0, 1.0, 1.0, 0.4696969696969697, 0.4696969696969697, 0.8333333333333334, 0.5909090909090909, 1.0, 0.696969696969697, 0.45454545454545453, 0.4696969696969697, 1.0, 0.5151515151515151, 1.0, 0.4696969696969697, 0.696969696969697, 0.5909090909090909, 0.5151515151515151, 0.696969696969697, 0.696969696969697, 0.5151515151515151, 1.0, 1.0, 1.0, 0.8333333333333334, 1.0, 0.5151515151515151, 0.4696969696969697, 0.5151515151515151]
+% Pbar = 0.773317591499
+% PbarE = 0.54206255505
+% kappa = 0.504992633819
+% percentage true 0.688311688312
+% 
+
+%%%% FINANCE SUBCLASS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ------------------------- manual only -------------------------------
+% 8 raters.
+% 20 subjects.
+% 2 categories.
+% p = [0.2625, 0.7375]
+% P = [0.5714285714285714, 0.75, 1.0, 1.0, 0.42857142857142855, 1.0, 1.0, 1.0, 1.0, 0.5714285714285714, 0.5714285714285714, 0.5714285714285714, 0.4642857142857143, 0.75, 0.75, 1.0, 0.75, 0.75, 1.0, 0.5714285714285714]
+% Pbar = 0.775
+% PbarE = 0.6128125
+% kappa = 0.418886198547
+% percentage true 0.2
+
+
+% ------------------------- crowdflower only -------------------------------
+% 4 raters.
+% 20 subjects.
+% 2 categories.
+% p = [0.2125, 0.7875]
+% P = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.3333333333333333]
+% Pbar = 0.941666666667
+% PbarE = 0.6653125
+% kappa = 0.825708061002
+% percentage true 0.25
+% Majority check for cf_results -- skipping
+
+
+% ------------------------- manual + crowdflower -------------------------------
+% 12 raters.
+% 20 subjects.
+% 2 categories.
+% p = [0.24583333333333332, 0.7541666666666667]
+% P = [0.696969696969697, 0.8333333333333334, 1.0, 1.0, 0.5151515151515151, 1.0, 1.0, 1.0, 1.0, 0.696969696969697, 0.696969696969697, 0.4696969696969697, 0.5909090909090909, 0.8333333333333334, 0.8333333333333334, 1.0, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5151515151515151]
+% Pbar = 0.817424242424
+% PbarE = 0.629201388889
+% kappa = 0.507614774962
+% percentage true 0.15
+
+
+\textbf{Plugin Usability} was assessed by means of the System Usability Scale (SUS), the most used questionnaire for measuring perceptions of usability~\cite{brooke1996sus}. Based on data collected from the entire test population (i.e., all 8 ontology engineers), we obtained a SUS score of 85, which corresponds to the 90th percentile rank and positions the plugin in the class of ``A" type system, that is systems with maximal usability. 
+ %asking four ontology engineers to answer three questions on a scale from 0 (completely disagree) to 5 (completely agree). There was a general agreement on the fact that the plugin is easy to use (avg rating = 4.25).
+All evaluators agreed that (a) they would prefer using the plugin instead of performing the tasks manually and that (b) the use of the plugin saved a lot of their time. They considered the recursive task verification particularly useful when focusing on large (parts of the) ontologies. One suggested making the plugin data and results more visually appealing, and showing the anticipated cost before crowdsourcing
+-- both of which have been implemented in the meantime. 
+Given the small scale of the usability evaluation, we consider it only as indicative that the Plugin has a good usability. 
+
+%A larger usability study is planned as future work.
+
+%\begin{verbatim}
+%1)The documentation was easy to understand. 
+%-> 4, th part about installing plug-in was a bit of mixture with general info about protege and the installation itself.
+%2) The plugin functionality was easy to use.
+%-> 5 , it is especially good that one can choose to make the check for all ontology at once by choosing the "check the subtree".
+%3) I would prefer to use the plugin as opposed to doing these tasks manually.
+%-> 5
+%4) The use of the plugin saves a lot of time to the ontology engineer. 
+%-> 5
+%\end{verbatim}
+
+
+%\subsection{Evaluation results -- InstanceOf}
+
+\textbf{Evaluation of the InstanceOf verification task}
+For evaluating the task \emph{Verification of Relation Correctness - InstanceOf (T2)} we used the Wine Ontology, specifically the classes \emph{WineGrape} and \emph{Region}, with 8 individuals for WineGrape and 36 for Region. To test the plugin, we added 26 non-relevant individuals to the class of WineGrape, and 36 non-relevant individuals to the class of Region. The individuals added to WineGrape stem from a list of important multi-national company names while in the case of Region we used famous persons. In sum, this leads to 116 individuals for verification, 44 for WineGrape and 72 for Region. For all individuals, CrowdFlower workers were asked to judge whether the instanceOf relation between the class and the individual is actually correct.
+
+% The timings for the all 116 units -- when assessing manually:
+% Gerhard: 37min
+% Philipp: 45min
+% Matyas: 55min
+
+\emph{Results and Analysis} As the task's difficulty was low, the crowd and the domain experts answered 100\% of units correctly,
+so the interesting point is the comparison of time and cost between crowd workers and domain experts. Domain experts needed on average 45.6 minutes to complete this task, while the crowdsourcing tasks took on average about 120 minutes. This still translates in an important cost savings with the crowdsourced experiments costing only \$6.31 as opposed to \$19.76 corresponding to experts' pay.
+
+\begin{table}
+%\footnotesize
+\center
+\begin{tabular}{|l|c|c|c|c|} \hline
+\textbf{}            &\textbf{No. of instances}& \textbf{Accuracy} & \textbf{Avg. time (Min)}&\textbf{Avg. Cost (\$)} \\ \hline
+\textbf{Manual}      & 116 & 1.0  & 45.6 &  19.76\\ \hline
+\textbf{CrowdFlower} & 116 & 1.0  & 120 & 6.31 \\ \hline
+
+\end{tabular}
+\caption{Results of the InstanceOf Verification (T2) task.}
+\label{table:resInstanceOf}
+\end{table}
+
+
+%\subsection{Relation detection experiment}
+
+\textbf{Evaluation of the Relation Specification task.} To evaluate the plugin regarding the task \emph{Specification of Relation Type (T3)} we used two ontologies which were generated automatically in the domains of climate change and tennis (the sport). These ontologies each contain 24 unnamed relations between subject and object concepts, i.e., 48 unlabeled relations in total. Domain experts and crowd workers were asked to assign one of the relation types ``has-effect-on'', ``is-affected-by'', ``is-a'', ``is-opposite-of'', ``has-part'', ``is-part-of'', ``used-by'' or``uses'' to each unlabeled relation, or ``other'' is no type fits for the relation. 
+
+
+\emph{Results and Analysis.} Similarly to the feasibility study on concept relevance and subsumption relations, 
+we applied Fleiss' Kappa for a comparative evaluation of inter-rater agreement 
+regarding relation name suggestion. Apart from retrieving judgements from crowd workers, 
+five domain experts assess relation labels for the 24 relations
+each in the domains of climate change and tennis. Table~\ref{table:eval_rel_sugg} 
+provides Fleiss' Kappa results, with the number of raters per task given in parentheses. 
+\emph{S\_Manual} refers to the ratings of the five domain experts, \emph{S\_ManualCrowd} 
+adds the result from the crowd to these five judgements.
+
+% Time: experts - 22 mins; cost
+% CF: time= 7h - cost = 4.79;
+
+\begin{table}
+\center
+\begin{tabular}{|c|c|c|} \hline
+                                       & \textbf{Climate Change} & \textbf{Tennis}  \\ \hline
+  \textbf{S\_Manual}                   & 0.536 (5)               & 0.366 (5)        \\ \hline
+  \textbf{S\_ManualCrowd}              & 0.531 (6)               & 0.368 (6)        \\ \hline
+\end{tabular}
+\caption{Fleiss' Kappa values of inter-rater agreement for the Specification of Relation Type (T3) task, for two domains.}
+\label{table:eval_rel_sugg}
+\end{table}
+
+The agreement in the domain of climate change is moderate, in the domain of tennis it is fair, according to Landis and Koch~\cite{landis1977}. 
+The lower agreement values compared to those reported in Table~\ref{table:eval_qual} can be explained by the higher complexity of this task 
+as it requires users to select a relation label from nine candidates.  To complicate matters further, in some cases multiple relations labels are suitable candidates. The addition of crowd worker judgements to the judgements of domain experts influences the Fleiss' Kappa values only slightly, which suggests that the quality of crowd worker results is comparable to domain experts' quality.
+
+%   CC ALL:
+%   
+%       6 raters.
+%       24 subjects.
+%       10 categories.
+%       p = [0.4236111111111111, 0.22916666666666666, 0.013888888888888888, 0.0, 0.0625, 0.1388888888888889, 0.006944444444444444, 0.041666666666666664, 0.08333333333333333, 0.0]
+%       P = [1.0, 1.0, 1.0, 1.0, 0.66, 0.133, 1.0, 1.0, 0.266, 1.0, 1.0, 0.4, 0.2666, 0.4, 0.1333, 0.6666, 1.0, 0.6666, 0.2, 0.2666, 0.4, 1.0, 0.26666, 1.0]
+%       Pbar = 0.655555555556
+%       PbarE = 0.264081790123
+%       kappa = 0.531952817824
+%   
+%   
+%   CC DOM_EXPERTS:
+%   
+%       5 raters.
+%       24 subjects.
+%       10 categories.
+%       p = [0.4083333333333333, 0.25833333333333336, 0.008333333333333333, 0.0, 0.05, 0.13333333333333333, 0.008333333333333333, 0.05, 0.08333333333333333, 0.0]
+%       P = [1.0, 1.0, 1.0, 1.0, 0.6, 0.1, 1.0, 1.0, 0.2, 1.0, 1.0, 0.6, 0.3, 0.3, 0.1, 0.6, 1.0, 0.6, 0.3, 0.2, 0.6, 1.0, 0.3, 1.0]
+%       Pbar = 0.658333333333
+%       PbarE = 0.263333333333
+%       kappa = 0.536199095023
+%   
+%   
+%   TENNIS ALL:
+%   
+%       6 raters.
+%       25 subjects.
+%       10 categories.
+%       p = [0.12, 0.1, 0.0, 0.04, 0.13333333333333333, 0.30666666666666664, 0.02666666666666667, 0.02666666666666667, 0.18, 0.06666666666666667]
+%       P = [0.466666666, 0.2666666, 0.266666, 0.666, 0.6666, 0.133333, 1.0, 0.4, 0.2666, 0.4, 0.1333, 0.4, 1.0, 0.26666, 0.4, 1.0, 1.0, 0.6666, 0.4, 0.26666, 0.26666, 0.2, 0.4, 0.4, 0.66666]
+%       Pbar = 0.48
+%       PbarE = 0.176088888889
+%       kappa = 0.368863955119
+%   
+%   
+%   TENNIS DOM_EXPERTS:
+%   
+%       5 raters.
+%       25 subjects.
+%       10 categories.
+%       p = [0.136, 0.112, 0.0, 0.04, 0.144, 0.304, 0.032, 0.016, 0.144, 0.072]
+%       P = [0.6, 0.2, 0.4, 0.6, 0.6, 0.1, 1.0, 0.3, 0.3, 0.3, 0.1, 0.6, 1.0, 0.3, 0.4, 1.0, 1.0, 0.6, 0.6, 0.3, 0.3, 0.1, 0.3, 0.3, 0.6]
+%       Pbar = 0.476
+%       PbarE = 0.172992
+%       kappa = 0.366390651602
+
+
+
+\section{Scalability Evaluation Results}
+\label{sec:evalscale}
+While the experiments above confirm the cost savings made possible by the plugin as well as the plugin's usability, it is important to also investigate the scalability of the proposed approach and its applicability when working with large and domain-specific ontologies. Table~\ref{table:eval_scale} lists the results of the large scale experiments for both tasks of Domain and Subsumption Verification. 
+
+\textbf{The domain verification task} was completed by crowd-workers in 19 hours. To estimate the time it would have taken to perform this task manually we refer to the experiment duration measurements performed during the feasibility evaluations (see Table~\ref{table:eval_time}). For the climate change ontology, ontology engineers needed 27.4 minutes on average to judge the domain relevance for 101 concepts thus leading to an average concept verification speed of 3.68 concepts/min. Similarly, in the financial domain 21.3 minutes were needed on average to verify 77 concepts, resulting in an average speed of 3.61 concepts per minute. As the speeds of concept verification are very close across domains, for our estimation we consider an average speed of 3.65 concept verifications per minute. With this speed, ontology engineers would need 1179 minutes (19.65 hours) to verify the 4304 concepts. 
+
+Although the manual and crowd performed verification process would take the same amount of time in hours, for larger projects it is important to translate these hours into working days: indeed, while the crowd is available continuously, the availability of domain experts is determined by working hour schedules. Therefore, when translating working hours into working days, we define a crowd working day as having 24 hours, while an ontology engineer working day has 8 hours. It can be easily seen, that in practice, an ontology engineer would spend more than two days on this task (this is a best case assumption that does not take into account fatigue and breaks) while crowdsourcing could return results within one day.
+
+In term of costs, for the domain verification task we spent a total of \$130, where \$104 are actual worker costs and \$26 are CF transaction fees (TF). Using the \$26 hourly wage as for our feasibility experiments, the estimated cost for manually performing this task is \$511. Therefore, crowdsourcing costs are a quarter of the ontology engineering costs (25\%).
+
+The quality of the results was very high. CrowdFlower statistics show an inter-worker agreement of 98\%. Indeed,
+crowd workers rated 4260 of 4304 concepts correctly, which corresponds to a remarkably high accuracy of 99\%. There were only 7 false positives, i.e. non-relevant terms from the domains of climate change and sports which were rated as relevant to human anatomy. For example the term ``Forehand'' (a type of shot in tennis) was wrongly judged as part of the human body. 
+The number of false negatives was higher (37) and included some ambiguous terms in human anatomy such as ``Pyramid'' or ``Curved Tube''.
+
+\begin{table}
+%\footnotesize
+\center
+\begin{tabular}{|l|c|c|c|c|} \hline
+    & \multicolumn{2}{|c|}{\textbf{Domain}} & \multicolumn{2}{c|}{\textbf{Subsumption}}  \\
+        & \multicolumn{2}{|c|}{\textbf{Verification}} & \multicolumn{2}{c|}{\textbf{Verification}}  \\
+
+          \cline{2-5}
+                                      & \textbf{Crowd} & \textbf{Est. Manual} & \textbf{Crowd} & \textbf{Est. Manual} \\ \hline
+
+\textbf{Time (H/Day)}                &  19/0.8   &   19.65/2.5  &  136/5.6    &  39.20 (4.9)  \\ \hline
+\textbf{Cost (\$)}                   &   104+26TF  & 511     &  155+39TF   &  1019    \\ \hline
+\textbf{Quality (Accuracy)}          & 0.99 &  --   &  0.895   &  --     \\ \hline
+
+\end{tabular}
+\caption{Results of the large scale evaluation for the two tasks. Values of the manual approach are estimated based on the results of the feasibility experiments. }
+\label{table:eval_scale}
+\end{table}
+
+
+\textbf{The subsumption verification task} took significantly longer, needing 136 hours (5.6 days) to complete. Following a similar procedure as above, we compute an average subsumption verification speed of 1.6 relations/minute. As expected, this speed is lower than for the domain relevance verification since the task is more complex. We estimate that ontology engineers would need, on average 2350.6 minutes (39.20 hours) to verify 3761 subsumption relations. 
+
+In terms of costs we paid a total of \$194 for the crowdsourcing task (out of which \$39 were transaction fees). An ontology engineer employed for 39,20 hours would have costed \$1019. Therefore, the total cost of crowdsourcing accounts to only 19\% of the amount to be paid to the ontology engineer.
+
+% ----------- QUALITY data for subsumption task -----------
+% Number of gold units and worker units: 10 3751
+% #Number of relevant and non-relevant concepts in result set: 2008 1753
+% Number of positive and negative worker judgements in result set: 1812 1949
+% Number of true positive and false positive: 1713 99
+% Number of true negative and false negative: 1654 295
+% Number of correct and incorrect judgements 3367 394
+% Accuracy 0.895240627493
+
+
+As some classes in human.owl have multiple super-classes, after swapping 1600 classes, the resulting ontology contains 2008 correct, and 1753 incorrect, subClass relations.
+CF workers judged 1812 relations as correct, 1949 as incorrect, so there was a substantial number of false negative ratings.
+Overall the accuracy of CF workers is 0.895 because 3367 of 3751 worker judgements were correct according to the ground truth provided by human.owl.
+
+A detailed analysis reveals that the results contain 1713 true positives and 99 false positives, whereas the number of true negatives is 1654, leaving 295 false negatives. Regarding the false positives, many of the judgements intuitively make sense, e.g., that ``Penis Erectile Tissue'' is a subclass of ``Reproductive System'', or that ``Upper Lobe Of The Right Lung'' is a subclass of ``Organ'', none of which is stated by human.owl.
+Therefore, crowd judgements could help to identify questionable modelling assumptions made by domain experts which might need to be revised.
+% Examples of false positives:
+% 'Penis Erectile Tissue -> Reproductive System', 'Haversian Canal -> Skeletal System Part', 'Lymph Node Subcapsular Sinus -> Lymph Node By Anatomic Site', 'Vagina -> Endocrine Sex Organ', 'Hepatic Vein -> Organ', 'Upper Lobe Of The Right Lung -> Organ', 'Posterior Lobe Of The Prostate -> Other Anatomic Concept'
+% 'Rectum -> Muscle', 'Round Ligament Of The Liver -> Muscle', 'Primitive Bone Marrow Myeloid Stem Cell -> Musculoskeletal System Part', 'Malleus -> Musculoskeletal System Part', 'Bronchial Tree -> Lung Upper Lobe', 'Bronchial Tree -> Lobe Of The Right Lung', 'Epencephalon -> Fossa', 'Submucous Nerve Plexus -> Organ Of Special Sense Part', 'Tympanic Epithelium -> Organ Of Special Sense Part', 'Carotid Cistern -> Organ Of Special Sense Part'
+Most wrong judgements concern false negatives, many of which are hard to assess from the concept labels. Examples include ``Egg'' subclass of ``Germ Cell'',
+``Anatomic Sites'' subclass of ``Other Anatomic Concept'', and many similar types of relations.
+
+% Examples of false negatives:
+%  'All Sites -> Anatomic Sites' --> not clear from the concept labels
+%'Tooth Tissue -> Body Fluid Or Substance'
+% some very unspecific stuff: 'Anatomic Sites -> Other Anatomic Concept'
+% a lot of errors with cell types: 'Plasma Cell -> Mature B-Lymphocyte'
+% 'Egg -> Germ Cell'
+% 'Ambient Cistern -> Other Anatomic Concept' -- maybe more payment
+
+
+%@TBD: compare to results on the task (subCl / technical domains) in literature.  ---
+%@TBD: move parts of results (analysis of what went wrong etc) to "Discussion" section?
+
+
+
+%\subsection{Discussion}
+
+\section{Conclusions and Future Work}
+
+In this paper we investigated the idea of closely embedding crowdsourcing techniques into ontology engineering. Through an analysis of previous works using crowdsourcing for ontology engineering, we concluded that a set of basic crowdsourcing tasks are repeatedly used to achieve a range of ontology engineering processes across various stages of the ontology life-cycle. We then presented a novel tool, a Prot\'eg\'e plugin, that allows ontology engineers to use these basic crowdsourcing tasks from within their ontology engineering working context in Prot\'eg\'e. 
+
+Our evaluation focused on assessing the concept of the crowdsourcing plugin. Although we plan to make use of the uComp platform, this particular evaluation forwarded all tasks directly to CrowdFlower and therefore is not influenced by the particularities of the uComp framework. As a first evaluation of the plugin, we focused on small-scale ontologies. An evaluation of the plugin in an ontology engineering scenario where automatically learned ontologies in two different domains are assessed for domain relevance and subsumption correctness, revealed that the use of the plugin reduced overall project costs, lowered the time spent by the ontology engineer (without extending the time of the overall tasks to over 4 hours) and returned good quality data that was in high agreement with ontology engineers. Finally, our evaluators have provided positive feedback about the usability of the plugin.
+
+A set of scalability evaluations aimed (1) to asses how well the proposed concept would scale to large-scale ontologies and (2) to investigate whether crowd-workers can replace domain experts in specialized domains. The cost reductions were significant, with the crowdsourced tasks costing only a quarter or less of the estimated  ontology engineering costs. Timings are comparable among the two approaches, however, we believe that a self-managed batching of the tasks would have lead to faster completion tasks as opposed to using the built-in CrowdFlower batch based processing. The obtained quality depends on the task difficulty, and ranges from very high (99\% accuracy) for a simpler task to an acceptable 89\% accuracy for the more difficult task of judging subsumption correctness. As such, our results are in-line with earlier studies that obtained good results from crowds in specialized domains such as philosophy~\cite{Eckert2010} and bio-medicine~\cite{Noy2013}. 
+
+\subsection{Limitations}
+
+The results that can be obtained with the uComp plugin might vary greatly between different tasks (depending on their type and the difficulty of the domain) but also depending on the timing when the tasks are crowdsourced and the response of the available work-force. Therefore, integrating such techniques in projects where strict deadlines must be met is a challenging task.
+
+Since the plugin focuses on crowdsourcing, we must consider the following two issues of legal and ethical nature, which have so far not received sufficient attention. Firstly, no clear guidelines exist for how to properly acknowledge crowd contributions especially if their work would lead to some scientific results. Some volunteer projects (e.g., FoldIt, Phylo) already include contributors in the authors' list~\cite{Cooper2010,Kawrykow2012}. The second issue is contributor privacy and well-being. Paid-for marketplaces (e.g. MTurk) go some way towards addressing worker privacy, although these are far from sufficient and certainly fall short with respect to protecting workers from exploitation, e.g. having basic payment protection~\cite{Fort2011}. The use of mechanised labour (MTurk in particular) raises a number of workers' rights issues: low wages (below \$2 per hour), lack of protection, and legal implications of using MTurk for longer term projects. We recommend at the least conducting a pilot task to see how long jobs take to complete, and ensuring that average pay exceeds the local minimum wage.
+
+\subsection{Future Work}
+%1) We need clear methodologies about how to embed crowdsourcing in OE, similarly to the "annotation science" in NLP
+We consider our work as a first step towards the wide adoption of crowdsourcing by the ontology engineering community, and therefore, we see ample opportunities for future work. 
+
+\begin{description}
+\item[Methodology and best practices] Since the use of crowdsourcing has matured enough, it is a good time to move on from isolated approaches towards a methodology of where and how crowdsourcing can efficiently support ontology engineers. Such methodological guidelines should inform tools such as our own plugin while our plugin could offer a means to build and test these guidelines. Future work will also reveal best use cases of the plugin identifying those cases when it can be used to collect generic knowledge as opposed to application areas where it should be used to support the work of a distributed group of domain experts. 
+\item[Towards expert sourcing.] Although our first evaluation of an anatomy-specific ontology lead to good results, some highly specialized domains will much more benefit from the possibility of engaging a community of domain experts. The question therefore is whether the current plugin concept could be adapted for expert-sourcing. We already received a request for using the tool in this way by an ontology engineer who needed to collect domain knowledge from domain experts but was hampered in her task by the lack of convenient interfaces for knowledge acquisition from experts. The presented plugin can already be used as an interface between ontology engineers and domain experts, by simply activating the “Internal Channel” mode of CrowdFlower: with this setting, the created CrowdFlower tasks can be shared through a URL with the chosen expert group as opposed to being presented to the crowd (which corresponds to the External Channel). Therefore, the use of the tool for expert-sourcing is already possible with its current connection to CrowdFlower, but extensions that would connect Prot\'eg\'e to other domain specific tools are not excluded and will constitute the subject of our future work. 
+\item[Plugin Development] In terms of the plugin development, we plan further extending its functionality (1) to support additional crowdsourcing tasks; (2) to allow greater control over job settings as well as (3) to permit monitoring of the results as they become available from within Prot\'eg\'e. Based on feedback from our research colleagues, we will prioritize supporting ontology localization with the plugin by crowdsourcing the translation of ontology labels into desired languages. 
+\item[Further evaluations] We plan to evaluate the plugin in other ontology engineering scenarios as well (e.g., ontology matching) and to conduct larger scale usability studies. 
+
+\end{description}
+
+\subsubsection*{Acknowledgments.} The work presented in this paper % was developed within DIVINE (www.weblyzard.com/divine),
+was developed within project uComp, which receives the funding support of EPSRC EP/K017896/1, FWF 1097-N23, and ANR-12-CHRI-0003-03, in the framework of the CHIST-ERA ERA-NET.
+
+\bibliographystyle{plain}
+\bibliography{cl-iswc14}
+
+\end{document}

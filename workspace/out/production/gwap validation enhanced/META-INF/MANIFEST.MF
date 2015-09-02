@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: com.googlecode.json-simple.jar org.apache.httpcomponents.h
+ ttpclient.jar org.apache.httpcomponents.httpcore.jar org.apache.commo
+ ns.logging.jar org.protege.editor.core.application.jar org.protege.ed
+ itor.owl.jar org.semanticweb.owl.owlapi.jar
+

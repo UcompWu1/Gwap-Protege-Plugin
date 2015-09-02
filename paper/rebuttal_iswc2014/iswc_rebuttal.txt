@@ -1,0 +1,116 @@
+% max 500 words
+% focus on factual errors in reviews or any questions posed. be concise.
+
+First of all, thank you very much for providing detailed reviews and a lot of helpful feedback.
+
+-----------------------------
+
+R1: "[..] employing crowd sourcing in larger projects with larger ontologies appears to be unfeasible, as deadlines have to be met and milestones have to be reached at specific points in time. 
+[..] discuss if uComp will scale to large ontologies with >10.000 concepts."
+
+We believe in a large ontology project (*) waiting a few hours for the results from crowdsourcing is feasible, especially if a crowdsourcing job is started at the end of a business day,
+and results are available the next morning. The uComp plugin allows to conveniently verify parts of the ontology (subtrees) in parallel -- as selected by the user, 
+so we expect no issues with scalability for large ontologies.
+
+* @Marta: do you have any idea how long a typical "large" ontology construction project will take, but I'd guess it will be in the range of weeks or rather months?!
+* @Marta: but the question for large ontologies is interesting -- what would happen if a user verifies a 10.000 concept ontology --> would the crowdworker get a job with 10.000 units??
+  --> I think Michaels API should transparently split >100 (200?) unit jobs into chunks and re-assemble the results? What do you think?
+
+
+----------------------------
+R2: "Who were the ontology engineers?  i.e. what were their backgrounds?  What kinds of ontologies had they worked on?  How comfortable were they with the use ontologies (OWL?) and Protege?  What was their level of expertise?"
+
+4 of the evaluators were experienced Protege users, 4 evaluators work in the SW area but have very limited knowledge of Protege.
+The inexperienced users had a very short (5min) introduction on using Protege itself, all were given these task instructions:
+https://aic.ai.wu.ac.at/~wohlg/uComp_plugin_data/uCompProtegePluginExperiment_Instructions.pdf
+The task completion times between experienced and novice users were comparable.
+
+
+R2: "What was the rationale for splitting the group of ontology engineers up like you did?  At this point in the paper I'm confused as to what the motivation for this splitting is.  Some kind of high level road-map of the experiments would help here.  Why did all 8 ontology engineers complete Setting 1, but only 4 complete Setting 2?  Actually, it's not clear that any ontology engineers needed to complete Setting 2 for the main results of the paper to be established."
+
+@Marta: the reviewer is right about this -- what should we argue?
+
+
+R2: "Can you clarify when the HC task is considered complete? [..] It obviously has an impact on cost."
+
+A job is complete when for all tasks 5 judgments (per task) from crowdworkers have been collected.
+@Marta: We should explain this in "Evaluation setup"?!
+
+
+R2: "In terms of the data used for the evaluation, you don't explain why you chose data generated from the algorithm presented in [23]."  
+
+The ontology learning system presented in [23] automatically generates OWL-ontologies which have the features needed for this evaluation (ie. they contain relevant as well as non-relevant classes,
+and also valid and invalid subClassOf relations). 
+
+
+R2: "What were the alternatives and why did you choose this data?  Why the domains of climate change and finance?"
+
+@Marta: not sure what to say about the domain.
+Maybe: The domains were chosen as the ones the evaluators have most domain knowledge in.
+
+
+R2: "These may seem like basic questions but you should at least provide some details for the choice in data and set up.  It's my impression that changing the domain could have a big effect on the results of this experiment.  In the most obvious case, a more complex domain requiring specialist knowledge might not fare so well for crowd workers.  Can you at least provide some comments about this? "
+
+@Marta: Guess it's better if you answer this.
+Maybe: Noy et al. [9] show that for general purpose ontologies crowdworkers perform comparable to undergraduate students. In complex domains careful worker selection is necessary -- and accuracy is lower.
+
+
+R2: "One question that I have, and this is ultimately due to the way the results are presented in Section 4.4, is, is the experiment design meaningful and interesting?  For the question of time spent ontology engineering task, I'm not sure it is.  It seems pretty obvious that if you let someone farm this work out to others (by pushing a button) then this is going to be a fraction of the time that it takes them to look over the whole ontology.  I don't think you need to go into details about the time take for the ontology engineers in Setting 2 (just assume it's negligible).  It's not interesting, is a distraction and it just draws the reader away from the main goal, which is to answer the question: How much does it cost for an expert to verify an ontology vs how much does it cost for the crowd to verify the ontology.  Time is just a proxy for this estimation."
+
+@Marta: He might have a point here, but I think we should definitely keep the table with the timings .. as I think it IS interesting and not self-evident.
+
+
+R2: "The discussion and analysis of Data Quality is brief.  While the results are for agreement and disagreement are summarized in a fairly clear way, there is not detailed analysis of what the results really mean. I'd be interested in knowing why the authors think that in general the crowd had more agreement than experts.  Is this typical for this kind of task?  Overall, given the narrow scope, and lack of details it's hard to see whether these results are just specific to this particular experiment or whether they might be generalizable.  Again, some comments of this would have been appreciated."
+
+We think the crowd provides higher levels of agreement because we use the majority vote result of 5 judgments on each task, which tends to results in a majority view  -- as compared to single judgments made by domain experts.
+
+
+R2: "With regards to the assessment of plugin usability, the results don't really mean much other than that the participants felt comfortable with the plugin for the purposes of this experiment.  In itself it's good to know this, but these results shouldn't be dressed up as anything more elaborate, as they are here.  This certainly doesn't constitute a usability result.  It's surprising that the authors don't even provide the three questions in the form that they were stated.  Coupled with the fact that there are no details about the participants (expertise, background and experience for example) it's hard for the reader to actually get anything out of this."
+
+@Marta: maybe we should make this more clear in the paper?
+
+
+R2: "With regards to the experimental setup and analysis, what really stands out is that you've not discussed any difference or similarities between the two ontologies that you used.  There is absolutely no analysis here.  Why not?  Why present, or use two ontologies in the experiments, and then completely neglect this in the writeup and analysis?"
+
+@Marta: not sure what analysis he expects. Something like (avg) percentage of relevant concepts / subClass-relations per ontology (acc the majority opinion)? -- We could add that to Table 4.2.
+
+
+R2: "The last major issue to point out is that the ontologies used for the evaluation are not published online for 3rd parties to download and examine.  Similarly, the actual results of the evaluation are not published for 3rd parties to scrutinise and verify."
+
+The ontologies are now available at https://aic.ai.wu.ac.at/~wohlg/uComp_plugin_data/.
+The evaluation results (judgments by evaluators and crowdflower) available at https://aic.ai.wu.ac.at/~wohlg/uComp_plugin_data/results/.
+
+
+R2: "Minor Comments:
+- In Section 2, can you be more clear as to what the differences between T1 and T3 are.  They seem quite similar.
+- Section 3.1, "Domain and Range restrictions".  Should be "domain and range axioms".
+- Can you explain why you focused on tasks T4 and T2 rather than the other tasks?
+- In Section 4 you have a rather nice first paragraph that provides some motivation for crowd sourcing.  Why don't you put this up front in the introduction.  I think that verification of automatically constructed ontologies is probably a good use of these crowd sourcing tasks and you should be clear about this from the start.
+- The BioOntology community are used to developing ontologies collaboratively.  You should probably mention their techniques in the introduction (as well as WebProtege and GATE Teamware).
+- In Table 2, what are "unnamed relations".  It would be better to use standard Semantic Web terminology here.  "Relations" -> "Properties" (if this is what you mean).  "IsA Relations" -> SubClass Axioms."
+
+--> Gerhard: minor comments: not yet addressed
+
+--------------------------------------------------------------------------------------------------
+
+R3: "The main weakness of this section is that the early tasks of stage 1 (identifying new, relevant terms) seem to be silently ignored in the rest of the paper and do not come back in tasks T1-T4."
+
+The plugin is currently designed to verify existing ontologies, but not to extend the ontology with new terms/concepts and position them with regards to existing concepts. 
+This would require some very different crowdsourcing tasks.
+
+
+R3: "Unfortunately, after reading the paper I felt that I had learned very little about the "embeddedness" of the HC in the workflow. How hard was it for the experts to execute the six stages depicted in Figure 1? Where do they spend the most time? E.g. on the task specification (1) or on analysis? How much training does this require? Do you need to be an ont. engineer for each task?  A breakdown of table 3 and 4 in terms of the stages of figure 1 would help a lot."
+
+@Marta: Not sure what to say here.
+
+
+R3: "On the quality analysis, I did not get a feel on how much the experts agreed with the crowd.  Do they agree more or less with the crowd than with each other?"
+
+In our experiments, experts agree more with the crowd than each other. We attribute this to the fact that the crowd represents a majority opinion (see above).
+
+
+R3: "For the usability: why did you not use a standard SUS questionnaire? For better assessment of the usability, it would help if the tasks and training material would be made available on line."
+
+@Marta: Have you ever heard about "SUS questionnaire"?
+
+

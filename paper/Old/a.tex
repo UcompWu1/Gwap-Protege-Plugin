@@ -1,0 +1,33 @@
+\section{Ontology Engineering Scenarios - Ontology Learning - MS}
+ (1 or both of the following)
+OL - Gerhard work on automatic OL from text \& other sources
+
+OR - using the Watson plugin
+
+TBD: Relate to the "Embedded HC paradigm" => other approaches that enhance algorithms are CrowdMap and ZenCrowd
+
+
+% <added by gerhard: 2014-05-07 17:00>
+Ontology construction from scratch is cumbersome and expensive (add citation?). Ontology learning supports the ontology
+building process by providing an automatically generated starting point. As automatically generated ontologies
+typically contain questionable or wrong ontological elements, a phase of redesign (especially pruning) is necessary.
+
+In the ontology engineering scenario in this paper we aim to simplify the phase of pruning an ontology of concepts (classes)
+not relevant to the domain, as well as of IS-A relations that are not valid. The uComp Protege plugin also supports other
+tasks, such as validating \emph{instanceOf} relations or checking \emph{domain/range} restrictions (see below), 
+but these are not part of the evaluation in this publication.
+
+The remainder of this section gives a brief introduction to the ontology learning system used.
+The very first version of the system was published in 2005 (\cite{liu2005}), with improvements presented for example
+in Weichselbraun et al.~\cite{weichselbraun2010dke} or Wohlgenannt et al.~\cite{wohlgenannt2012}. 
+The system is geared towards learning lightweight domain ontologies from heterogeneous sources 
+(text, social media, structured data). As we are learning domain ontologies in periodic intervals (monthly) from scratch, 
+there is a focus on ontology evolution experiments, too.
+In a nutshell, the process is as follows: The ontology learning framework starts from a small seed ontology 
+(typically just a few concepts and relations), and extends this seed ontology with additional concepts and relations. 
+Evidence for new concepts and relations is collected from heterogeneous evidence sources 
+with methods such as co-occurrence analysis or Hearst patterns.
+The neural network technique of spreading activation is the main algorithm used to determine the most important new concepts
+from the plethora of evidence. After positioning the new concepts in the ontology, the extended ontology serves as
+new seed ontology, and another round of extension is initiated. The system currently stops after three extension iterations.
+% </added by gerhard: 2014-05-07 17:00>

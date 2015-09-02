@@ -1,0 +1,155 @@
+\begin{thebibliography}{10}
+
+\bibitem{Bontcheva2013}
+K.~Bontcheva, H.~Cunningham, I.~Roberts, A.~Roberts, V.~Tablan, N.~Aswani, and
+  G.. Gorrell.
+\newblock {GATE Teamware: A Web-based, Collaborative Text Annotation
+  Framework}.
+\newblock {\em Lang. Resour. Eval.}, 47(4):1007--1029, December 2013.
+
+\bibitem{Bontcheva2014}
+K.~Bontcheva, I.~Roberts, L.~Derczynski, and D.~Rout.
+\newblock {The GATE Crowdsourcing Plugin: Crowdsourcing Annotated Corpora Made
+  Easy}.
+\newblock In {\em Proc. of the 14th Conference of the European Chapter of the
+  Association for Computational Linguistics (EACL)}. ACL, 2014.
+
+\bibitem{Demartini2012}
+G.~Demartini, D.~E. Difallah, and P.~Cudr{\'e}-Mauroux.
+\newblock {ZenCrowd: Leveraging Probabilistic Reasoning and Crowdsourcing
+  Techniques for Large-scale Entity Linking}.
+\newblock In {\em Proceedings of the 21st International Conference on World
+  Wide Web}, pages 469--478. ACM, 2012.
+
+\bibitem{Eckert2010}
+K.~Eckert, M.~Niepert, C.~Niemann, C.~Buckner, C.~Allen, and H.~Stuckenschmidt.
+\newblock {Crowdsourcing the Assembly of Concept Hierarchies}.
+\newblock In {\em Proc. of the 10th Annual Joint Conference on Digital
+  Libraries}, JCDL '10, pages 139--148. ACM, 2010.
+
+\bibitem{Kittur2008}
+A.~Kittur, E.~H. Chi, and B.~Suh.
+\newblock {Crowdsourcing User Studies with Mechanical Turk}.
+\newblock In {\em Proc. of the 26th Conference on Human Factors in Computing
+  Systems}, pages 453--456, 2008.
+
+\bibitem{landis1977}
+JR. Landis and GG. Koch.
+\newblock {The measurement of observer agreement for categorical data}.
+\newblock {\em Biometrics}, 33(1):159--174, 1977.
+
+\bibitem{Laws2011}
+F.~Laws, C.~Scheible, and H.~Sch\"{u}tze.
+\newblock {Active Learning with Amazon Mechanical Turk}.
+\newblock In {\em Proc. of the Conf. on Empirical Methods in NLP}, pages
+  1546--1556, 2011.
+
+\bibitem{Markotschi2010}
+T.~Markotschi and J.~V{\"o}lker.
+\newblock {Guess What?! Human Intelligence for Mining Linked Data}.
+\newblock In {\em Proc. of the Workshop on Knowledge Injection into and
+  Extraction from Linked Data at the International Conference on Knowledge
+  Engineering and Knowledge Management (EKAW-2010)}, 2010.
+
+\bibitem{Noy2013}
+N.~F. Noy, J.~Mortensen, M.~A. Musen, and P.~R. Alexander.
+\newblock {Mechanical Turk As an Ontology Engineer?: Using Microtasks As a
+  Component of an Ontology-engineering Workflow}.
+\newblock In {\em Proceedings of the 5th Annual ACM Web Science Conference},
+  WebSci '13, pages 262--271. ACM, 2013.
+
+\bibitem{Poesio2012}
+M.~Poesio, U.~Kruschwitz, J.~Chamberlain, L.~Robaldo, and L.~Ducceschi.
+\newblock {Phrase Detectives: Utilizing Collective Intelligence for
+  Internet-Scale Language Resource Creation}.
+\newblock {\em Transactions on Interactive Intelligent Systems}, 3(1):1--44,
+  April 2013.
+
+\bibitem{Quinn2011}
+A.~J. Quinn and B.~B. Bederson.
+\newblock {Human Computation: A Survey and Taxonomy of a Growing Field}.
+\newblock In {\em Proc. of Human Factors in Computing Systems}, pages
+  1403--1412, 2011.
+
+\bibitem{Sabou_Bontcheva_Scharl_2012}
+M.~Sabou, K.~Bontcheva, and A.~Scharl.
+\newblock {Crowdsourcing Research Opportunities: Lessons from Natural Language
+  Processing}.
+\newblock In {\em Proc. of the 12th International Conference on Knowledge
+  Management and Knowledge Technologies (iKNOW), Special Track on Research
+  2.0}, 2012.
+
+\bibitem{Sabou2013a}
+M.~Sabou, K.~Bontcheva, A.~Scharl, and M.~F\"{o}ls.
+\newblock {Games with a Purpose or Mechanised Labour?: A Comparative Study}.
+\newblock In {\em Proc. of the 13th International Conference on Knowledge
+  Management and Knowledge Technologies}, i-Know '13, pages 1--8. ACM, 2013.
+
+\bibitem{Sabou2013}
+Marta Sabou, Arno Scharl, and Michael F\"{o}ls.
+\newblock {Crowdsourced Knowledge Acquisition: Towards Hybrid-genre Workflows}.
+\newblock {\em International Journal of Semantic Web and Information Systems},
+  9(3):14--41, 2013.
+
+\bibitem{Sarasua2012}
+C.~Sarasua, E.~Simperl, and N.~F. Noy.
+\newblock {CrowdMap: Crowdsourcing Ontology Alignment with Microtasks}.
+\newblock In {\em Proceedings of the 11th International Conference on The
+  Semantic Web - Volume Part I}, ISWC'12, pages 525--541. Springer-Verlag,
+  2012.
+
+\bibitem{Scharl2012a}
+A.~Scharl, M.~Sabou, and M.~F\"{o}ls.
+\newblock {Climate Quiz: a Web Application for Eliciting and Validating
+  Knowledge from Social Networks}.
+\newblock In {\em Proceedings of the 18th Brazilian symposium on Multimedia and
+  the web}, WebMedia '12, pages 189--192. ACM, 2012.
+
+\bibitem{Siorpaes2008}
+K.~Siorpaes and M.~Hepp.
+\newblock {Games with a Purpose for the Semantic Web}.
+\newblock {\em Intelligent Systems, IEEE}, 23(3):50 --60, 2008.
+
+\bibitem{Thaler2011a}
+S.~Thaler, E.~Simperl, and K.~Siorpaes.
+\newblock {SpotTheLink: Playful Alignment of Ontologies}.
+\newblock In {\em Proceedings of the 2011 ACM Symposium on Applied Computing},
+  pages 1711--1712. ACM, 2011.
+
+\bibitem{Thaler2012}
+S.~Thaler, E.~Simperl, and S.~W{\"o}lger.
+\newblock {An Experiment in Comparing Human-Computation Techniques}.
+\newblock {\em IEEE Internet Computing}, 16(5):52--58, 2012.
+
+\bibitem{Tudorache2013}
+Tania Tudorache, Csongor Nyulas, Natalya~F. Noy, and Mark~A. Musen.
+\newblock {WebProtege: A Collaborative Ontology Editor and Knowledge
+  Acquisition Tool for the Web}.
+\newblock {\em Semant. Web J.}, 4(1):89--99, January 2013.
+
+\bibitem{vonAhn2008}
+L.~von Ahn and L.~Dabbish.
+\newblock Designing games with a purpose.
+\newblock {\em Commun. ACM}, 51(8):58--67, 2008.
+
+\bibitem{Waitelonis2011}
+J.~Waitelonis, N.~Ludwig, M.~Knuth, and H.~Sack.
+\newblock {WhoKnows? Evaluating Linked Data Heuristics with a Quiz that Cleans
+  Up DBpedia}.
+\newblock {\em Interact. Techn. Smart Edu.}, 8(4):236--248, 2011.
+
+\bibitem{wohlgenannt2012}
+G.~Wohlgenannt, A.~Weichselbraun, A.~Scharl, and M.~Sabou.
+\newblock {Dynamic Integration of Multiple Evidence Sources for Ontology
+  Learning}.
+\newblock {\em Journal of Information and Data Management}, 3(3):243--254,
+  2012.
+
+\bibitem{Wolf2011}
+L.~Wolf, M.~Knuth, J.~Osterhoff, and H.~Sack.
+\newblock {RISQ! Renowned Individuals Semantic Quiz - a Jeopardy like Quiz Game
+  for Ranking Facts}.
+\newblock In {\em Proc. of the 7th International Conference on Semantic
+  Systems}, I-Semantics '11, pages 71--78. ACM, 2011.
+
+\end{thebibliography}

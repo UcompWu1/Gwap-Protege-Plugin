@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{Human Computation}{4}{0}{2}
+\beamer@sectionintoc {3}{The Crowdsourcing Workflow}{7}{0}{3}
+\beamer@sectionintoc {4}{The Prot\'eg\'e Plugin}{10}{0}{4}
+\beamer@sectionintoc {5}{Evaluation}{17}{0}{5}
+\beamer@sectionintoc {6}{Conclusions}{26}{0}{6}

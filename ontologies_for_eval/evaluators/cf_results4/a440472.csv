@@ -1,0 +1,653 @@
+_unit_id,_golden,_canary,_unit_state,_trusted_judgments,_last_judgment_at,task,task:confidence,what_is_the_last_letter_of_the_current_concept,answer1,answer2,answer3,orig_task,task_gold,what_is_the_last_letter_of_the_current_concept_gold
+461517126,true,false,golden,41,"",2,0.9611,"g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g",Yes,No,I don't know,Is the concept Thing relevant for the domain Climate Change?,2,g
+461517127,true,false,golden,41,"",1,1.0,"n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept mitigation relevant for the domain Climate Change?,1,n
+461517128,false,false,finalized,5,5/12/2014 09:47:25,2,0.5968,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept reduction relevant for the domain Climate Change?,,
+461517129,false,false,finalized,5,5/12/2014 10:02:57,2,0.7809,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept rain relevant for the domain Climate Change?,,
+461517130,false,false,finalized,5,5/12/2014 08:59:32,2,0.6,"m
+m
+m
+m
+m",Yes,No,I don't know,Is the concept storm relevant for the domain Climate Change?,,
+461517131,false,false,finalized,5,5/12/2014 09:51:37,2,1.0,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept state relevant for the domain Climate Change?,,
+461517132,false,false,finalized,5,5/12/2014 09:01:03,2,0.6038,"y
+y
+y
+y
+y",Yes,No,I don't know,Is the concept efficiency relevant for the domain Climate Change?,,
+461517133,false,false,finalized,5,5/12/2014 09:02:12,1,0.7944,"y
+y
+y
+y
+y",Yes,No,I don't know,Is the concept energy_efficiency relevant for the domain Climate Change?,,
+461517134,false,false,finalized,5,5/12/2014 09:01:03,2,0.7905,"l
+l
+l
+l
+l",Yes,No,I don't know,Is the concept soil relevant for the domain Climate Change?,,
+461517135,true,false,golden,28,"",1,1.0,"n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept pollution relevant for the domain Climate Change?,1,n
+461517136,false,false,finalized,5,5/12/2014 10:03:19,1,1.0,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept carbon_pollution relevant for the domain Climate Change?,,
+461517137,false,false,finalized,5,5/12/2014 08:55:56,1,1.0,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept air_pollution relevant for the domain Climate Change?,,
+461517138,true,false,golden,34,"",2,0.848,"e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+f
+e
+e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept science relevant for the domain Climate Change?,2,e
+461517139,true,false,golden,23,"",1,0.9655,"e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept climate_science relevant for the domain Climate Change?,1,e
+461517140,false,false,finalized,5,5/12/2014 08:48:51,2,0.7925,"y
+y
+y
+y
+y",Yes,No,I don't know,Is the concept study relevant for the domain Climate Change?,,
+461517141,false,false,finalized,5,5/12/2014 08:57:28,2,1.0,"t
+t
+t
+t
+t",Yes,No,I don't know,Is the concept report relevant for the domain Climate Change?,,
+461517142,false,false,finalized,5,5/12/2014 09:04:18,1,0.6038,"r
+r
+r
+r
+r",Yes,No,I don't know,Is the concept winter relevant for the domain Climate Change?,,
+461517143,false,false,finalized,5,5/12/2014 10:03:19,1,1.0,"g
+G
+G
+G
+g",Yes,No,I don't know,Is the concept GHG relevant for the domain Climate Change?,,
+461517144,false,false,finalized,5,5/12/2014 08:18:29,2,0.7905,"t
+t
+t
+t
+t",Yes,No,I don't know,Is the concept scientist relevant for the domain Climate Change?,,
+461517145,false,false,finalized,5,5/12/2014 08:15:14,1,0.8,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept climate relevant for the domain Climate Change?,,
+461517146,false,false,finalized,5,5/12/2014 08:59:32,1,0.6038,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept conservation relevant for the domain Climate Change?,,
+461517147,false,false,finalized,5,5/12/2014 16:17:23,2,1.0,"f
+f
+f
+f
+f",Yes,No,I don't know,Is the concept reef relevant for the domain Climate Change?,,
+461517148,false,false,finalized,5,5/12/2014 09:46:54,1,0.5661,"a
+a
+a
+a
+a",Yes,No,I don't know,Is the concept sea relevant for the domain Climate Change?,,
+461517149,false,false,finalized,5,5/12/2014 08:19:47,1,0.8095,"r
+r
+r
+r
+r",Yes,No,I don't know,Is the concept water relevant for the domain Climate Change?,,
+461517150,false,false,finalized,5,5/12/2014 08:10:39,1,0.6095,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept waste relevant for the domain Climate Change?,,
+461517151,false,false,finalized,5,5/12/2014 09:00:35,2,0.7944,"r
+r
+r
+r
+r",Yes,No,I don't know,Is the concept river relevant for the domain Climate Change?,,
+461517152,false,false,finalized,5,5/12/2014 09:47:25,2,0.5929,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept ocean relevant for the domain Climate Change?,,
+461517153,false,false,finalized,5,5/12/2014 08:57:28,2,0.6368,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept carbon relevant for the domain Climate Change?,,
+461517154,false,false,finalized,5,5/12/2014 08:21:38,1,0.6095,"l
+l
+l
+l
+l",Yes,No,I don't know,Is the concept coal relevant for the domain Climate Change?,,
+461517155,false,false,finalized,5,5/12/2014 09:47:25,1,0.6144,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept climatechange relevant for the domain Climate Change?,,
+461517156,false,false,finalized,5,5/12/2014 08:12:10,2,1.0,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept brain relevant for the domain Climate Change?,,
+461517157,false,false,finalized,5,5/12/2014 08:58:01,2,0.8095,"x
+x
+x
+x
+x",Yes,No,I don't know,Is the concept vortex relevant for the domain Climate Change?,,
+461517158,false,false,finalized,5,5/12/2014 09:47:22,1,0.7809,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept temperature relevant for the domain Climate Change?,,
+461517159,false,false,finalized,5,5/12/2014 09:46:54,2,0.563,"l
+l
+l
+l
+l",Yes,No,I don't know,Is the concept oil relevant for the domain Climate Change?,,
+461517160,false,false,finalized,5,5/12/2014 09:02:39,2,1.0,"r
+r
+r
+r
+r",Yes,No,I don't know,Is the concept tar relevant for the domain Climate Change?,,
+461517161,false,false,finalized,5,5/12/2014 09:03:40,2,0.5888,"t
+t
+t
+t
+t",Yes,No,I don't know,Is the concept heat relevant for the domain Climate Change?,,
+461517162,false,false,finalized,5,5/12/2014 09:03:11,2,1.0,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept fusion relevant for the domain Climate Change?,,
+461517163,false,false,finalized,5,5/12/2014 08:20:36,1,0.8095,"g
+g
+g
+g
+g",Yes,No,I don't know,Is the concept heating relevant for the domain Climate Change?,,
+461517164,false,false,finalized,5,5/12/2014 09:51:03,2,0.6044,"l
+l
+l
+l
+l",Yes,No,I don't know,Is the concept spill relevant for the domain Climate Change?,,
+461517165,false,false,finalized,5,5/12/2014 10:03:32,1,0.5765,"t
+t
+t
+t
+t",Yes,No,I don't know,Is the concept impact relevant for the domain Climate Change?,,
+461517166,false,false,finalized,5,5/12/2014 09:47:25,1,0.8118,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept greenhouse relevant for the domain Climate Change?,,
+461517167,false,false,finalized,5,5/12/2014 09:02:39,2,1.0,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept surface relevant for the domain Climate Change?,,
+461517168,false,false,finalized,5,5/12/2014 08:55:56,1,1.0,"g
+g
+g
+g
+g",Yes,No,I don't know,Is the concept warming relevant for the domain Climate Change?,,
+461517169,false,false,finalized,5,5/12/2014 08:22:14,1,0.8,"r
+r
+r
+r
+r",Yes,No,I don't know,Is the concept weather relevant for the domain Climate Change?,,
+461517170,false,false,finalized,5,5/12/2014 09:50:14,2,0.7908,"w
+w
+w
+w
+w",Yes,No,I don't know,Is the concept snow relevant for the domain Climate Change?,,
+461517171,false,false,finalized,5,5/12/2014 09:46:45,1,0.5911,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept atmosphere relevant for the domain Climate Change?,,
+461517172,false,false,finalized,5,5/12/2014 09:46:45,2,0.5894,"r
+r
+r
+r
+r",Yes,No,I don't know,Is the concept air relevant for the domain Climate Change?,,
+461517173,false,false,finalized,5,5/12/2014 09:50:14,2,0.6334,"d
+d
+d
+d
+d",Yes,No,I don't know,Is the concept wind relevant for the domain Climate Change?,,
+461517174,false,false,finalized,5,5/12/2014 09:48:05,2,0.6006,"s
+s
+s
+s
+s",Yes,No,I don't know,Is the concept gas relevant for the domain Climate Change?,,
+461517175,false,false,finalized,5,5/12/2014 08:22:52,1,1.0,"s
+s
+s
+s
+s",Yes,No,I don't know,Is the concept greenhouse_gas relevant for the domain Climate Change?,,
+461517176,false,false,finalized,5,5/12/2014 09:51:03,1,0.6026,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept carbon_dioxide relevant for the domain Climate Change?,,
+461517177,false,false,finalized,5,5/12/2014 09:49:50,1,0.6028,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept hydrogen relevant for the domain Climate Change?,,
+461517178,false,false,finalized,5,5/12/2014 08:25:10,1,1.0,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept methane relevant for the domain Climate Change?,,
+461517179,false,false,finalized,5,5/12/2014 09:50:14,1,0.8061,"l
+l
+l
+l
+l",Yes,No,I don't know,Is the concept fossil_fuel relevant for the domain Climate Change?,,
+461517180,false,false,finalized,5,5/12/2014 08:56:40,2,0.7925,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept action relevant for the domain Climate Change?,,
+461517181,false,false,finalized,5,5/12/2014 09:49:23,2,0.7908,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept extraction relevant for the domain Climate Change?,,
+461517182,false,false,finalized,5,5/12/2014 08:17:53,1,0.8,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept emission relevant for the domain Climate Change?,,
+461517183,false,false,finalized,5,5/12/2014 09:03:40,2,1.0,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept source relevant for the domain Climate Change?,,
+461517184,false,false,finalized,5,5/12/2014 09:05:18,2,0.8095,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept production relevant for the domain Climate Change?,,
+461517185,false,false,finalized,5,5/12/2014 09:50:14,1,0.6181,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept ice relevant for the domain Climate Change?,,
+461517186,false,false,finalized,5,5/12/2014 10:03:19,1,0.5883,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept sea_ice relevant for the domain Climate Change?,,
+461517187,false,false,finalized,5,5/12/2014 09:47:59,1,1.0,"g
+g
+g
+g
+g",Yes,No,I don't know,Is the concept global_warming relevant for the domain Climate Change?,,
+461517188,false,false,finalized,5,5/12/2014 08:25:10,1,1.0,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept climate_change relevant for the domain Climate Change?,,
+461517189,false,false,finalized,5,5/12/2014 09:05:18,1,0.6,"y
+y
+y
+y
+y",Yes,No,I don't know,Is the concept energy relevant for the domain Climate Change?,,
+461517190,false,false,finalized,5,5/12/2014 08:13:48,1,0.6095,"y
+y
+y
+y
+y",Yes,No,I don't know,Is the concept electricity relevant for the domain Climate Change?,,
+461517191,false,false,finalized,5,5/12/2014 08:58:01,2,0.7944,"t
+t
+t
+t
+t",Yes,No,I don't know,Is the concept coast relevant for the domain Climate Change?,,
+461517192,false,false,finalized,5,5/12/2014 09:46:45,1,0.7908,"2
+2
+2
+2
+2",Yes,No,I don't know,Is the concept CO2 relevant for the domain Climate Change?,,
+461517193,false,false,finalized,5,5/12/2014 09:47:22,1,0.6275,"l
+l
+l
+l
+l",Yes,No,I don't know,Is the concept fuel relevant for the domain Climate Change?,,
+461517194,false,false,finalized,5,5/12/2014 08:16:34,1,0.6095,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept fire relevant for the domain Climate Change?,,
+461517195,false,false,finalized,5,5/12/2014 08:48:51,1,0.6,"g
+g
+g
+g
+g",Yes,No,I don't know,Is the concept burning relevant for the domain Climate Change?,,
+461517196,false,false,finalized,5,5/12/2014 09:04:18,2,0.6038,"l
+l
+l
+l
+l",Yes,No,I don't know,Is the concept ethanol relevant for the domain Climate Change?,,
+461517197,false,false,finalized,5,5/12/2014 10:03:19,1,0.5907,"t
+t
+t
+t
+t",Yes,No,I don't know,Is the concept drought relevant for the domain Climate Change?,,
+461517198,false,false,finalized,5,5/12/2014 10:02:57,1,0.5765,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept dioxide relevant for the domain Climate Change?,,
+461517199,false,false,finalized,5,5/12/2014 08:17:13,2,0.8,"x
+x
+x
+x
+x",Yes,No,I don't know,Is the concept tax relevant for the domain Climate Change?,,
+461517200,false,false,finalized,5,5/12/2014 08:17:53,1,0.6,"x
+x
+x
+x
+x",Yes,No,I don't know,Is the concept carbon_tax relevant for the domain Climate Change?,,
+461517201,false,false,finalized,5,5/12/2014 09:45:45,1,0.5717,"h
+h
+h
+h
+h",Yes,No,I don't know,Is the concept research relevant for the domain Climate Change?,,
+461517202,false,false,finalized,5,5/12/2014 09:47:59,2,1.0,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept expedition relevant for the domain Climate Change?,,
+461517203,false,false,finalized,5,5/12/2014 09:49:50,2,0.7908,"h
+h
+h
+h
+h",Yes,No,I don't know,Is the concept fish relevant for the domain Climate Change?,,
+461517204,false,false,finalized,5,5/12/2014 09:48:05,1,0.8082,"d
+d
+d
+d
+d",Yes,No,I don't know,Is the concept flood relevant for the domain Climate Change?,,
+461517205,false,false,finalized,5,5/12/2014 09:46:54,2,1.0,"e
+e
+n
+e
+e",Yes,No,I don't know,Is the concept keystone relevant for the domain Climate Change?,,
+461517207,false,false,finalized,5,5/12/2014 09:00:35,2,0.8037,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept shale relevant for the domain Climate Change?,,
+461517208,false,false,finalized,5,5/12/2014 09:02:12,1,0.8131,"C
+c
+c
+c
+C",Yes,No,I don't know,Is the concept IPCC relevant for the domain Climate Change?,,
+461517209,false,false,finalized,5,5/12/2014 08:19:47,2,0.5905,"t
+t
+t
+t
+t",Yes,No,I don't know,Is the concept target relevant for the domain Climate Change?,,
+461517210,false,false,finalized,5,5/12/2014 09:06:44,1,1.0,"y
+y
+y
+y
+y",Yes,No,I don't know,Is the concept air_quality relevant for the domain Climate Change?,,
+461517211,false,false,finalized,5,5/12/2014 09:47:59,2,1.0,"r
+r
+r
+r
+r",Yes,No,I don't know,Is the concept denier relevant for the domain Climate Change?,,
+461517212,false,false,finalized,5,5/12/2014 09:46:00,1,0.8064,"g
+g
+g
+g
+g",Yes,No,I don't know,Is the concept melting relevant for the domain Climate Change?,,
+461517213,false,false,finalized,5,5/12/2014 09:49:23,2,0.7908,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept adaptation relevant for the domain Climate Change?,,
+461517214,false,false,finalized,5,5/12/2014 09:51:37,2,1.0,"c
+c
+c
+c
+c",Yes,No,I don't know,Is the concept sceptic relevant for the domain Climate Change?,,
+461517215,false,false,finalized,5,5/12/2014 09:48:05,1,0.599,"g
+g
+g
+g
+g",Yes,No,I don't know,Is the concept flooding relevant for the domain Climate Change?,,
+461517216,false,false,finalized,5,5/12/2014 10:02:57,2,1.0,"s
+s
+s
+s
+s",Yes,No,I don't know,Is the concept consensus relevant for the domain Climate Change?,,
+461517217,false,false,finalized,5,5/12/2014 09:51:37,1,0.8082,"l
+l
+l
+l
+l",Yes,No,I don't know,Is the concept sea_level relevant for the domain Climate Change?,,
+461517218,false,false,finalized,5,5/12/2014 08:17:53,2,1.0,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept price relevant for the domain Climate Change?,,
+461517219,false,false,finalized,5,5/12/2014 09:46:45,2,0.7908,"n
+n
+n
+n
+n",Yes,No,I don't know,Is the concept mass_destruction relevant for the domain Climate Change?,,
+461517220,false,false,finalized,5,5/12/2014 10:02:57,1,1.0,"t
+t
+t
+t
+t",Yes,No,I don't know,Is the concept environment relevant for the domain Climate Change?,,
+461517221,false,false,finalized,5,5/12/2014 08:54:16,1,0.619,"g
+g
+g
+g
+g",Yes,No,I don't know,Is the concept fracking relevant for the domain Climate Change?,,
+461517222,false,false,finalized,5,5/12/2014 08:19:08,1,0.8095,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept level_rise relevant for the domain Climate Change?,,
+461517223,false,false,finalized,5,5/12/2014 09:47:22,1,1.0,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept sea_level_rise relevant for the domain Climate Change?,,
+461517224,false,false,finalized,5,5/12/2014 08:56:40,2,1.0,"e
+e
+e
+e
+e",Yes,No,I don't know,Is the concept pipeline relevant for the domain Climate Change?,,
+461517225,false,false,finalized,5,5/12/2014 08:15:56,2,0.7905,"k
+k
+k
+k
+k",Yes,No,I don't know,Is the concept risk relevant for the domain Climate Change?,,
+461517226,false,false,finalized,5,5/12/2014 08:17:13,2,1.0,"t
+t
+t
+t
+t",Yes,No,I don't know,Is the concept project relevant for the domain Climate Change?,,
+461517227,false,false,finalized,5,5/12/2014 09:49:50,2,0.5816,"l
+l
+l
+l
+l",Yes,No,I don't know,Is the concept fossil relevant for the domain Climate Change?,,
+461517228,false,false,finalized,5,5/12/2014 09:04:18,2,0.6075,"g
+g
+g
+g
+g",Yes,No,I don't know,Is the concept drilling relevant for the domain Climate Change?,,

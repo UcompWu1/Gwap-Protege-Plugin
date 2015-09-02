@@ -1,0 +1,11 @@
+INDEX of cf_result: 1
+
+
+different opinion company 5 3 ['false', 'false', 'true', 'true', 'true', 'true', 'false', 'true']
+different opinion governor 5 3 ['false', 'true', 'true', 'false', 'false', 'false', 'false', 'true']
+different opinion level 7 1 ['false', 'true', 'false', 'false', 'false', 'false', 'false', 'false']
+different opinion outlook 5 3 ['false', 'true', 'false', 'true', 'false', 'false', 'false', 'true']
+different opinion product 5 3 ['false', 'false', 'true', 'true', 'false', 'true', 'true', 'true']
+different opinion sector 5 3 ['false', 'true', 'false', 'false', 'false', 'true', 'false', 'true']
+different opinion state 5 3 ['false', 'true', 'true', 'false', 'false', 'false', 'false', 'true']
+different opinion world 5 3 ['false', 'true', 'true', 'false', 'false', 'false', 'false', 'true']

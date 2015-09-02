@@ -1,0 +1,11 @@
+1. Class Relevance Check Task
+Start:15.41 End:16.12
+
+2. SubClass Check task
+Start:16.13 End:16.28
+
+3. Class Relevance Check Task (Euro Domain)
+Start:16.30 End:16.38
+
+4. SubClass Check task (Euro Domain)
+Start:16.40 End:16:49

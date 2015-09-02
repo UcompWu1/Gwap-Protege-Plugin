@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="gwap validation enhanced:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/gwap_validation_enhanced_jar</output-path>
+    <root id="root">
+      <element id="archive" name="gwap validation enhanced.jar">
+        <element id="module-output" name="gwap validation enhanced" />
+      </element>
+      <element id="library" level="project" name="lib" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,1459 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY onto "http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered&#37;2F3/3#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/owl/owlapi/turtle#"
+     xml:base="http://www.semanticweb.org/owl/owlapi/turtle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:onto="http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3">
+        <dc:title>NEW_DOMAIN_EURO_2unfiltered%2F3/3</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#uComp_class_relevance -->
+
+    <owl:AnnotationProperty rdf:about="&onto;uComp_class_relevance"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_1 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_1">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.039</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;euro"/>
+        <rdfs:domain rdf:resource="&onto;unemployment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_10 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_10">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.043</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;world"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_11 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_11">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.052</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;economy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_12 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_12">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.059</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;climate"/>
+        <rdfs:range rdf:resource="&onto;euro"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_13 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_13">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.032</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;eurozone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_14 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_14">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.046</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;debt"/>
+        <rdfs:range rdf:resource="&onto;euro"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_15 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_15">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.066</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;euro"/>
+        <rdfs:domain rdf:resource="&onto;growth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_16 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_16">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.040</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;euro"/>
+        <rdfs:domain rdf:resource="&onto;recovery"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_17 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_17">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.033</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;deflation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_18 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_18">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.024</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;business"/>
+        <rdfs:domain rdf:resource="&onto;company"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_19 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_19">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.013</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;stimulus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_2 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_2">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.042</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;demand"/>
+        <rdfs:range rdf:resource="&onto;euro"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_20 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_20">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.016</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;market"/>
+        <rdfs:domain rdf:resource="&onto;product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_21 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_21">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.017</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;recession"/>
+        <rdfs:range rdf:resource="&onto;recovery"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_22 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_22">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.020</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;housing"/>
+        <rdfs:range rdf:resource="&onto;recovery"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_23 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_23">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.023</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;demand"/>
+        <rdfs:domain rdf:resource="&onto;oil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_24 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_24">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.015</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;governor"/>
+        <rdfs:range rdf:resource="&onto;recovery"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_25 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_25">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.018</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;price"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_26 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_26">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.011</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;ECB"/>
+        <rdfs:range rdf:resource="&onto;euro"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_27 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_27">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.008</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;asset"/>
+        <rdfs:range rdf:resource="&onto;policy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_28 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_28">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.012</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;outlook"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_29 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_29">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.007</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;euro"/>
+        <rdfs:domain rdf:resource="&onto;originalrequesturl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_3 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_3">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.037</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;yen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_4 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_4">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.038</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;lira"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_5 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_5">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.053</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;crisis"/>
+        <rdfs:range rdf:resource="&onto;currency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_6 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_6">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.047</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;banking"/>
+        <rdfs:range rdf:resource="&onto;currency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_7 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_7">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.035</rdfs:comment>
+        <rdfs:domain rdf:resource="&onto;country"/>
+        <rdfs:range rdf:resource="&onto;currency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_8 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_8">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.049</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;policy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#relation_9 -->
+
+    <owl:ObjectProperty rdf:about="&onto;relation_9">
+        <rdfs:label>relation</rdfs:label>
+        <rdfs:comment>1.056</rdfs:comment>
+        <rdfs:range rdf:resource="&onto;currency"/>
+        <rdfs:domain rdf:resource="&onto;exchange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#ECB -->
+
+    <owl:Class rdf:about="&onto;ECB">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#asset -->
+
+    <owl:Class rdf:about="&onto;asset">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#bank -->
+
+    <owl:Class rdf:about="&onto;bank">
+        <rdfs:subClassOf rdf:resource="&onto;banking"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#banking -->
+
+    <owl:Class rdf:about="&onto;banking">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#bill -->
+
+    <owl:Class rdf:about="&onto;bill">
+        <rdfs:subClassOf rdf:resource="&onto;dollar"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#bond -->
+
+    <owl:Class rdf:about="&onto;bond">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#budget -->
+
+    <owl:Class rdf:about="&onto;budget">
+        <rdfs:subClassOf rdf:resource="&onto;money"/>
+        <rdfs:subClassOf rdf:resource="&onto;plan"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#business -->
+
+    <owl:Class rdf:about="&onto;business">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#carbon -->
+
+    <owl:Class rdf:about="&onto;carbon">
+        <rdfs:subClassOf rdf:resource="&onto;gas"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#climate -->
+
+    <owl:Class rdf:about="&onto;climate">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#company -->
+
+    <owl:Class rdf:about="&onto;company">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#consumer -->
+
+    <owl:Class rdf:about="&onto;consumer">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#cost -->
+
+    <owl:Class rdf:about="&onto;cost">
+        <rdfs:subClassOf rdf:resource="&onto;interest_rate"/>
+        <rdfs:subClassOf rdf:resource="&onto;price"/>
+        <rdfs:subClassOf rdf:resource="&onto;rate"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#country -->
+
+    <owl:Class rdf:about="&onto;country">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#credit -->
+
+    <owl:Class rdf:about="&onto;credit">
+        <rdfs:subClassOf rdf:resource="&onto;cost"/>
+        <rdfs:subClassOf rdf:resource="&onto;debt"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#crisis -->
+
+    <owl:Class rdf:about="&onto;crisis">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#currency -->
+
+    <owl:Class rdf:about="&onto;currency">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#debt -->
+
+    <owl:Class rdf:about="&onto;debt">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#deflation -->
+
+    <owl:Class rdf:about="&onto;deflation">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#demand -->
+
+    <owl:Class rdf:about="&onto;demand">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#development -->
+
+    <owl:Class rdf:about="&onto;development">
+        <rdfs:subClassOf rdf:resource="&onto;growth"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#dollar -->
+
+    <owl:Class rdf:about="&onto;dollar">
+        <rdfs:subClassOf rdf:resource="&onto;currency"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#economy -->
+
+    <owl:Class rdf:about="&onto;economy">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#education -->
+
+    <owl:Class rdf:about="&onto;education">
+        <rdfs:subClassOf rdf:resource="&onto;business"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#energy -->
+
+    <owl:Class rdf:about="&onto;energy">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#equity -->
+
+    <owl:Class rdf:about="&onto;equity">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#euro -->
+
+    <owl:Class rdf:about="&onto;euro">
+        <rdfs:subClassOf rdf:resource="&onto;currency"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#euro_zone -->
+
+    <owl:Class rdf:about="&onto;euro_zone">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#eurozone -->
+
+    <owl:Class rdf:about="&onto;eurozone">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#exchange -->
+
+    <owl:Class rdf:about="&onto;exchange">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#feedurl -->
+
+    <owl:Class rdf:about="&onto;feedurl">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#finance -->
+
+    <owl:Class rdf:about="&onto;finance">
+        <rdfs:subClassOf rdf:resource="&onto;banking"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#gas -->
+
+    <owl:Class rdf:about="&onto;gas">
+        <rdfs:subClassOf rdf:resource="&onto;cost"/>
+        <rdfs:subClassOf rdf:resource="&onto;price"/>
+        <rdfs:subClassOf rdf:resource="&onto;tax"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#government -->
+
+    <owl:Class rdf:about="&onto;government">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+        <rdfs:subClassOf rdf:resource="&onto;system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#governor -->
+
+    <owl:Class rdf:about="&onto;governor">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#growth -->
+
+    <owl:Class rdf:about="&onto;growth">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#housing -->
+
+    <owl:Class rdf:about="&onto;housing">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#income -->
+
+    <owl:Class rdf:about="&onto;income">
+        <rdfs:subClassOf rdf:resource="&onto;bank"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#industry -->
+
+    <owl:Class rdf:about="&onto;industry">
+        <rdfs:subClassOf rdf:resource="&onto;market"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#inflation -->
+
+    <owl:Class rdf:about="&onto;inflation">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#interest_rate -->
+
+    <owl:Class rdf:about="&onto;interest_rate">
+        <rdfs:subClassOf rdf:resource="&onto;rate"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#investment -->
+
+    <owl:Class rdf:about="&onto;investment">
+        <rdfs:subClassOf rdf:resource="&onto;finance"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#ion -->
+
+    <owl:Class rdf:about="&onto;ion">
+        <rdfs:subClassOf rdf:resource="&onto;bank"/>
+        <rdfs:subClassOf rdf:resource="&onto;business"/>
+        <rdfs:subClassOf rdf:resource="&onto;country"/>
+        <rdfs:subClassOf rdf:resource="&onto;crisis"/>
+        <rdfs:subClassOf rdf:resource="&onto;demand"/>
+        <rdfs:subClassOf rdf:resource="&onto;exchange"/>
+        <rdfs:subClassOf rdf:resource="&onto;finance"/>
+        <rdfs:subClassOf rdf:resource="&onto;government"/>
+        <rdfs:subClassOf rdf:resource="&onto;growth"/>
+        <rdfs:subClassOf rdf:resource="&onto;income"/>
+        <rdfs:subClassOf rdf:resource="&onto;inflation"/>
+        <rdfs:subClassOf rdf:resource="&onto;investment"/>
+        <rdfs:subClassOf rdf:resource="&onto;policy"/>
+        <rdfs:subClassOf rdf:resource="&onto;rate"/>
+        <rdfs:subClassOf rdf:resource="&onto;recovery"/>
+        <rdfs:subClassOf rdf:resource="&onto;system"/>
+        <rdfs:subClassOf rdf:resource="&onto;tax"/>
+        <rdfs:subClassOf rdf:resource="&onto;trade"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#level -->
+
+    <owl:Class rdf:about="&onto;level">
+        <rdfs:subClassOf rdf:resource="&onto;cost"/>
+        <rdfs:subClassOf rdf:resource="&onto;price"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#liquidity -->
+
+    <owl:Class rdf:about="&onto;liquidity">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#lira -->
+
+    <owl:Class rdf:about="&onto;lira">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#management -->
+
+    <owl:Class rdf:about="&onto;management">
+        <rdfs:subClassOf rdf:resource="&onto;banking"/>
+        <rdfs:subClassOf rdf:resource="&onto;finance"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#market -->
+
+    <owl:Class rdf:about="&onto;market">
+        <rdfs:subClassOf rdf:resource="&onto;exchange"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#money -->
+
+    <owl:Class rdf:about="&onto;money">
+        <rdfs:subClassOf rdf:resource="&onto;currency"/>
+        <rdfs:subClassOf rdf:resource="&onto;income"/>
+        <rdfs:subClassOf rdf:resource="&onto;investment"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#oil -->
+
+    <owl:Class rdf:about="&onto;oil">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#originalrequesturl -->
+
+    <owl:Class rdf:about="&onto;originalrequesturl">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#outlook -->
+
+    <owl:Class rdf:about="&onto;outlook">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#plan -->
+
+    <owl:Class rdf:about="&onto;plan">
+        <rdfs:subClassOf rdf:resource="&onto;policy"/>
+        <rdfs:subClassOf rdf:resource="&onto;system"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#policy -->
+
+    <owl:Class rdf:about="&onto;policy">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#population -->
+
+    <owl:Class rdf:about="&onto;population">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#poverty -->
+
+    <owl:Class rdf:about="&onto;poverty">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#price -->
+
+    <owl:Class rdf:about="&onto;price">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#product -->
+
+    <owl:Class rdf:about="&onto;product">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#rate -->
+
+    <owl:Class rdf:about="&onto;rate">
+        <rdfs:subClassOf rdf:resource="&onto;business"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#recession -->
+
+    <owl:Class rdf:about="&onto;recession">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#recovery -->
+
+    <owl:Class rdf:about="&onto;recovery">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#role -->
+
+    <owl:Class rdf:about="&onto;role">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#sector -->
+
+    <owl:Class rdf:about="&onto;sector">
+        <rdfs:subClassOf rdf:resource="&onto;business"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#spending -->
+
+    <owl:Class rdf:about="&onto;spending">
+        <rdfs:subClassOf rdf:resource="&onto;cost"/>
+        <rdfs:subClassOf rdf:resource="&onto;interest_rate"/>
+        <rdfs:subClassOf rdf:resource="&onto;price"/>
+        <rdfs:subClassOf rdf:resource="&onto;rate"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#state -->
+
+    <owl:Class rdf:about="&onto;state">
+        <rdfs:subClassOf rdf:resource="&onto;climate"/>
+        <rdfs:subClassOf rdf:resource="&onto;company"/>
+        <rdfs:subClassOf rdf:resource="&onto;country"/>
+        <rdfs:subClassOf rdf:resource="&onto;crisis"/>
+        <rdfs:subClassOf rdf:resource="&onto;debt"/>
+        <rdfs:subClassOf rdf:resource="&onto;demand"/>
+        <rdfs:subClassOf rdf:resource="&onto;economy"/>
+        <rdfs:subClassOf rdf:resource="&onto;growth"/>
+        <rdfs:subClassOf rdf:resource="&onto;liquidity"/>
+        <rdfs:subClassOf rdf:resource="&onto;recession"/>
+        <rdfs:subClassOf rdf:resource="&onto;stock"/>
+        <rdfs:subClassOf rdf:resource="&onto;unemployment"/>
+        <rdfs:subClassOf rdf:resource="&onto;world"/>
+        <rdfs:subClassOf rdf:resource="&onto;yen"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#stimulus -->
+
+    <owl:Class rdf:about="&onto;stimulus">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#stock -->
+
+    <owl:Class rdf:about="&onto;stock">
+        <rdfs:subClassOf rdf:resource="&onto;product"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#system -->
+
+    <owl:Class rdf:about="&onto;system">
+        <rdfs:subClassOf rdf:resource="&onto;economy"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#target -->
+
+    <owl:Class rdf:about="&onto;target">
+        <rdfs:subClassOf rdf:resource="&onto;business"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#tax -->
+
+    <owl:Class rdf:about="&onto;tax">
+        <rdfs:subClassOf rdf:resource="&onto;system"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#trade -->
+
+    <owl:Class rdf:about="&onto;trade">
+        <rdfs:subClassOf rdf:resource="&onto;exchange"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#trading -->
+
+    <owl:Class rdf:about="&onto;trading">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#unemployment -->
+
+    <owl:Class rdf:about="&onto;unemployment">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#water -->
+
+    <owl:Class rdf:about="&onto;water">
+        <rdfs:subClassOf rdf:resource="&onto;country"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#world -->
+
+    <owl:Class rdf:about="&onto;world">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#yen -->
+
+    <owl:Class rdf:about="&onto;yen">
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">true</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#yield -->
+
+    <owl:Class rdf:about="&onto;yield">
+        <rdfs:subClassOf rdf:resource="&onto;product"/>
+        <onto:uComp_class_relevance rdf:datatype="&xsd;boolean">false</onto:uComp_class_relevance>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#ECB -->
+
+    <owl:NamedIndividual rdf:about="&onto;ECB">
+        <onto:relation_26 rdf:resource="&onto;euro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#asset -->
+
+    <owl:NamedIndividual rdf:about="&onto;asset">
+        <onto:relation_27 rdf:resource="&onto;policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#banking -->
+
+    <owl:NamedIndividual rdf:about="&onto;banking">
+        <onto:relation_6 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#bond -->
+
+    <owl:NamedIndividual rdf:about="&onto;bond">
+        <onto:relation_19 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#business -->
+
+    <owl:NamedIndividual rdf:about="&onto;business">
+        <onto:relation_2 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#climate -->
+
+    <owl:NamedIndividual rdf:about="&onto;climate">
+        <onto:relation_12 rdf:resource="&onto;euro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#company -->
+
+    <owl:NamedIndividual rdf:about="&onto;company">
+        <onto:relation_18 rdf:resource="&onto;business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#consumer -->
+
+    <owl:NamedIndividual rdf:about="&onto;consumer">
+        <onto:relation_28 rdf:resource="&onto;inflation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#country -->
+
+    <owl:NamedIndividual rdf:about="&onto;country">
+        <onto:relation_7 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#crisis -->
+
+    <owl:NamedIndividual rdf:about="&onto;crisis">
+        <onto:relation_5 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#currency -->
+
+    <owl:NamedIndividual rdf:about="&onto;currency"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#debt -->
+
+    <owl:NamedIndividual rdf:about="&onto;debt">
+        <onto:relation_14 rdf:resource="&onto;euro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#deflation -->
+
+    <owl:NamedIndividual rdf:about="&onto;deflation">
+        <onto:relation_17 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#demand -->
+
+    <owl:NamedIndividual rdf:about="&onto;demand">
+        <onto:relation_2 rdf:resource="&onto;euro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#economy -->
+
+    <owl:NamedIndividual rdf:about="&onto;economy">
+        <onto:relation_11 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#energy -->
+
+    <owl:NamedIndividual rdf:about="&onto;energy">
+        <onto:relation_19 rdf:resource="&onto;sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#equity -->
+
+    <owl:NamedIndividual rdf:about="&onto;equity">
+        <onto:relation_29 rdf:resource="&onto;investment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#euro -->
+
+    <owl:NamedIndividual rdf:about="&onto;euro"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#euro_zone -->
+
+    <owl:NamedIndividual rdf:about="&onto;euro_zone">
+        <onto:relation_13 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#eurozone -->
+
+    <owl:NamedIndividual rdf:about="&onto;eurozone">
+        <onto:relation_13 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#exchange -->
+
+    <owl:NamedIndividual rdf:about="&onto;exchange">
+        <onto:relation_9 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#feedurl -->
+
+    <owl:NamedIndividual rdf:about="&onto;feedurl">
+        <onto:relation_29 rdf:resource="&onto;euro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#governor -->
+
+    <owl:NamedIndividual rdf:about="&onto;governor">
+        <onto:relation_24 rdf:resource="&onto;recovery"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#growth -->
+
+    <owl:NamedIndividual rdf:about="&onto;growth">
+        <onto:relation_15 rdf:resource="&onto;euro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#housing -->
+
+    <owl:NamedIndividual rdf:about="&onto;housing">
+        <onto:relation_22 rdf:resource="&onto;recovery"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#inflation -->
+
+    <owl:NamedIndividual rdf:about="&onto;inflation">
+        <onto:relation_3 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#investment -->
+
+    <owl:NamedIndividual rdf:about="&onto;investment"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#liquidity -->
+
+    <owl:NamedIndividual rdf:about="&onto;liquidity">
+        <onto:relation_19 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#lira -->
+
+    <owl:NamedIndividual rdf:about="&onto;lira">
+        <onto:relation_4 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#market -->
+
+    <owl:NamedIndividual rdf:about="&onto;market"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#oil -->
+
+    <owl:NamedIndividual rdf:about="&onto;oil">
+        <onto:relation_23 rdf:resource="&onto;demand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#originalrequesturl -->
+
+    <owl:NamedIndividual rdf:about="&onto;originalrequesturl">
+        <onto:relation_29 rdf:resource="&onto;euro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#outlook -->
+
+    <owl:NamedIndividual rdf:about="&onto;outlook">
+        <onto:relation_28 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#policy -->
+
+    <owl:NamedIndividual rdf:about="&onto;policy">
+        <onto:relation_8 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#population -->
+
+    <owl:NamedIndividual rdf:about="&onto;population">
+        <onto:relation_24 rdf:resource="&onto;growth"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#poverty -->
+
+    <owl:NamedIndividual rdf:about="&onto;poverty">
+        <onto:relation_21 rdf:resource="&onto;recession"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#price -->
+
+    <owl:NamedIndividual rdf:about="&onto;price">
+        <onto:relation_25 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#product -->
+
+    <owl:NamedIndividual rdf:about="&onto;product">
+        <onto:relation_20 rdf:resource="&onto;market"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#recession -->
+
+    <owl:NamedIndividual rdf:about="&onto;recession">
+        <onto:relation_21 rdf:resource="&onto;recovery"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#recovery -->
+
+    <owl:NamedIndividual rdf:about="&onto;recovery">
+        <onto:relation_16 rdf:resource="&onto;euro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#role -->
+
+    <owl:NamedIndividual rdf:about="&onto;role">
+        <onto:relation_27 rdf:resource="&onto;policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#sector -->
+
+    <owl:NamedIndividual rdf:about="&onto;sector"/>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#stimulus -->
+
+    <owl:NamedIndividual rdf:about="&onto;stimulus">
+        <onto:relation_19 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#trading -->
+
+    <owl:NamedIndividual rdf:about="&onto;trading">
+        <onto:relation_19 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#unemployment -->
+
+    <owl:NamedIndividual rdf:about="&onto;unemployment">
+        <onto:relation_1 rdf:resource="&onto;euro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#world -->
+
+    <owl:NamedIndividual rdf:about="&onto;world">
+        <onto:relation_10 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2unfiltered%2F3/3#yen -->
+
+    <owl:NamedIndividual rdf:about="&onto;yen">
+        <onto:relation_3 rdf:resource="&onto;currency"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

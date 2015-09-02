@@ -1,0 +1,74 @@
+uComp Class Validation:
+    Meta info: 
+        This component validates the <b>domain relevance of concepts</b> with respect to a domain. 
+        You can validate a single concept, all subconcepts of a concept, 
+        or even all concepts in the ontology (by validating "Thing" and its subtree).
+
+    Additional information for the validators: 
+        You can use this field to give additional information about the task to the crowd workers.
+
+    Validate relevance for domain:
+        Set the domain of knowlegde.
+
+    Validate subtree:
+        Validate the selected concept and all its sub-concepts!
+    GO:
+        Send to the crowdsourcing API.
+
+uComp Class Validation:
+    Meta info: 
+        This component validates <b>subClassOf</b> relationships between concepts. You can validate a single relation,
+        all relations in the subtree, or even all subClassOf relations by selecting "Thing" and its subtree.
+
+    Additional information for the validators: 
+        You can use this field to give additional information about the task to the crowd workers.
+
+    Validate relevance for domain:
+        Set the domain of knowlegde.
+
+    Validate subtree:
+        Validate all subClassOf relations in the subtree below the concept. 
+    GO:
+        Send to the crowdsourcing API.
+
+uComp Individual Validation:
+    Meta info: 
+        This component validates <b>instanceOf</b> relationships between concepts and individuals. 
+
+    Additional information for the validators: 
+        You can use this field to give additional information about the task to the crowd workers.
+
+    Validate relevance for domain:
+        Set the domain of knowlegde.
+    GO:
+        Send to the crowdsourcing API.
+
+uComp Object Property Validation:
+    Meta info: 
+        This component validates RDFS domain and range restrictions for <b>object properties</b>.
+
+    Additional information for the validators: 
+        You can use this field to give additional information about the task to the crowd workers.
+
+    In the domain of: 
+        Set the domain of knowlegde.
+
+    GO:
+        Send to the crowdsourcing API.
+
+uComp Relation Label Suggestion: 
+    Meta info: 
+        This component helps to label (select an object property) for an unlabeled relation between two
+        concepts in the ontology. Select the candidate relation labels from the list below. Note: this
+        only works for unlabeled relations (see documentation for details). 
+
+    Additional information for the validators: 
+        You can use this field to give additional information about the task to the crowd workers.
+
+    In the domain of: 
+        Set the domain of knowlegde.
+
+    GO:
+        Send to the crowdsourcing API.
+
+

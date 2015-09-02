@@ -1,0 +1,25 @@
+task	answer1	answer10	answer2	answer3	answer4	answer5	answer6	answer7	answer8	answer9	orig_task	relation no	
+10	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject forehand and the object baseline?	7	other
+8	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject tennis and the object 'break point'?	8	Has-part
+7	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject 'tennis star' and the object tennis?	9	Is-part-of
+9	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject tennis and the object player?	3	uses
+10	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject champion and the object championship?	4	other
+7	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject tennis and the object ATP?	5	Is-part-of
+8	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject tennis and the object forehand?	6	Has-part
+9	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject player and the object coach?	1	uses
+10	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject tennis and the object tournament?	2	other
+1	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject defeat and the object victory?	24	Is-opposite-of
+2	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject penalty and the object victory?	23	Has-effect-on
+5	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject career and the object coach?	25	Is-affected-by
+10	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject half and the object game?	22	other
+10	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject champion and the object world?	21	other
+7	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject backhand and the object tennis?	18	Is-part-of
+10	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject champion and the object season?	19	other
+7	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject set and the object tennis?	16	Is-part-of
+10	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject round and the object tennis?	17	other
+7	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject 'tennis tournament' and the object tennis?	15	Is-part-of
+7	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject 'tennis court' and the object tennis?	14	Is-part-of
+7	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject slam and the object tennis?	13	Is-part-of
+7	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject singles and the object tennis?	12	Is-part-of
+10	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject champion and the object tennis?	11	other
+10	is-opposite-of	None of those	has-effect-on	modifierOf	used-by	is-affected-by	is-a	is-part-of	has-part	uses	 :    subject towel and the object tennis?	10	other

@@ -1,0 +1,1215 @@
+@prefix : <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix onto: <http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3> .
+
+<http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3> rdf:type owl:Ontology ;
+                                                                                    
+                                                                                    dc:title "2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3" ;
+                                                                                    
+                                                                                    dc:creator "WU Vienna, Inst. of Inf. Business" .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#has-effect-on
+
+onto:has-effect-on rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#has-part
+
+onto:has-part rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#is-a
+
+onto:is-a rdf:type owl:ObjectProperty ;
+          
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#is-affected-by
+
+onto:is-affected-by rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#is-opposite-of
+
+onto:is-opposite-of rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#is-part-of
+
+onto:is-part-of rdf:type owl:ObjectProperty ;
+                
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#other
+
+onto:other rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_1
+
+onto:relation_1 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "has-effect-on" ;
+                
+                rdfs:comment "1.066" ;
+                
+                rdfs:domain onto:global_warming ;
+                
+                rdfs:range onto:sea .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_10
+
+onto:relation_10 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "has-effect-on" ;
+                 
+                 rdfs:comment "1.090" ;
+                 
+                 rdfs:domain onto:global_warming ;
+                 
+                 rdfs:range onto:ice .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_11
+
+onto:relation_11 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "has-effect-on" ;
+                 
+                 rdfs:comment "1.070" ;
+                 
+                 rdfs:range onto:environment ;
+                 
+                 rdfs:domain onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_12
+
+onto:relation_12 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-affected-by" ;
+                 
+                 rdfs:comment "1.088" ;
+                 
+                 rdfs:range onto:carbon_dioxide ;
+                 
+                 rdfs:domain onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_13
+
+onto:relation_13 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-affected-by" ;
+                 
+                 rdfs:comment "1.015" ;
+                 
+                 rdfs:range onto:acidification ;
+                 
+                 rdfs:domain onto:warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_14
+
+onto:relation_14 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "has-effect-on" ;
+                 
+                 rdfs:comment "1.034" ;
+                 
+                 rdfs:domain onto:carbon ;
+                 
+                 rdfs:range onto:carbon_tax .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_15
+
+onto:relation_15 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-part-of" ;
+                 
+                 rdfs:comment "1.033" ;
+                 
+                 rdfs:range onto:emission ;
+                 
+                 rdfs:domain onto:greenhouse_gas .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_16
+
+onto:relation_16 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-affected-by" ;
+                 
+                 rdfs:comment "1.081" ;
+                 
+                 rdfs:domain onto:global_warming ;
+                 
+                 rdfs:range onto:greenhouse_gas .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_17
+
+onto:relation_17 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-affected-by" ;
+                 
+                 rdfs:comment "1.061" ;
+                 
+                 rdfs:domain onto:IPCC ;
+                 
+                 rdfs:range onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_18
+
+onto:relation_18 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "has-effect-on" ;
+                 
+                 rdfs:comment "1.075" ;
+                 
+                 rdfs:range onto:global_warming ;
+                 
+                 rdfs:domain onto:pollution .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_19
+
+onto:relation_19 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "has-effect-on" ;
+                 
+                 rdfs:comment "1.089" ;
+                 
+                 rdfs:domain onto:carbon ;
+                 
+                 rdfs:range onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_2
+
+onto:relation_2 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "is-affected-by" ;
+                
+                rdfs:comment "1.159" ;
+                
+                rdfs:domain onto:climate ;
+                
+                rdfs:range onto:climate_change .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_20
+
+onto:relation_20 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-affected-by" ;
+                 
+                 rdfs:comment "1.039" ;
+                 
+                 rdfs:domain onto:energy ;
+                 
+                 rdfs:range onto:energy_efficiency .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_21
+
+onto:relation_21 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-affected-by" ;
+                 
+                 rdfs:comment "1.019" ;
+                 
+                 rdfs:domain onto:sea ;
+                 
+                 rdfs:range onto:sea_level .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_22
+
+onto:relation_22 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "has-effect-on" ;
+                 
+                 rdfs:comment "1.017" ;
+                 
+                 rdfs:range onto:energy ;
+                 
+                 rdfs:domain onto:energy_use .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_23
+
+onto:relation_23 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-part-of" ;
+                 
+                 rdfs:comment "1.021" ;
+                 
+                 rdfs:domain onto:coral ;
+                 
+                 rdfs:range onto:ocean .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_24
+
+onto:relation_24 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-part-of" ;
+                 
+                 rdfs:comment "1.016" ;
+                 
+                 rdfs:range onto:ocean ;
+                 
+                 rdfs:domain onto:reef .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_3
+
+onto:relation_3 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "is-affected-by" ;
+                
+                rdfs:comment "1.057" ;
+                
+                rdfs:range onto:climate_change ;
+                
+                rdfs:domain onto:energy .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_4
+
+onto:relation_4 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "is-affected-by" ;
+                
+                rdfs:comment "1.068" ;
+                
+                rdfs:range onto:climate_change ;
+                
+                rdfs:domain onto:science .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_5
+
+onto:relation_5 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "uses" ;
+                
+                rdfs:comment "1.038" ;
+                
+                rdfs:range onto:climate_change ;
+                
+                rdfs:domain onto:report .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_6
+
+onto:relation_6 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "is-affected-by" ;
+                
+                rdfs:comment "1.117" ;
+                
+                rdfs:domain onto:global_warming ;
+                
+                rdfs:range onto:greenhouse .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_7
+
+onto:relation_7 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "has-effect-on" ;
+                
+                rdfs:comment "1.063" ;
+                
+                rdfs:range onto:earth ;
+                
+                rdfs:domain onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_8
+
+onto:relation_8 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "uses" ;
+                
+                rdfs:comment "1.022" ;
+                
+                rdfs:range onto:fahrenheit ;
+                
+                rdfs:domain onto:temperature .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#relation_9
+
+onto:relation_9 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "has-effect-on" ;
+                
+                rdfs:comment "1.067" ;
+                
+                rdfs:domain onto:global_warming ;
+                
+                rdfs:range onto:temperature .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#used-by
+
+onto:used-by rdf:type owl:ObjectProperty ;
+             
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#uses
+
+onto:uses rdf:type owl:ObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#CO2
+
+onto:CO2 rdf:type owl:Class ;
+         
+         rdfs:label "CO2" ;
+         
+         owl:equivalentClass onto:carbon_dioxide .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#IPCC
+
+onto:IPCC rdf:type owl:Class ;
+          
+          rdfs:label "IPCC" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#acidification
+
+onto:acidification rdf:type owl:Class ;
+                   
+                   rdfs:label "acidification" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#air_pollution
+
+onto:air_pollution rdf:type owl:Class ;
+                   
+                   rdfs:label "air pollution" ;
+                   
+                   rdfs:subClassOf onto:pollution .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#atmosphere
+
+onto:atmosphere rdf:type owl:Class ;
+                
+                rdfs:label "atmosphere" ;
+                
+                rdfs:subClassOf onto:gas ,
+                                onto:weather .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#carbon
+
+onto:carbon rdf:type owl:Class ;
+            
+            rdfs:label "carbon" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#carbon_dioxide
+
+onto:carbon_dioxide rdf:type owl:Class ;
+                    
+                    rdfs:label "carbon dioxide" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#carbon_pollution
+
+onto:carbon_pollution rdf:type owl:Class ;
+                      
+                      rdfs:label "carbon pollution" ;
+                      
+                      rdfs:subClassOf onto:pollution .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#carbon_tax
+
+onto:carbon_tax rdf:type owl:Class ;
+                
+                rdfs:label "carbon tax" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#climate
+
+onto:climate rdf:type owl:Class ;
+             
+             rdfs:label "climate" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#climate_change
+
+onto:climate_change rdf:type owl:Class ;
+                    
+                    rdfs:label "climate change" ;
+                    
+                    rdfs:subClassOf onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#coal
+
+onto:coal rdf:type owl:Class ;
+          
+          rdfs:label "coal" ;
+          
+          rdfs:subClassOf onto:carbon ,
+                          onto:fuel .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#cooling
+
+onto:cooling rdf:type owl:Class ;
+             
+             rdfs:label "cooling" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#coral
+
+onto:coral rdf:type owl:Class ;
+           
+           rdfs:label "coral" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#deforestation
+
+onto:deforestation rdf:type owl:Class ;
+                   
+                   rdfs:label "deforestation" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#diesel
+
+onto:diesel rdf:type owl:Class ;
+            
+            rdfs:label "diesel" ;
+            
+            rdfs:subClassOf onto:ice .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#earth
+
+onto:earth rdf:type owl:Class ;
+           
+           rdfs:label "earth" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#emission
+
+onto:emission rdf:type owl:Class ;
+              
+              rdfs:label "emission" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#energy
+
+onto:energy rdf:type owl:Class ;
+            
+            rdfs:label "energy" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#energy_efficiency
+
+onto:energy_efficiency rdf:type owl:Class ;
+                       
+                       rdfs:label "energy efficiency" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#energy_use
+
+onto:energy_use rdf:type owl:Class ;
+                
+                rdfs:label "energy use" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#environment
+
+onto:environment rdf:type owl:Class ;
+                 
+                 rdfs:label "environment" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#fahrenheit
+
+onto:fahrenheit rdf:type owl:Class ;
+                
+                rdfs:label "fahrenheit" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#fossil_fuel
+
+onto:fossil_fuel rdf:type owl:Class ;
+                 
+                 rdfs:label "fossil fuel" ;
+                 
+                 rdfs:subClassOf onto:coal ,
+                                 onto:gas ,
+                                 onto:oil .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#fuel
+
+onto:fuel rdf:type owl:Class ;
+          
+          rdfs:label "fuel" ;
+          
+          rdfs:subClassOf onto:gas .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#gas
+
+onto:gas rdf:type owl:Class ;
+         
+         rdfs:label "gas" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#global_warming
+
+onto:global_warming rdf:type owl:Class ;
+                    
+                    rdfs:label "global warming" ;
+                    
+                    rdfs:subClassOf onto:warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#greenhouse
+
+onto:greenhouse rdf:type owl:Class ;
+                
+                rdfs:label "greenhouse" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#greenhouse_gas
+
+onto:greenhouse_gas rdf:type owl:Class ;
+                    
+                    rdfs:label "greenhouse gas" ;
+                    
+                    rdfs:subClassOf onto:gas .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#hydrogen
+
+onto:hydrogen rdf:type owl:Class ;
+              
+              rdfs:label "hydrogen" ;
+              
+              rdfs:subClassOf onto:gas .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#ice
+
+onto:ice rdf:type owl:Class ;
+         
+         rdfs:label "ice" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#methane
+
+onto:methane rdf:type owl:Class ;
+             
+             rdfs:label "methane" ;
+             
+             rdfs:subClassOf onto:gas .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#nitrogen
+
+onto:nitrogen rdf:type owl:Class ;
+              
+              rdfs:label "nitrogen" ;
+              
+              rdfs:subClassOf onto:gas .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#ocean
+
+onto:ocean rdf:type owl:Class ;
+           
+           rdfs:label "ocean" ;
+           
+           rdfs:subClassOf onto:sea .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#ocean_acidification
+
+onto:ocean_acidification rdf:type owl:Class ;
+                         
+                         rdfs:label "ocean acidification" ;
+                         
+                         rdfs:subClassOf onto:acidification .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#oil
+
+onto:oil rdf:type owl:Class ;
+         
+         rdfs:label "oil" ;
+         
+         rdfs:subClassOf onto:earth ,
+                         onto:fuel ,
+                         onto:temperature ,
+                         onto:warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#ozone
+
+onto:ozone rdf:type owl:Class ;
+           
+           rdfs:label "ozone" ;
+           
+           rdfs:subClassOf onto:gas .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#pipeline
+
+onto:pipeline rdf:type owl:Class ;
+              
+              rdfs:label "pipeline" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#pollution
+
+onto:pollution rdf:type owl:Class ;
+               
+               rdfs:label "pollution" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#rain
+
+onto:rain rdf:type owl:Class ;
+          
+          rdfs:label "rain" ;
+          
+          rdfs:subClassOf onto:air_pollution ,
+                          onto:pollution ,
+                          onto:water ,
+                          onto:weather .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#reef
+
+onto:reef rdf:type owl:Class ;
+          
+          rdfs:label "reef" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#report
+
+onto:report rdf:type owl:Class ;
+            
+            rdfs:label "report" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#science
+
+onto:science rdf:type owl:Class ;
+             
+             rdfs:label "science" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#sea
+
+onto:sea rdf:type owl:Class ;
+         
+         rdfs:label "sea" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#sea_ice
+
+onto:sea_ice rdf:type owl:Class ;
+             
+             rdfs:label "sea ice" ;
+             
+             rdfs:subClassOf onto:ice .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#sea_level
+
+onto:sea_level rdf:type owl:Class ;
+               
+               rdfs:label "sea level" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#soil
+
+onto:soil rdf:type owl:Class ;
+          
+          rdfs:label "soil" ;
+          
+          rdfs:subClassOf onto:earth .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#storm
+
+onto:storm rdf:type owl:Class ;
+           
+           rdfs:label "storm" ;
+           
+           rdfs:subClassOf onto:rain ,
+                           onto:weather .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#temperature
+
+onto:temperature rdf:type owl:Class ;
+                 
+                 rdfs:label "temperature" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#warming
+
+onto:warming rdf:type owl:Class ;
+             
+             rdfs:label "warming" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#water
+
+onto:water rdf:type owl:Class ;
+           
+           rdfs:label "water" ;
+           
+           rdfs:subClassOf onto:sea .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#weather
+
+onto:weather rdf:type owl:Class ;
+             
+             rdfs:label "weather" ;
+             
+             rdfs:subClassOf onto:warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#wind
+
+onto:wind rdf:type owl:Class ;
+          
+          rdfs:label "wind" ;
+          
+          rdfs:subClassOf onto:energy ,
+                          onto:weather .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#IPCC
+
+onto:IPCC rdf:type owl:NamedIndividual ;
+          
+          onto:relation_17 onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#acidification
+
+onto:acidification rdf:type owl:NamedIndividual ;
+                   
+                   onto:relation_13 onto:warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#carbon
+
+onto:carbon rdf:type owl:NamedIndividual ;
+            
+            onto:relation_14 onto:carbon_tax ;
+            
+            onto:relation_19 onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#carbon_dioxide
+
+onto:carbon_dioxide rdf:type owl:NamedIndividual ;
+                    
+                    onto:relation_12 onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#carbon_pollution
+
+onto:carbon_pollution rdf:type owl:NamedIndividual .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#carbon_tax
+
+onto:carbon_tax rdf:type owl:NamedIndividual ;
+                
+                onto:relation_14 onto:carbon .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#climate
+
+onto:climate rdf:type owl:NamedIndividual ;
+             
+             onto:relation_2 onto:climate_change .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#climate_change
+
+onto:climate_change rdf:type owl:NamedIndividual ;
+                    
+                    onto:relation_2 onto:climate ;
+                    
+                    onto:relation_3 onto:energy ;
+                    
+                    onto:relation_5 onto:report ;
+                    
+                    onto:relation_4 onto:science .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#cooling
+
+onto:cooling rdf:type owl:NamedIndividual ;
+             
+             onto:relation_22 onto:warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#coral
+
+onto:coral rdf:type owl:NamedIndividual ;
+           
+           onto:relation_23 onto:ocean .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#deforestation
+
+onto:deforestation rdf:type owl:NamedIndividual ;
+                   
+                   onto:relation_24 onto:greenhouse_gas .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#earth
+
+onto:earth rdf:type owl:NamedIndividual ;
+           
+           onto:relation_7 onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#emission
+
+onto:emission rdf:type owl:NamedIndividual ;
+              
+              onto:relation_15 onto:greenhouse_gas .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#energy
+
+onto:energy rdf:type owl:NamedIndividual ;
+            
+            onto:relation_3 onto:climate_change ;
+            
+            onto:relation_20 onto:energy_efficiency .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#energy_efficiency
+
+onto:energy_efficiency rdf:type owl:NamedIndividual ;
+                       
+                       onto:relation_20 onto:energy .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#energy_use
+
+onto:energy_use rdf:type owl:NamedIndividual ;
+                
+                onto:relation_22 onto:energy .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#environment
+
+onto:environment rdf:type owl:NamedIndividual ;
+                 
+                 onto:relation_11 onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#fahrenheit
+
+onto:fahrenheit rdf:type owl:NamedIndividual ;
+                
+                onto:relation_8 onto:temperature .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#global_warming
+
+onto:global_warming rdf:type owl:NamedIndividual ;
+                    
+                    onto:relation_17 onto:IPCC ;
+                    
+                    onto:relation_19 onto:carbon ;
+                    
+                    onto:relation_12 onto:carbon_dioxide ;
+                    
+                    onto:relation_7 onto:earth ;
+                    
+                    onto:relation_11 onto:environment ;
+                    
+                    onto:relation_6 onto:greenhouse ;
+                    
+                    onto:relation_16 onto:greenhouse_gas ;
+                    
+                    onto:relation_10 onto:ice ;
+                    
+                    onto:relation_18 onto:pollution ;
+                    
+                    onto:relation_1 onto:sea ;
+                    
+                    onto:relation_9 onto:temperature .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#greenhouse
+
+onto:greenhouse rdf:type owl:NamedIndividual ;
+                
+                onto:relation_6 onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#greenhouse_gas
+
+onto:greenhouse_gas rdf:type owl:NamedIndividual ;
+                    
+                    onto:relation_15 onto:emission ;
+                    
+                    onto:relation_16 onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#ice
+
+onto:ice rdf:type owl:NamedIndividual ;
+         
+         onto:relation_10 onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#ocean
+
+onto:ocean rdf:type owl:NamedIndividual .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#pipeline
+
+onto:pipeline rdf:type owl:NamedIndividual ;
+              
+              onto:relation_22 onto:carbon_pollution .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#pollution
+
+onto:pollution rdf:type owl:NamedIndividual ;
+               
+               onto:relation_18 onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#reef
+
+onto:reef rdf:type owl:NamedIndividual ;
+          
+          onto:relation_24 onto:ocean .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#report
+
+onto:report rdf:type owl:NamedIndividual ;
+            
+            onto:relation_5 onto:climate_change .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#science
+
+onto:science rdf:type owl:NamedIndividual ;
+             
+             onto:relation_4 onto:climate_change .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#sea
+
+onto:sea rdf:type owl:NamedIndividual ;
+         
+         onto:relation_1 onto:global_warming ;
+         
+         onto:relation_21 onto:sea_level .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#sea_level
+
+onto:sea_level rdf:type owl:NamedIndividual ;
+               
+               onto:relation_21 onto:sea .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#temperature
+
+onto:temperature rdf:type owl:NamedIndividual ;
+                 
+                 onto:relation_8 onto:fahrenheit ;
+                 
+                 onto:relation_9 onto:global_warming .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_09_09+14%3A18%3A34+spectral_brute_limit_50%2F3#warming
+
+onto:warming rdf:type owl:NamedIndividual ;
+             
+             onto:relation_13 onto:acidification .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+

@@ -1,0 +1,4 @@
+In the domain of Finance (Euro Crisis): Is class 'finance' a subclass of banking?, yes ,no, I don't know,1,'Finance' Is a subclass of banking
+In the domain of Finance (Euro Crisis): Is class 'euro' a subclass of currency?,yes,no,I don't know,1,'euro' Is a subclass of currency
+In the domain of Finance (Euro Crisis): Is class 'financial market' a subclass of market?,yes,no,I don't know,1,'financial market' Is a subclass of market
+In the domain of Finance (Euro Crisis): Is class 'bicyclet' a subclass of new york stock exchange?,yes,no,I don't know,2,'bicycle' is not a subclass of new york stock exchange

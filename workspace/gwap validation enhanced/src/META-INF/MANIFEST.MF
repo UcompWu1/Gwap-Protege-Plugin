@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Florian Hanika and Gerhard Wohlgenannt and Matyas Karacsonyi
+Bundle-ManifestVersion: 2
+Bundle-Name: uComp Crowdsourcing Validation Plugin
+Bundle-SymbolicName: at.ac.wu.ucompvalidation;singleton:=true
+Bundle-Description: A plugin for Protege which validates a part of an ontology (or a complete ontology) with the help of the uComp crowdsourcing API
+Bundle-Vendor: Vienna University of Economics and Business
+Bundle-ClassPath: .,lib/com.googlecode.json-simple.jar,lib/org.apache.commons.logging.jar,
+ lib/org.apache.httpcomponents.httpclient.jar,lib/org.apache.httpcomponents.httpcore.jar
+Import-Package: javax.swing
+Bundle-Version: 1.1.1.1
+Update-Url: https://aic.ai.wu.ac.at/~wohlg/uComp_plugin/update.properties
+Bundle-Activator: org.protege.editor.core.plugin.DefaultPluginActivator
+Require-Bundle: org.protege.editor.core.application,org.protege.editor.owl,org.semanticweb.owl.owlapi
+Built-By: Gerhard Wohlgenannt
+Build-Date: 08/10/2014

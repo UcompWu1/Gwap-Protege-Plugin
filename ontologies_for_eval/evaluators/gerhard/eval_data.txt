@@ -1,0 +1,5 @@
+CC class relevance check: 10:40-11:15 -- 35min
+CC subClassOf check: 12:50-13:10 -- 20min
+Euro class relevance check: 30min
+Euro subClassOf check: 24min
+

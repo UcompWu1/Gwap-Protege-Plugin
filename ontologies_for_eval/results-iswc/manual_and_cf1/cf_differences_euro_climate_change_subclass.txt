@@ -1,0 +1,7 @@
+Index of cf_results 1
+
+different opinion atmosphere-gas 5 4 ['false', 'false', 'true', 'true', 'true', 'true', 'false', 'false', 'true']
+different opinion heat-temperature 5 4 ['false', 'true', 'false', 'true', 'false', 'false', 'true', 'false', 'true']
+different opinion heat-warming 7 2 ['true', 'true', 'false', 'false', 'false', 'false', 'false', 'false', 'false']
+different opinion heating-warming 5 4 ['true', 'true', 'false', 'true', 'false', 'false', 'false', 'false', 'true']
+

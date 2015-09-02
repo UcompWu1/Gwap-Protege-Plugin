@@ -1,0 +1,444 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix onto: <http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2%2F3/3#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://137.208.51.84:5000/owl/NEW_DOMAIN_EURO_2%2F3/3> a owl:Ontology ;
+	dc:title "NEW_DOMAIN_EURO_2%2F3/3" .
+
+onto:outlook
+	a owl:Class ;
+	onto:relation_24 onto:currency .
+
+onto:unemployment
+	a owl:Class ;
+	onto:relation_6 onto:euro .
+
+onto:money
+	a owl:Class ;
+	rdfs:subClassOf onto:income ;
+	rdfs:subClassOf onto:currency ;
+	rdfs:subClassOf onto:investment ;
+	rdfs:subClassOf onto:credit .
+
+onto:energy
+	a owl:Class ;
+	onto:relation_20 onto:oil .
+
+onto:dollar
+	a owl:Class ;
+	rdfs:subClassOf onto:currency .
+
+onto:trade
+	a owl:Class ;
+	onto:relation_4 onto:currency .
+
+onto:growth
+	a owl:Class ;
+	onto:relation_10 onto:euro .
+
+onto:trading
+	a owl:Class ;
+	onto:relation_20 onto:bank .
+
+onto:equity
+	a owl:Class ;
+	onto:relation_25 onto:dollar .
+
+onto:euro_zone
+	a owl:Class ;
+	onto:relation_9 onto:currency .
+
+onto:economist
+	a owl:Class ;
+	onto:relation_28 onto:interest_rate .
+
+onto:investment
+	a owl:Class ;
+	rdfs:subClassOf onto:finance .
+
+onto:market
+	a owl:Class ;
+	onto:relation_8 onto:euro .
+
+onto:recovery
+	a owl:Class ;
+	onto:relation_12 onto:euro .
+
+onto:mortgage
+	a owl:Class ;
+	onto:relation_26 onto:housing .
+
+onto:credit
+	a owl:Class ;
+	rdfs:subClassOf onto:debt .
+
+onto:spending
+	a owl:Class ;
+	rdfs:subClassOf onto:credit ;
+	rdfs:subClassOf onto:interest_rate .
+
+onto:housing
+	a owl:Class ;
+	onto:relation_23 onto:recovery .
+
+onto:yen
+	a owl:Class ;
+	onto:relation_3 onto:currency .
+
+onto:crisis
+	a owl:Class ;
+	onto:relation_5 onto:currency .
+
+onto:asset
+	a owl:Class ;
+	onto:relation_25 onto:dollar .
+
+onto:interest_rate
+	a owl:Class ;
+	onto:relation_22 onto:bank .
+
+onto:policy
+	a owl:Class ;
+	onto:relation_7 onto:currency .
+
+onto:bubble
+	a owl:Class ;
+	onto:relation_29 onto:interest_rate .
+
+onto:lending
+	a owl:Class ;
+	onto:relation_27 onto:interest_rate .
+
+onto:economy
+	a owl:Class ;
+	onto:relation_15 onto:currency .
+
+onto:eurozone
+	a owl:Class ;
+	onto:relation_9 onto:currency .
+
+onto:product
+	a owl:Class ;
+	rdfs:subClassOf onto:stock .
+
+onto:oil
+	a owl:Class ;
+	onto:relation_17 onto:demand .
+
+onto:finance
+	a owl:Class ;
+	rdfs:subClassOf onto:banking .
+
+onto:business
+	a owl:Class ;
+	onto:relation_2 onto:currency .
+
+onto:deflation
+	a owl:Class ;
+	onto:relation_13 onto:currency .
+
+onto:tax
+	a owl:Class ;
+	onto:relation_18 onto:dollar .
+
+onto:government
+	a owl:Class ;
+	onto:relation_19 onto:policy .
+
+onto:income
+	a owl:Class ;
+	rdfs:subClassOf onto:bank .
+
+onto:inflation
+	a owl:Class ;
+	onto:relation_3 onto:currency .
+
+onto:poverty
+	a owl:Class ;
+	onto:relation_30 onto:recession .
+
+onto:plan
+	a owl:Class ;
+	rdfs:subClassOf onto:policy ;
+	rdfs:subClassOf onto:budget .
+
+onto:demand
+	a owl:Class ;
+	onto:relation_2 onto:euro .
+
+onto:world
+	a owl:Class ;
+	onto:relation_14 onto:currency .
+
+onto:debt
+	a owl:Class ;
+	onto:relation_1 onto:euro .
+
+onto:bank
+	a owl:Class ;
+	onto:relation_11 onto:currency .
+
+onto:euro
+	a owl:Class ;
+	rdfs:subClassOf onto:currency .
+
+onto:stimulus
+	a owl:Class ;
+	onto:relation_24 onto:bank .
+
+onto:bill
+	a owl:Class ;
+	rdfs:subClassOf onto:dollar .
+
+onto:borrowing
+	a owl:Class ;
+	onto:relation_27 onto:interest_rate .
+
+onto:budget
+	a owl:Class ;
+	rdfs:subClassOf onto:money .
+
+onto:yield
+	a owl:Class ;
+	rdfs:subClassOf onto:product .
+
+onto:recession
+	a owl:Class ;
+	onto:relation_16 onto:recovery .
+
+onto:banking
+	a owl:Class ;
+	onto:relation_4 onto:currency .
+
+onto:cost
+	a owl:Class ;
+	rdfs:subClassOf onto:interest_rate ;
+	rdfs:subClassOf onto:credit .
+
+onto:ECB
+	a owl:Class ;
+	onto:relation_20 onto:bank .
+
+onto:stock
+	a owl:Class ;
+	onto:relation_22 onto:market .
+
+onto:consumer
+	a owl:Class ;
+	onto:relation_21 onto:inflation .
+
+onto:liquidity
+	a owl:Class ;
+	onto:relation_22 onto:bank .
+
+onto:relation_1
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:debt ;
+	 rdfs:range onto:euro ;
+	 rdfs:comment "1.046" ;
+	 rdfs:label "relation" .
+
+onto:relation_2
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:demand ;
+	 rdfs:range onto:euro ;
+	 rdfs:comment "1.042" ;
+	 rdfs:label "relation" .
+
+onto:relation_3
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:inflation ;
+	 rdfs:range onto:currency ;
+	 rdfs:comment "1.037" ;
+	 rdfs:label "relation" .
+
+onto:relation_4
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:banking ;
+	 rdfs:range onto:currency ;
+	 rdfs:comment "1.047" ;
+	 rdfs:label "relation" .
+
+onto:relation_5
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:crisis ;
+	 rdfs:range onto:currency ;
+	 rdfs:comment "1.053" ;
+	 rdfs:label "relation" .
+
+onto:relation_6
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:unemployment ;
+	 rdfs:range onto:euro ;
+	 rdfs:comment "1.039" ;
+	 rdfs:label "relation" .
+
+onto:relation_7
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:policy ;
+	 rdfs:range onto:currency ;
+	 rdfs:comment "1.049" ;
+	 rdfs:label "relation" .
+
+onto:relation_8
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:market ;
+	 rdfs:range onto:euro ;
+	 rdfs:comment "1.064" ;
+	 rdfs:label "relation" .
+
+onto:relation_9
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:euro_zone ;
+	 rdfs:range onto:currency ;
+	 rdfs:comment "1.032" ;
+	 rdfs:label "relation" .
+
+onto:relation_10
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:growth ;
+	 rdfs:range onto:euro ;
+	 rdfs:comment "1.066" ;
+	 rdfs:label "relation" .
+
+onto:relation_11
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:bank ;
+	 rdfs:range onto:currency ;
+	 rdfs:comment "1.057" ;
+	 rdfs:label "relation" .
+
+onto:relation_12
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:recovery ;
+	 rdfs:range onto:euro ;
+	 rdfs:comment "1.040" ;
+	 rdfs:label "relation" .
+
+onto:relation_13
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:deflation ;
+	 rdfs:range onto:currency ;
+	 rdfs:comment "1.033" ;
+	 rdfs:label "relation" .
+
+onto:relation_14
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:world ;
+	 rdfs:range onto:currency ;
+	 rdfs:comment "1.043" ;
+	 rdfs:label "relation" .
+
+onto:relation_15
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:economy ;
+	 rdfs:range onto:currency ;
+	 rdfs:comment "1.052" ;
+	 rdfs:label "relation" .
+
+onto:relation_16
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:recession ;
+	 rdfs:range onto:recovery ;
+	 rdfs:comment "1.018" ;
+	 rdfs:label "relation" .
+
+onto:relation_17
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:oil ;
+	 rdfs:range onto:demand ;
+	 rdfs:comment "1.026" ;
+	 rdfs:label "relation" .
+
+onto:relation_18
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:tax ;
+	 rdfs:range onto:dollar ;
+	 rdfs:comment "1.019" ;
+	 rdfs:label "relation" .
+
+onto:relation_19
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:government ;
+	 rdfs:range onto:policy ;
+	 rdfs:comment "1.027" ;
+	 rdfs:label "relation" .
+
+onto:relation_20
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:ECB ;
+	 rdfs:range onto:bank ;
+	 rdfs:comment "1.014" ;
+	 rdfs:label "relation" .
+
+onto:relation_21
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:consumer ;
+	 rdfs:range onto:inflation ;
+	 rdfs:comment "1.017" ;
+	 rdfs:label "relation" .
+
+onto:relation_22
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:interest_rate ;
+	 rdfs:range onto:bank ;
+	 rdfs:comment "1.015" ;
+	 rdfs:label "relation" .
+
+onto:relation_23
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:housing ;
+	 rdfs:range onto:recovery ;
+	 rdfs:comment "1.022" ;
+	 rdfs:label "relation" .
+
+onto:relation_24
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:outlook ;
+	 rdfs:range onto:currency ;
+	 rdfs:comment "1.013" ;
+	 rdfs:label "relation" .
+
+onto:relation_25
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:equity ;
+	 rdfs:range onto:dollar ;
+	 rdfs:comment "1.010" ;
+	 rdfs:label "relation" .
+
+onto:relation_26
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:mortgage ;
+	 rdfs:range onto:housing ;
+	 rdfs:comment "1.021" ;
+	 rdfs:label "relation" .
+
+onto:relation_27
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:borrowing ;
+	 rdfs:range onto:interest_rate ;
+	 rdfs:comment "1.012" ;
+	 rdfs:label "relation" .
+
+onto:relation_28
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:economist ;
+	 rdfs:range onto:interest_rate ;
+	 rdfs:comment "1.011" ;
+	 rdfs:label "relation" .
+
+onto:relation_29
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:bubble ;
+	 rdfs:range onto:interest_rate ;
+	 rdfs:comment "1.016" ;
+	 rdfs:label "relation" .
+
+onto:relation_30
+	 rdf:type owl:ObjectProperty ;
+	 rdfs:domain onto:poverty ;
+	 rdfs:range onto:recession ;
+	 rdfs:comment "1.020" ;
+	 rdfs:label "relation" .

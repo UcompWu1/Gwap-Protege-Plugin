@@ -1,0 +1,364 @@
+_unit_id,_golden,_unit_state,_trusted_judgments,_last_judgment_at,task,task:confidence,what_is_the_first_letter_of_the_verified_term,orig__golden,answer1,answer2,orig_task,task_gold,task_gold_reason,what_is_the_first_letter_of_the_verified_term_gold
+572804548,true,golden,25,"",2,1.0,"B
+b
+B
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b",,Yes,No,In the domain of Wine (the drink): Is 'British Petrol' a type of WineGrape?,2,"",b
+572804549,false,finalized,5,10/15/2014 08:43:00,1,1.0,"C
+c
+c
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'Cabernet Franc' a type of WineGrape?,,,
+572804550,false,finalized,5,10/15/2014 08:28:47,1,1.0,"C
+c
+C
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'Cabernet Sauvignon' a type of WineGrape?,,,
+572804551,true,golden,21,"",1,1.0,"C
+c
+C
+C
+c
+C
+C
+C
+c
+c
+c
+c
+C
+c
+c
+c
+c
+c
+c
+c
+c",,Yes,No,In the domain of Wine (the drink): Is Chardonnay a type of WineGrape?,1,"""Chardonnay is a green-skinned grape variety used to make white wine."", http://en.wikipedia.org/wiki/Chardonnay",c
+572804552,false,finalized,5,10/15/2014 08:37:42,1,1.0,"C
+c
+c
+C
+c",,Yes,No,In the domain of Wine (the drink): Is 'Chenin Blanc' a type of WineGrape?,,,
+572804553,false,finalized,5,10/15/2014 09:04:53,2,1.0,"c
+C
+c
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'Chevron Oil and Gas' a type of WineGrape?,,,
+572804554,false,finalized,5,10/15/2014 08:42:35,2,1.0,"C
+c
+c
+C
+c",,Yes,No,In the domain of Wine (the drink): Is 'China National Petroleum Corporation' a type of WineGrape?,,,
+572804555,false,finalized,5,10/15/2014 09:04:53,2,1.0,"c
+c
+C
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'China Railway Corporation' a type of WineGrape?,,,
+572804556,false,finalized,5,10/15/2014 09:20:12,2,1.0,"D
+d
+d
+d
+d",,Yes,No,In the domain of Wine (the drink): Is 'Daimler Automotive' a type of WineGrape?,,,
+572804557,false,finalized,5,10/15/2014 08:45:06,2,1.0,"E
+e
+e
+e
+e",,Yes,No,In the domain of Wine (the drink): Is 'E.ON Group' a type of WineGrape?,,,
+572804558,false,finalized,5,10/15/2014 08:38:54,2,1.0,"E
+e
+e
+e
+e",,Yes,No,In the domain of Wine (the drink): Is ExxonMobil a type of WineGrape?,,,
+572804559,false,finalized,5,10/15/2014 08:44:39,1,1.0,"g
+G
+c
+g
+g",,Yes,No,In the domain of Wine (the drink): Is Gamay a type of WineGrape?,,,
+572804560,true,golden,31,"",2,1.0,"G
+g
+G
+G
+g
+G
+G
+G
+g
+g
+g
+g
+g
+g
+g
+G
+G
+g
+G
+G
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g",,Yes,No,In the domain of Wine (the drink): Is Gazprom a type of WineGrape?,2,"""Gazprom is the largest extractor of natural gas in the world and one of the world's largest companies"",  http://en.wikipedia.org/wiki/Gazprom",g
+572804561,false,finalized,5,10/15/2014 08:47:58,2,1.0,"G
+G
+g
+g
+g",,Yes,No,In the domain of Wine (the drink): Is 'General Electric' a type of WineGrape?,,,
+572804562,false,finalized,5,10/15/2014 08:29:05,2,1.0,"G
+g
+g
+g
+G",,Yes,No,In the domain of Wine (the drink): Is 'General Motors' a type of WineGrape?,,,
+572804563,false,finalized,5,10/15/2014 08:56:57,2,1.0,"G
+g
+g
+g
+g",,Yes,No,In the domain of Wine (the drink): Is 'Glencore Xstrata' a type of WineGrape?,,,
+572804564,false,finalized,5,10/15/2014 08:48:53,2,1.0,"j
+J
+j
+j
+j",,Yes,No,In the domain of Wine (the drink): Is 'Japan Post Holdings' a type of WineGrape?,,,
+572804565,false,finalized,5,10/15/2014 08:42:15,1,1.0,"M
+m
+m
+m
+m",,Yes,No,In the domain of Wine (the drink): Is Malbec a type of WineGrape?,,,
+572804567,false,finalized,5,10/15/2014 08:46:18,1,1.0,"M
+m
+m
+m
+m",,Yes,No,In the domain of Wine (the drink): Is Merlot a type of WineGrape?,,,
+572804568,false,finalized,5,10/15/2014 09:20:12,1,0.8,"P
+p
+p
+p
+p",,Yes,No,In the domain of Wine (the drink): Is 'Petite Syrah' a type of WineGrape?,,,
+572804569,false,finalized,5,10/15/2014 09:31:44,1,1.0,"p
+p
+P
+p
+p",,Yes,No,In the domain of Wine (the drink): Is 'Petite Verdot' a type of WineGrape?,,,
+572804570,false,finalized,5,10/15/2014 08:46:18,2,1.0,"p
+P
+p
+p
+p",,Yes,No,In the domain of Wine (the drink): Is Petrobras a type of WineGrape?,,,
+572804571,false,finalized,5,10/15/2014 09:31:44,2,1.0,"P
+p
+p
+p
+p",,Yes,No,In the domain of Wine (the drink): Is Phillips a type of WineGrape?,,,
+572804572,false,finalized,5,10/15/2014 08:43:59,1,1.0,"P
+p
+p
+P
+p",,Yes,No,In the domain of Wine (the drink): Is 'Pinot Blanc' a type of WineGrape?,,,
+572804573,false,finalized,5,10/15/2014 08:41:29,1,1.0,"P
+p
+p
+p
+p",,Yes,No,In the domain of Wine (the drink): Is 'Pinot Noir' a type of WineGrape?,,,
+572804574,false,finalized,5,10/15/2014 08:41:08,1,1.0,"R
+r
+R
+r
+r",,Yes,No,In the domain of Wine (the drink): Is Riesling a type of WineGrape?,,,
+572804575,false,finalized,5,10/15/2014 08:47:12,2,1.0,"r
+R
+r
+r
+r",,Yes,No,In the domain of Wine (the drink): Is 'Royal Dutch Shell' a type of WineGrape?,,,
+572804576,false,finalized,5,10/15/2014 08:43:00,2,1.0,"S
+S
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'Samsung Electronics' a type of WineGrape?,,,
+572804577,false,finalized,5,10/15/2014 09:20:12,1,1.0,"S
+s
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is Sangiovese a type of WineGrape?,,,
+572804578,false,finalized,5,10/15/2014 08:47:58,1,1.0,"S
+s
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'Sauvignon Blanc' a type of WineGrape?,,,
+572804580,true,golden,24,"",1,0.9617,"S
+S
+S
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is Semillon a type of WineGrape?,1,"""Sémillon is a golden-skinned grape used to make dry and sweet white wines, mostly in France and Australia"",  http://en.wikipedia.org/wiki/S%C3%A9millon",s
+572804581,false,finalized,5,10/15/2014 08:45:06,2,1.0,"s
+S
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'Sinopec Group' a type of WineGrape?,,,
+572804582,true,golden,31,"",2,1.0,"S
+s
+S
+s
+S
+s
+s
+S
+s
+s
+S
+s
+S
+S
+S
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'State Grid Corporation of China' a type of WineGrape?,2,"",s
+572804583,false,finalized,5,10/15/2014 08:38:16,2,1.0,"t
+T
+t
+t
+t",,Yes,No,In the domain of Wine (the drink): Is 'Total Group' a type of WineGrape?,,,
+572804584,true,golden,23,"",2,1.0,"T
+t
+T
+T
+t
+T
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t",,Yes,No,In the domain of Wine (the drink): Is 'Toyota Automotive' a type of WineGrape?,2,"",t
+572804585,true,golden,23,"",2,1.0,"v
+V
+V
+v
+V
+v
+v
+v
+V
+v
+v
+v
+V
+v
+V
+v
+v
+v
+v
+v
+v
+v
+v",,Yes,No,In the domain of Wine (the drink): Is 'Volkswagen Group' a type of WineGrape?,2,"",v
+572804586,false,finalized,5,10/15/2014 09:04:53,2,1.0,"W
+w
+w
+w
+w",,Yes,No,In the domain of Wine (the drink): Is 'Wal-Mart Stores' a type of WineGrape?,,,
+572804587,false,finalized,5,10/15/2014 08:42:44,1,0.8136,"Z
+z
+Z
+z
+z",,Yes,No,In the domain of Wine (the drink): Is Zinfandel a type of WineGrape?,,,
+572816915,false,finalized,5,10/15/2014 09:31:44,2,1.0,"v
+v
+V
+v
+v",,Yes,No,In the domain of Wine (the drink): Is 'Volkswagen Group' a type of WineGrape?,,,
+572817031,false,finalized,5,10/15/2014 08:42:15,1,1.0,"s
+s
+s
+S
+s",,Yes,No,In the domain of Wine (the drink): Is Semillon a type of WineGrape?,,,
+572817141,false,finalized,5,10/15/2014 08:43:00,2,1.0,"g
+G
+g
+g
+g",,Yes,No,In the domain of Wine (the drink): Is Gazprom a type of WineGrape?,,,
+572817194,false,finalized,5,10/15/2014 08:46:18,1,1.0,"C
+c
+c
+c
+c",,Yes,No,In the domain of Wine (the drink): Is Chardonnay a type of WineGrape?,,,
+572817233,false,finalized,5,10/15/2014 08:43:59,2,1.0,"S
+s
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'State Grid Corporation of China' a type of WineGrape?,,,
+572817879,false,finalized,5,10/15/2014 08:43:46,2,1.0,"T
+t
+t
+t
+t",,Yes,No,In the domain of Wine (the drink): Is 'Toyota Automotive' a type of WineGrape?,,,

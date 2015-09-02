@@ -1,0 +1,47 @@
+YYYYYYYYYYYY ['tennis_relation_suggestion.ttl'] ../evaluators/relation_suggestion/matyas/tennis_relation_suggestion.ttl matyas
+YYYYYYYYYYYY ['tennis_relation_suggestion.ttl'] ../evaluators/relation_suggestion/stefan/tennis_relation_suggestion.ttl stefan
+YYYYYYYYYYYY ['tennis_relation_suggestion.ttl'] ../evaluators/relation_suggestion/FJ/tennis_relation_suggestion.ttl FJ
+YYYYYYYYYYYY ['tennis_relation_suggestion.ttl'] ../evaluators/relation_suggestion/gerhard/tennis_relation_suggestion.ttl gerhard
+YYYYYYYYYYYY ['tennis_relation_suggestion.ttl'] ../evaluators/relation_suggestion/olga/tennis_relation_suggestion.ttl olga
+Number of data files as input found: 5
+
+
+Next file: ../evaluators/relation_suggestion/olga/tennis_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'is-part-of', 'relation_23': 'has-effect-on', 'relation_20': 'modifierOf', 'relation_21': 'has-effect-on', 'relation_24': 'is-oposite-of', 'relation_25': 'has-effect-on', 'relation_19': 'is-affected-by', 'relation_18': 'other', 'relation_13': 'other', 'relation_12': 'is-part-of', 'relation_11': 'has-effect-on', 'relation_10': 'other', 'relation_17': 'other', 'relation_16': 'other', 'relation_15': 'is-part-of', 'relation_14': 'other', 'relation_9': 'modifierOf', 'relation_8': 'other', 'relation_3': 'modifierOf', 'relation_2': 'has-part', 'relation_1': 'is-affected-by', 'relation_7': 'has-effect-on', 'relation_6': 'other', 'relation_5': 'is-affected-by', 'relation_4': 'is-affected-by'}
+
+
+Next file: ../evaluators/relation_suggestion/FJ/tennis_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'is-part-of', 'relation_23': 'has-effect-on', 'relation_20': 'modifierOf', 'relation_21': 'has-effect-on', 'relation_24': 'is-opposite-of', 'relation_25': 'is-affected-by', 'relation_19': 'has-effect-on', 'relation_18': 'is-part-of', 'relation_13': 'is-part-of', 'relation_12': 'is-part-of', 'relation_11': 'has-effect-on', 'relation_10': 'used-by', 'relation_17': 'modifierOf', 'relation_16': 'modifierOf', 'relation_15': 'is-part-of', 'relation_14': 'used-by', 'relation_9': 'is-part-of', 'relation_8': 'is-affected-by', 'relation_3': 'has-part', 'relation_2': 'has-part', 'relation_1': 'is-affected-by', 'relation_7': 'other', 'relation_6': 'uses', 'relation_5': 'has-part', 'relation_4': 'is-part-of'}
+
+
+Next file: ../evaluators/relation_suggestion/stefan/tennis_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'is-part-of', 'relation_23': 'has-effect-on', 'relation_20': 'modifierOf', 'relation_21': 'has-effect-on', 'relation_24': 'is-opposite-of', 'relation_25': 'is-affected-by', 'relation_19': 'has-effect-on', 'relation_18': 'is-part-of', 'relation_13': 'is-part-of', 'relation_12': 'is-part-of', 'relation_11': 'has-effect-on', 'relation_10': 'other', 'relation_17': 'is-part-of', 'relation_16': 'is-part-of', 'relation_15': 'is-part-of', 'relation_14': 'is-part-of', 'relation_9': 'is-part-of', 'relation_8': 'has-part', 'relation_3': 'has-part', 'relation_2': 'has-effect-on', 'relation_1': 'is-affected-by', 'relation_7': 'other', 'relation_6': 'has-part', 'relation_5': 'is-part-of', 'relation_4': 'is-part-of'}
+
+
+Next file: ../evaluators/relation_suggestion/gerhard/tennis_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'other', 'relation_23': 'has-effect-on', 'relation_20': 'modifierOf', 'relation_21': 'other', 'relation_24': 'is-opposite-of', 'relation_25': 'is-affected-by', 'relation_19': 'other', 'relation_18': 'is-part-of', 'relation_13': 'slam', 'relation_12': 'is-part-of', 'relation_11': 'is-part-of', 'relation_10': 'used-by', 'relation_17': 'is-part-of', 'relation_16': 'is-part-of', 'relation_15': 'is-part-of', 'relation_14': 'used-by', 'relation_9': 'is-part-of', 'relation_8': 'has-part', 'relation_3': 'has-part', 'relation_2': 'has-part', 'relation_1': 'uses', 'relation_7': 'other (used-at)', 'relation_6': 'has-part', 'relation_5': 'has-part', 'relation_4': 'other'}
+
+
+Next file: ../evaluators/relation_suggestion/matyas/tennis_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'other', 'relation_23': 'has-effect-on', 'relation_20': 'modifierOf', 'relation_21': 'is-part-of', 'relation_24': 'is-opposite-of', 'relation_25': 'is-affected-by', 'relation_19': 'has-part', 'relation_18': 'has-effect-on', 'relation_13': 'is-part-of', 'relation_12': 'other', 'relation_11': 'is-part-of', 'relation_10': 'is-part-of', 'relation_17': 'is-part-of', 'relation_16': 'is-part-of', 'relation_15': 'is-part-of', 'relation_14': 'is-affected-by', 'relation_9': 'is-part-of', 'relation_8': 'has-part', 'relation_3': 'has-part', 'relation_2': 'has-part', 'relation_1': 'is-affected-by', 'relation_7': 'has-part', 'relation_6': 'is-affected-by', 'relation_5': 'has-part', 'relation_4': 'is-part-of'}
+Number of data sets extracted from files: 5
+olga : number of classes/relations 25
+FJ : number of classes/relations 25
+stefan : number of classes/relations 25
+gerhard : number of classes/relations 25
+matyas : number of classes/relations 25
+Length of resultlist 25
+../results/tennis_results.csv
+Kappa:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+24
+n 0
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+0 raters.
+25 subjects.
+2 categories.

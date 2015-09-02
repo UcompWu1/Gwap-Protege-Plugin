@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gwap validation enhanced/lib/com.googlecode.json-simple.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gwap validation enhanced/lib/org.apache.httpcomponents.httpclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gwap validation enhanced/lib/org.apache.httpcomponents.httpcore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gwap validation enhanced/lib/org.apache.commons.logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/org.protege.editor.core.application.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/org.protege.editor.owl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/org.semanticweb.owl.owlapi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

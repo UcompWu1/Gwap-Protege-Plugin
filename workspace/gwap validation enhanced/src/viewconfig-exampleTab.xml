@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <VSNode splits="1.0">
+        <CNode>
+            <Component label="uComp Class Validation">
+                <Property id="pluginId" value="at.ac.wu.ucompvalidation.at.ac.wu.ucompvalidation.GwapClassValidation"/>
+            </Component>
+        </CNode>
+    </VSNode>
+</layout>

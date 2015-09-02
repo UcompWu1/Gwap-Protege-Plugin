@@ -1,0 +1,31 @@
+Class Relevance Check:
+Your task is to decide if a given concept (also called class) is relevant for a given domain. This means, for example,
+that the term is very likely to appear in an article talking about the domain.
+
+Examples:
+Is "racket" relevant to the domain of tennis?     -- Correct answer: Yes
+Is "game" relevant to the domain of tennis?       -- Correct answer: Yes
+Is "election" relevant to the domain of politics? -- Correct answer: Yes
+Is "racquet" relevant to the domain of politics?  -- Correct answer: No
+Is "party system" relevant to the domain of politics?  -- Correct answer: Yes
+Is "partysystem" relevant to the domain of politics?  -- Correct answer: No, this is no English term!
+
+
+Sometimes there is no answer that is clearly correct, because the concept may be slightly relevant, 
+too generic, or too specific.
+Examples:
+Is human relevant to the domain of politics?      -- Unclear, probably: Yes, but very generic.
+Is weather relevant to the domain of politics?    -- Unclear, probably: No, only slightly relevant.
+Is event relevant to the domain of politics?      -- Unclear, but probably: Yes. 
+
+
+
+SubClassOf Check:
+You decide if concept A is a type of concept B -- within the given domain.
+
+Examples:
+Is human a subClass of mammal? Correct answer: Yes
+Is human a subClass of car? Correct answer: No
+Is politician a subClass of human? Correct answer: Yes
+Is water a subClass of liquid? Correct answer: Yes
+Is water a subClass of car? Correct answer: No

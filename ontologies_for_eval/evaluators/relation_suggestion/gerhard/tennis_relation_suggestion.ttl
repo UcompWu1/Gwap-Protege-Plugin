@@ -1,0 +1,1216 @@
+@prefix : <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix onto: <http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3> .
+
+<http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3> rdf:type owl:Ontology ;
+                                                                                                       
+                                                                                                       dc:creator "WU Vienna, Inst. of Inf. Business" ;
+                                                                                                       
+                                                                                                       dc:title "2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3" .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#has-effect-on
+
+onto:has-effect-on rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#has-part
+
+onto:has-part rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#is-a
+
+onto:is-a rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#is-affected-by
+
+onto:is-affected-by rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#is-opposite-of
+
+onto:is-opposite-of rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#is-part-of
+
+onto:is-part-of rdf:type owl:ObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_1
+
+onto:relation_1 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "uses" ;
+                
+                rdfs:comment "1.020" ;
+                
+                rdfs:range onto:coach ;
+                
+                rdfs:domain onto:player .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_10
+
+onto:relation_10 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "used-by" ;
+                 
+                 rdfs:comment "1.056" ;
+                 
+                 rdfs:range onto:tennis ;
+                 
+                 rdfs:domain onto:towel .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_11
+
+onto:relation_11 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-part-of" ;
+                 
+                 rdfs:comment "1.076" ;
+                 
+                 rdfs:domain onto:champion ;
+                 
+                 rdfs:range onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_12
+
+onto:relation_12 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-part-of" ;
+                 
+                 rdfs:comment "1.051" ;
+                 
+                 rdfs:domain onto:singles ;
+                 
+                 rdfs:range onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_13
+
+onto:relation_13 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-part-of" ;
+                 
+                 rdfs:comment "1.069" ;
+                 
+                 rdfs:domain onto:slam ;
+                 
+                 rdfs:range onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_14
+
+onto:relation_14 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "used-by" ;
+                 
+                 rdfs:comment "1.046" ;
+                 
+                 rdfs:range onto:tennis ;
+                 
+                 rdfs:domain onto:tennis_court .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_15
+
+onto:relation_15 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-part-of" ;
+                 
+                 rdfs:comment "1.067" ;
+                 
+                 rdfs:range onto:tennis ;
+                 
+                 rdfs:domain onto:tennis_tournament .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_16
+
+onto:relation_16 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-part-of" ;
+                 
+                 rdfs:comment "1.059" ;
+                 
+                 rdfs:domain onto:set ;
+                 
+                 rdfs:range onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_17
+
+onto:relation_17 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-part-of" ;
+                 
+                 rdfs:comment "1.055" ;
+                 
+                 rdfs:domain onto:round ;
+                 
+                 rdfs:range onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_18
+
+onto:relation_18 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-part-of" ;
+                 
+                 rdfs:comment "1.054" ;
+                 
+                 rdfs:domain onto:backhand ;
+                 
+                 rdfs:range onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_19
+
+onto:relation_19 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "other" ;
+                 
+                 rdfs:comment "1.019" ;
+                 
+                 rdfs:domain onto:champion ;
+                 
+                 rdfs:range onto:season .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_2
+
+onto:relation_2 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "has-part" ;
+                
+                rdfs:comment "1.115" ;
+                
+                rdfs:domain onto:tennis ;
+                
+                rdfs:range onto:tournament .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_20
+
+onto:relation_20 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "modifierOf" ;
+                 
+                 rdfs:domain onto:break ;
+                 
+                 rdfs:range onto:break_point .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_21
+
+onto:relation_21 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "other" ;
+                 
+                 rdfs:comment "1.025" ;
+                 
+                 rdfs:domain onto:champion ;
+                 
+                 rdfs:range onto:world .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_22
+
+onto:relation_22 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "other" ;
+                 
+                 rdfs:comment "1.009" ;
+                 
+                 rdfs:range onto:game ;
+                 
+                 rdfs:domain onto:half .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_23
+
+onto:relation_23 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "has-effect-on" ;
+                 
+                 rdfs:comment "1.007" ;
+                 
+                 rdfs:domain onto:penalty ;
+                 
+                 rdfs:range onto:victory .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_24
+
+onto:relation_24 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-opposite-of" ;
+                 
+                 rdfs:comment "1.011" ;
+                 
+                 rdfs:domain onto:defeat ;
+                 
+                 rdfs:range onto:victory .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_25
+
+onto:relation_25 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "is-affected-by" ;
+                 
+                 rdfs:comment "1.008" ;
+                 
+                 rdfs:domain onto:career ;
+                 
+                 rdfs:range onto:coach .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_3
+
+onto:relation_3 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "has-part" ;
+                
+                rdfs:comment "1.090" ;
+                
+                rdfs:range onto:player ;
+                
+                rdfs:domain onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_4
+
+onto:relation_4 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "other" ;
+                
+                rdfs:comment "1.013" ;
+                
+                rdfs:domain onto:champion ;
+                
+                rdfs:range onto:championship .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_5
+
+onto:relation_5 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "has-part" ;
+                
+                rdfs:comment "1.081" ;
+                
+                rdfs:range onto:ATP ;
+                
+                rdfs:domain onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_6
+
+onto:relation_6 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "has-part" ;
+                
+                rdfs:comment "1.045" ;
+                
+                rdfs:range onto:forehand ;
+                
+                rdfs:domain onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_7
+
+onto:relation_7 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "other" ;
+                
+                rdfs:comment "1.014" ;
+                
+                rdfs:range onto:baseline ;
+                
+                rdfs:domain onto:forehand .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_8
+
+onto:relation_8 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "has-part" ;
+                
+                rdfs:comment "1.042" ;
+                
+                rdfs:range onto:break_point ;
+                
+                rdfs:domain onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_9
+
+onto:relation_9 rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "is-part-of" ;
+                
+                rdfs:comment "1.080" ;
+                
+                rdfs:range onto:tennis ;
+                
+                rdfs:domain onto:tennis_star .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#used-by
+
+onto:used-by rdf:type owl:ObjectProperty ;
+             
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#uses
+
+onto:uses rdf:type owl:ObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#ATP
+
+onto:ATP rdf:type owl:Class ;
+         
+         rdfs:label "ATP" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#ace
+
+onto:ace rdf:type owl:Class ;
+         
+         rdfs:label "ace" ;
+         
+         rdfs:subClassOf onto:champion ,
+                         onto:singles .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#backhand
+
+onto:backhand rdf:type owl:Class ;
+              
+              rdfs:label "backhand" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#ball
+
+onto:ball rdf:type owl:Class ;
+          
+          rdfs:label "ball" ;
+          
+          rdfs:subClassOf onto:sport .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#baseline
+
+onto:baseline rdf:type owl:Class ;
+              
+              rdfs:label "baseline" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#break
+
+onto:break rdf:type owl:Class ;
+           
+           rdfs:label "break" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#break_point
+
+onto:break_point rdf:type owl:Class ;
+                 
+                 rdfs:label "break point" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#career
+
+onto:career rdf:type owl:Class ;
+            
+            rdfs:label "career" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#champion
+
+onto:champion rdf:type owl:Class ;
+              
+              rdfs:label "champion" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#championship
+
+onto:championship rdf:type owl:Class ;
+                  
+                  rdfs:label "championship" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#club
+
+onto:club rdf:type owl:Class ;
+          
+          rdfs:label "club" ;
+          
+          rdfs:subClassOf onto:squad ,
+                          onto:team .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#coach
+
+onto:coach rdf:type owl:Class ;
+           
+           rdfs:label "coach" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#court
+
+onto:court rdf:type owl:Class ;
+           
+           rdfs:label "court" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#cup
+
+onto:cup rdf:type owl:Class ;
+         
+         rdfs:label "cup" ;
+         
+         rdfs:subClassOf onto:opening ,
+                         onto:tournament .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#defeat
+
+onto:defeat rdf:type owl:Class ;
+            
+            rdfs:label "defeat" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#draw
+
+onto:draw rdf:type owl:Class ;
+          
+          rdfs:label "draw" ;
+          
+          rdfs:subClassOf onto:run .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#forehand
+
+onto:forehand rdf:type owl:Class ;
+              
+              rdfs:label "forehand" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#game
+
+onto:game rdf:type owl:Class ;
+          
+          rdfs:label "game" ;
+          
+          rdfs:subClassOf onto:ball ,
+                          onto:round ,
+                          onto:singles ,
+                          onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#half
+
+onto:half rdf:type owl:Class ;
+          
+          rdfs:label "half" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#inning
+
+onto:inning rdf:type owl:Class ;
+            
+            rdfs:label "inning" ;
+            
+            rdfs:subClassOf onto:point .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#lead
+
+onto:lead rdf:type owl:Class ;
+          
+          rdfs:label "lead" ;
+          
+          rdfs:subClassOf onto:player ,
+                          onto:point .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#league
+
+onto:league rdf:type owl:Class ;
+            
+            rdfs:label "league" ;
+            
+            rdfs:subClassOf onto:match .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#match
+
+onto:match rdf:type owl:Class ;
+           
+           rdfs:label "match" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#opening
+
+onto:opening rdf:type owl:Class ;
+             
+             rdfs:label "opening" ;
+             
+             rdfs:subClassOf onto:break .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#pass
+
+onto:pass rdf:type owl:Class ;
+          
+          rdfs:label "pass" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#penalty
+
+onto:penalty rdf:type owl:Class ;
+             
+             rdfs:label "penalty" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#player
+
+onto:player rdf:type owl:Class ;
+            
+            rdfs:label "player" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#point
+
+onto:point rdf:type owl:Class ;
+           
+           rdfs:label "point" ;
+           
+           rdfs:subClassOf onto:opening .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#racket
+
+onto:racket rdf:type owl:Class ;
+            
+            rdfs:label "racket" ;
+            
+            rdfs:subClassOf onto:set .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#round
+
+onto:round rdf:type owl:Class ;
+           
+           rdfs:label "round" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#run
+
+onto:run rdf:type owl:Class ;
+         
+         rdfs:label "run" ;
+         
+         rdfs:subClassOf onto:break .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#season
+
+onto:season rdf:type owl:Class ;
+            
+            rdfs:label "season" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#set
+
+onto:set rdf:type owl:Class ;
+         
+         rdfs:label "set" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#shot
+
+onto:shot rdf:type owl:Class ;
+          
+          rdfs:label "shot" ;
+          
+          rdfs:subClassOf onto:ace ,
+                          onto:backhand ,
+                          onto:ball ,
+                          onto:break ,
+                          onto:forehand ,
+                          onto:slam .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#singles
+
+onto:singles rdf:type owl:Class ;
+             
+             rdfs:label "singles" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#slam
+
+onto:slam rdf:type owl:Class ;
+          
+          rdfs:label "slam" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#sport
+
+onto:sport rdf:type owl:Class ;
+           
+           rdfs:label "sport" ;
+           
+           rdfs:subClassOf onto:round ,
+                           onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#squad
+
+onto:squad rdf:type owl:Class ;
+           
+           rdfs:label "squad" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#start
+
+onto:start rdf:type owl:Class ;
+           
+           rdfs:label "start" ;
+           
+           rdfs:subClassOf onto:opening .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#team
+
+onto:team rdf:type owl:Class ;
+          
+          rdfs:label "team" ;
+          
+          rdfs:subClassOf onto:squad .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis
+
+onto:tennis rdf:type owl:Class ;
+            
+            rdfs:label "tennis" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_court
+
+onto:tennis_court rdf:type owl:Class ;
+                  
+                  rdfs:label "tennis court" ;
+                  
+                  rdfs:subClassOf onto:court .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_match
+
+onto:tennis_match rdf:type owl:Class ;
+                  
+                  rdfs:label "tennis match" ;
+                  
+                  rdfs:subClassOf onto:match ,
+                                  onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_player
+
+onto:tennis_player rdf:type owl:Class ;
+                   
+                   rdfs:label "tennis player" ;
+                   
+                   rdfs:subClassOf onto:player .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_star
+
+onto:tennis_star rdf:type owl:Class ;
+                 
+                 rdfs:label "tennis star" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_tournament
+
+onto:tennis_tournament rdf:type owl:Class ;
+                       
+                       rdfs:label "tennis tournament" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tournament
+
+onto:tournament rdf:type owl:Class ;
+                
+                rdfs:label "tournament" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#towel
+
+onto:towel rdf:type owl:Class ;
+           
+           rdfs:label "towel" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#victory
+
+onto:victory rdf:type owl:Class ;
+             
+             rdfs:label "victory" ;
+             
+             rdfs:subClassOf onto:slam .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#winner
+
+onto:winner rdf:type owl:Class ;
+            
+            rdfs:label "winner" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#world
+
+onto:world rdf:type owl:Class ;
+           
+           rdfs:label "world" .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#world_number
+
+onto:world_number rdf:type owl:Class ;
+                  
+                  rdfs:label "world number" .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#ATP
+
+onto:ATP rdf:type owl:NamedIndividual ;
+         
+         onto:relation_5 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#backhand
+
+onto:backhand rdf:type owl:NamedIndividual ;
+              
+              onto:relation_18 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#ball
+
+onto:ball rdf:type owl:NamedIndividual .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#baseline
+
+onto:baseline rdf:type owl:NamedIndividual ;
+              
+              onto:relation_7 onto:forehand .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#break
+
+onto:break rdf:type owl:NamedIndividual ;
+           
+           onto:relation_20 onto:break_point .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#break_point
+
+onto:break_point rdf:type owl:NamedIndividual ;
+                 
+                 onto:relation_8 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#career
+
+onto:career rdf:type owl:NamedIndividual ;
+            
+            onto:relation_25 onto:coach .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#champion
+
+onto:champion rdf:type owl:NamedIndividual ;
+              
+              onto:relation_4 onto:championship ;
+              
+              onto:relation_19 onto:season ;
+              
+              onto:relation_11 onto:tennis ;
+              
+              onto:relation_21 onto:winner ,
+                               onto:world .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#championship
+
+onto:championship rdf:type owl:NamedIndividual ;
+                  
+                  onto:relation_4 onto:champion .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#coach
+
+onto:coach rdf:type owl:NamedIndividual ;
+           
+           onto:relation_1 onto:player .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#defeat
+
+onto:defeat rdf:type owl:NamedIndividual ;
+            
+            onto:relation_24 onto:victory .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#forehand
+
+onto:forehand rdf:type owl:NamedIndividual ;
+              
+              onto:relation_7 onto:baseline ;
+              
+              onto:relation_6 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#game
+
+onto:game rdf:type owl:NamedIndividual .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#half
+
+onto:half rdf:type owl:NamedIndividual ;
+          
+          onto:relation_22 onto:game .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#pass
+
+onto:pass rdf:type owl:NamedIndividual ;
+          
+          onto:relation_7 onto:ball .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#penalty
+
+onto:penalty rdf:type owl:NamedIndividual ;
+             
+             onto:relation_23 onto:victory .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#player
+
+onto:player rdf:type owl:NamedIndividual ;
+            
+            onto:relation_1 onto:coach ;
+            
+            onto:relation_19 onto:squad ;
+            
+            onto:relation_3 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#round
+
+onto:round rdf:type owl:NamedIndividual ;
+           
+           onto:relation_17 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#season
+
+onto:season rdf:type owl:NamedIndividual ;
+            
+            onto:relation_19 onto:champion .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#set
+
+onto:set rdf:type owl:NamedIndividual ;
+         
+         onto:relation_16 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#singles
+
+onto:singles rdf:type owl:NamedIndividual ;
+             
+             onto:relation_12 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#slam
+
+onto:slam rdf:type owl:NamedIndividual ;
+          
+          onto:relation_13 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#squad
+
+onto:squad rdf:type owl:NamedIndividual ;
+           
+           onto:relation_19 onto:player .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis
+
+onto:tennis rdf:type owl:NamedIndividual ;
+            
+            onto:relation_5 onto:ATP ;
+            
+            onto:relation_18 onto:backhand ;
+            
+            onto:relation_8 onto:break_point ;
+            
+            onto:relation_11 onto:champion ;
+            
+            onto:relation_6 onto:forehand ;
+            
+            onto:relation_3 onto:player ;
+            
+            onto:relation_17 onto:round ;
+            
+            onto:relation_16 onto:set ;
+            
+            onto:relation_12 onto:singles ;
+            
+            onto:relation_13 onto:slam ;
+            
+            onto:relation_14 onto:tennis_court ;
+            
+            onto:relation_9 onto:tennis_star ;
+            
+            onto:relation_15 onto:tennis_tournament ;
+            
+            onto:relation_2 onto:tournament ;
+            
+            onto:relation_10 onto:towel .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_court
+
+onto:tennis_court rdf:type owl:NamedIndividual ;
+                  
+                  onto:relation_14 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_star
+
+onto:tennis_star rdf:type owl:NamedIndividual ;
+                 
+                 onto:relation_9 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_tournament
+
+onto:tennis_tournament rdf:type owl:NamedIndividual ;
+                       
+                       onto:relation_15 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#tournament
+
+onto:tournament rdf:type owl:NamedIndividual ;
+                
+                onto:relation_2 onto:tennis ;
+                
+                onto:relation_7 onto:world_number .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#towel
+
+onto:towel rdf:type owl:NamedIndividual ;
+           
+           onto:relation_10 onto:tennis .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#victory
+
+onto:victory rdf:type owl:NamedIndividual .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#winner
+
+onto:winner rdf:type owl:NamedIndividual ;
+            
+            onto:relation_21 onto:champion .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#world
+
+onto:world rdf:type owl:NamedIndividual ;
+           
+           onto:relation_21 onto:champion .
+
+
+
+###  http://137.208.51.84:5000/owl/2014_10_14+12%3A52%3A36+tennis_spectral_brute_limit_50_crowdflower%2F3#world_number
+
+onto:world_number rdf:type owl:NamedIndividual ;
+                  
+                  onto:relation_7 onto:tournament .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+

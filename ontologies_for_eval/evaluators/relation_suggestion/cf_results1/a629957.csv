@@ -1,0 +1,160 @@
+_unit_id,_golden,_unit_state,_trusted_judgments,_last_judgment_at,task,task:confidence,what_is_the_first_letter_of_the_subject_term,orig__golden,answer1,answer10,answer2,answer3,answer4,answer5,answer6,answer7,answer8,answer9,orig_task,task_gold,task_gold_reason,what_is_the_first_letter_of_the_subject_term_gold
+576482753,false,finalized,5,10/21/2014 21:43:05,10,0.7994,"f
+f
+f
+f
+f",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject forehand and the object baseline?,,,
+576482754,false,finalized,5,10/21/2014 21:45:40,8,0.4013,"t
+t
+t
+t
+t",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject tennis and the object 'break point'?,,,
+576482755,false,finalized,5,10/21/2014 21:45:40,7,0.5987,"t
+t
+t
+t
+t",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject 'tennis star' and the object tennis?,,,
+576482756,false,finalized,5,10/21/2014 21:41:59,9,0.3981,"t
+t
+t
+t
+t",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject tennis and the object player?,,,
+576482757,true,golden,16,"",10,0.6847,"c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject champion and the object championship?,10,"",c
+576482758,false,finalized,5,10/21/2014 21:41:59,7,0.7994,"t
+t
+t
+t
+t",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject tennis and the object ATP?,,,
+576482759,false,finalized,5,10/21/2014 18:29:46,8,0.4129,"t
+t
+t
+f
+t",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject tennis and the object forehand?,,,
+576482760,false,finalized,5,10/21/2014 21:47:04,9,0.5987,"p
+p
+p
+p
+p",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject player and the object coach?,,,
+576482761,false,finalized,5,10/21/2014 21:40:40,10,0.4013,"t
+t
+t
+t
+t",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject tennis and the object tournament?,,,
+576482762,false,finalized,5,10/21/2014 21:45:40,1,1.0,"d
+d
+d
+d
+d",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject defeat and the object victory?,,,
+576482763,true,golden,15,"",2,0.8953,"p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject penalty and the object victory?,2,a penalty can have an effect on the victory,p
+576482764,false,finalized,5,10/21/2014 21:45:40,5,0.4013,"c
+c
+c
+c
+c",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject career and the object coach?,,,
+576482765,false,finalized,5,10/21/2014 18:24:27,10,0.8258,"h
+h
+h
+h
+h",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject half and the object game?,,,
+576482766,false,finalized,5,10/21/2014 18:23:00,10,1.0,"c
+c
+c
+c
+c",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject champion and the object world?,,,
+576482767,false,finalized,5,10/21/2014 21:43:05,7,1.0,"b
+b
+b
+b
+b",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject backhand and the object tennis?,,,
+576482768,false,finalized,5,10/21/2014 21:40:40,10,1.0,"c
+c
+c
+c
+c",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject champion and the object season?,,,
+576482769,false,finalized,5,10/21/2014 21:40:40,7,1.0,"s
+s
+s
+s
+s",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject set and the object tennis?,,,
+576482770,true,golden,23,"",10,0.9548,"r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject round and the object tennis?,10,"",r
+576482771,false,finalized,5,10/21/2014 21:41:59,7,0.7994,"t
+t
+t
+t
+t",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject 'tennis tournament' and the object tennis?,,,
+576482772,false,finalized,5,10/21/2014 21:41:59,7,0.8025,"t
+t
+t
+t
+t",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject 'tennis court' and the object tennis?,,,
+576482773,false,finalized,5,10/21/2014 18:29:46,7,0.4129,"s
+s
+s
+s
+s",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject slam and the object tennis?,,,
+576482774,false,finalized,5,10/21/2014 21:40:40,7,1.0,"s
+s
+s
+s
+s",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject singles and the object tennis?,,,
+576482775,false,finalized,5,10/21/2014 21:43:05,10,0.4013,"c
+c
+t
+c
+c",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject champion and the object tennis?,,,
+576482776,false,finalized,5,10/21/2014 21:43:05,10,0.8025,"t
+t
+t
+t
+t",,is-opposite-of,None of those,has-effect-on,modifierOf,used-by,is-affected-by,is-a,is-part-of,has-part,uses,In the domain of Tennis (the Sport): What is an appropriate label to describe the relation between the subject towel and the object tennis?,,,

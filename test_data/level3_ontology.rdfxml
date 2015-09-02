@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:onto="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#clay">
+    <onto:relation_15 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>clay</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_11">
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:comment>1.097</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#masters"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_22">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#federer"/>
+    <rdfs:comment>1.018</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world_tour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#league">
+    <rdfs:label>league</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#match"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_4">
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:comment>1.080</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ATP"/>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_12">
+    <rdfs:label>relation</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:comment>1.065</rdfs:comment>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#court"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#masters">
+    <onto:relation_11 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>masters</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_24">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#coach"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#team"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>1.033</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#winner">
+    <rdfs:label>winner</rdfs:label>
+    <onto:relation_23 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion">
+    <onto:relation_13 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <onto:relation_18 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#defeat"/>
+    <onto:relation_25 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#round"/>
+    <rdfs:label>champion</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_23 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#winner"/>
+    <onto:relation_20 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#season"/>
+    <onto:relation_21 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#trophy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#pass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_26 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#backhand"/>
+    <rdfs:label>pass</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#lead">
+    <rdfs:label>lead</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_18 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#opening"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#opening">
+    <rdfs:label>opening</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#break"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3">
+    <dc:creator>WU Vienna, Inst. of Inf. Business</dc:creator>
+    <dc:title>2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3</dc:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tournament">
+    <onto:relation_2 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:label>tournament</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ranking">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_19 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ATP"/>
+    <rdfs:label>ranking</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#victory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>victory</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#slam"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_18">
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:comment>1.015</rdfs:comment>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#defeat"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#slam_champion">
+    <onto:relation_9 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#federer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>slam champion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#career">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_27 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#season"/>
+    <rdfs:label>career</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#slam"/>
+    <rdfs:comment>1.064</rdfs:comment>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#opponent">
+    <rdfs:label>opponent</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_26 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#backhand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world_tour">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>world tour</rdfs:label>
+    <onto:relation_22 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#federer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_15">
+    <rdfs:comment>1.060</rdfs:comment>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#clay"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>relation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#federer">
+    <onto:relation_9 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#slam_champion"/>
+    <onto:relation_22 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world_tour"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_9 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#baseline"/>
+    <rdfs:label>federer</rdfs:label>
+    <onto:relation_16 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#trophy">
+    <rdfs:label>trophy</rdfs:label>
+    <onto:relation_21 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>1.025</rdfs:comment>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#season"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_2">
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tournament"/>
+    <rdfs:comment>1.088</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#run">
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#marathon"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#break"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>run</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#backhand">
+    <rdfs:label>backhand</rdfs:label>
+    <onto:relation_17 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_10">
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:comment>1.049</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_star"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#team">
+    <rdfs:label>team</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_24 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#coach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#squad">
+    <rdfs:label>squad</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#team"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_star">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_10 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:label>tennis star</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#coach">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>coach</rdfs:label>
+    <onto:relation_8 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <onto:relation_24 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#break">
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#victory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>break</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world_number">
+    <rdfs:label>world number</rdfs:label>
+    <onto:relation_14 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ace">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>ace</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#loss">
+    <onto:relation_26 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#coach"/>
+    <rdfs:label>loss</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#sport">
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>sport</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_26">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#pass"/>
+    <rdfs:comment>1.014</rdfs:comment>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#backhand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>relation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#marathon">
+    <onto:relation_7 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>marathon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#atp_world">
+    <rdfs:label>atp world</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_21">
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#trophy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>1.013</rdfs:comment>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <rdfs:label>relation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis">
+    <onto:relation_10 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_star"/>
+    <onto:relation_13 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <onto:relation_10 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_player"/>
+    <onto:relation_15 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#clay"/>
+    <onto:relation_7 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#marathon"/>
+    <onto:relation_5 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world"/>
+    <onto:relation_8 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#coach"/>
+    <onto:relation_2 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tournament"/>
+    <onto:relation_16 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#federer"/>
+    <onto:relation_4 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ATP"/>
+    <rdfs:label>tennis</rdfs:label>
+    <onto:relation_3 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#slam"/>
+    <onto:relation_1 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#set"/>
+    <onto:relation_11 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#masters"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_12 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#court"/>
+    <onto:relation_6 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#forehand"/>
+    <onto:relation_14 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world_number"/>
+    <onto:relation_17 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#backhand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#court">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>court</rdfs:label>
+    <onto:relation_12 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_player">
+    <rdfs:label>tennis player</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_10 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#backhand"/>
+    <rdfs:comment>1.055</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#score">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#game"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#run"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#lead"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#break"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#match"/>
+    <rdfs:label>score</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#season">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_20 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <rdfs:label>season</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#game">
+    <rdfs:label>game</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#round"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#match">
+    <rdfs:label>match</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_13">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:comment>1.111</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_27">
+    <rdfs:comment>1.010</rdfs:comment>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#season"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#career"/>
+    <rdfs:label>relation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_7">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#marathon"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>1.051</rdfs:comment>
+    <rdfs:label>relation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#draw">
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#run"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>draw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#baseline">
+    <rdfs:label>baseline</rdfs:label>
+    <onto:relation_9 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#federer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_1">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#set"/>
+    <rdfs:comment>1.054</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_8">
+    <rdfs:comment>1.056</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#coach"/>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:label>relation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#test">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#run"/>
+    <rdfs:label>test</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#start">
+    <rdfs:label>start</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#opening"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ATP">
+    <rdfs:label>ATP</rdfs:label>
+    <onto:relation_4 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_19 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ranking"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#half">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_9 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#opening"/>
+    <rdfs:label>half</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_5">
+    <rdfs:comment>1.071</rdfs:comment>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world"/>
+    <rdfs:label>relation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_9">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#federer"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#baseline"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>1.017</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#championship">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_9 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#team"/>
+    <rdfs:label>championship</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_25">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#round"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>1.024</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_14">
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>1.057</rdfs:comment>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world_number"/>
+    <rdfs:label>relation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#round">
+    <onto:relation_25 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <rdfs:label>round</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_23">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdfs:comment>1.021</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#winner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#group">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#court"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#match"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#team"/>
+    <rdfs:label>group</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#set"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#volley">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>volley</rdfs:label>
+    <onto:relation_26 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#federer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ball">
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#sport"/>
+    <rdfs:label>ball</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#game"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#set">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_1 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:label>set</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_19">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ATP"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ranking"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>1.020</rdfs:comment>
+    <rdfs:label>relation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#shot">
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#break"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ball"/>
+    <rdfs:label>shot</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#volley"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#forehand"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#slam"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#backhand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#ace"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_16">
+    <rdfs:comment>1.068</rdfs:comment>
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#federer"/>
+    <rdfs:label>relation</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#defeat">
+    <onto:relation_18 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#champion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>defeat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#world">
+    <rdfs:label>world</rdfs:label>
+    <onto:relation_5 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#forehand">
+    <rdfs:label>forehand</rdfs:label>
+    <onto:relation_6 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis_match">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>tennis match</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#match"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#club">
+    <rdfs:label>club</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#group"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#team"/>
+    <rdfs:subClassOf rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#squad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#relation_6">
+    <rdfs:domain rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+    <rdfs:range rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#forehand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>1.038</rdfs:comment>
+    <rdfs:label>relation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#slam">
+    <rdfs:label>slam</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <onto:relation_3 rdf:resource="http://137.208.51.84:5000/owl/2014_12_09+12%3A28%3A01+tennis_spectral_brute_limit_50_crowdflower%2F3#tennis"/>
+  </rdf:Description>
+</rdf:RDF>

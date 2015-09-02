@@ -1,0 +1,21 @@
+_unit_id,_golden,_canary,_unit_state,_trusted_judgments,_last_judgment_at,task,task:confidence,orig_task
+461516979,false,false,finalized,5,5/12/2014 09:10:24,2,0.8,In the domain of Finance (Euro Crisis): Is class finance a subclass of banking?
+461516980,false,false,finalized,5,5/12/2014 09:16:05,1,0.8421,In the domain of Finance (Euro Crisis): Is class investment a subclass of finance?
+461516981,false,false,finalized,5,5/12/2014 11:08:01,2,0.8,In the domain of Finance (Euro Crisis): Is class money a subclass of credit?
+461516982,false,false,finalized,5,5/12/2014 09:10:24,1,0.8,In the domain of Finance (Euro Crisis): Is class money a subclass of currency?
+461516983,false,false,finalized,5,5/12/2014 09:09:07,2,0.6,In the domain of Finance (Euro Crisis): Is class money a subclass of income?
+461516984,false,false,finalized,5,5/12/2014 09:10:24,2,0.6,In the domain of Finance (Euro Crisis): Is class money a subclass of investment?
+461516985,false,false,finalized,5,5/12/2014 09:09:43,2,1,In the domain of Finance (Euro Crisis): Is class budget a subclass of money?
+461516986,false,false,finalized,5,5/12/2014 11:08:01,2,1,In the domain of Finance (Euro Crisis): Is class plan a subclass of budget?
+461516987,false,false,finalized,5,5/12/2014 09:09:43,2,0.8,In the domain of Finance (Euro Crisis): Is class plan a subclass of policy?
+461516988,true,false,golden,12,,1,1,In the domain of Finance (Euro Crisis): Is class dollar a subclass of currency?
+461516989,false,false,finalized,5,5/12/2014 11:08:01,2,1,In the domain of Finance (Euro Crisis): Is class bill a subclass of dollar?
+461516990,false,false,finalized,5,5/12/2014 09:10:44,1,1,In the domain of Finance (Euro Crisis): Is class euro a subclass of currency?
+461516991,false,false,finalized,5,5/12/2014 09:09:43,2,1,In the domain of Finance (Euro Crisis): Is class spending a subclass of credit?
+461516992,false,false,finalized,5,5/12/2014 09:10:24,2,1,In the domain of Finance (Euro Crisis): Is class spending a subclass of interest_rate?
+461516993,true,false,golden,19,,2,1,In the domain of Finance (Euro Crisis): Is class cost a subclass of credit?
+461516994,false,false,finalized,5,5/12/2014 11:07:13,2,1,In the domain of Finance (Euro Crisis): Is class cost a subclass of interest_rate?
+461516995,true,false,golden,9,,2,1,In the domain of Finance (Euro Crisis): Is class income a subclass of bank?
+461516996,true,false,golden,8,,2,0.9032,In the domain of Finance (Euro Crisis): Is class credit a subclass of debt?
+461516997,false,false,finalized,5,5/12/2014 09:09:43,2,0.8,In the domain of Finance (Euro Crisis): Is class product a subclass of stock?
+461516998,false,false,finalized,5,5/12/2014 11:08:01,2,0.6,In the domain of Finance (Euro Crisis): Is class yield a subclass of product?

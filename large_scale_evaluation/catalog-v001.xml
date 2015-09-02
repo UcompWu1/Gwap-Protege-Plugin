@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1412845762690" name="duplicate:http://human.owl" uri="human.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1412845762690" name="duplicate:http://human.owl" uri="human_random_concepts_added.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1412845762690" name="duplicate:http://human.owl" uri="human_swapped_concepts_1600.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1412845762690" name="shadowed:http://human.owl" uri="orig/human.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1412845762690" name="shadowed:http://human.owl" uri="old/human_random_concepts_added.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1412845762690" name="shadowed:http://human.owl" uri="old/human_swapped_concepts_1600.owl"/>
+    </group>
+</catalog>

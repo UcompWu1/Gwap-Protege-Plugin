@@ -1,0 +1,561 @@
+_unit_id,_golden,_unit_state,_trusted_judgments,_last_judgment_at,task,task:confidence,what_is_the_first_letter_of_the_verified_term,orig__golden,answer1,answer2,orig_task,task_gold,task_gold_reason,what_is_the_first_letter_of_the_verified_term_gold
+572804453,true,golden,34,"",2,1.0,"A
+A
+A
+A
+A
+a
+A
+a
+a
+A
+a
+a
+a
+a
+A
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a",,Yes,No,In the domain of Wine (the drink): Is 'Abraham Lincoln' a type of Region?,2,Abraham Lincoln is a Person.,a
+572804454,true,golden,33,"",2,1.0,"A
+A
+A
+A
+A
+A
+a
+A
+a
+A
+a
+A
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a",,Yes,No,In the domain of Wine (the drink): Is 'Albert Einstein' a type of Region?,2,Albert Einstein is a person.,a
+572804455,true,golden,26,"",1,0.9624,"A
+A
+a
+A
+A
+A
+a
+a
+a
+a
+a
+a
+A
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a",,Yes,No,In the domain of Wine (the drink): Is 'Alsace Region' a type of Region?,1,"Alsace is an important wine-producing region, en.wikipedia.org/wiki/Alsace",a
+572804456,true,golden,43,"",1,1.0,"A
+A
+A
+A
+a
+A
+a
+A
+A
+a
+a
+a
+a
+a
+a
+a
+A
+a
+a
+a
+A
+A
+a
+A
+a
+a
+a
+a
+a
+A
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a",,Yes,No,In the domain of Wine (the drink): Is 'Anjou Region' a type of Region?,1,"",a
+572804457,false,finalized,5,10/15/2014 09:18:59,1,1.0,"a
+a
+a
+a
+a",,Yes,No,In the domain of Wine (the drink): Is 'Arroyo Grande Region' a type of Region?,,,
+572804458,false,finalized,5,10/15/2014 09:18:33,1,0.8084,"a
+a
+a
+a
+a",,Yes,No,In the domain of Wine (the drink): Is 'Australian Region' a type of Region?,,,
+572804459,false,finalized,5,10/15/2014 09:03:36,1,1.0,"B
+B
+b
+b
+b",,Yes,No,In the domain of Wine (the drink): Is 'Beaujolais Region' a type of Region?,,,
+572804460,false,finalized,6,10/15/2014 09:19:25,2,1.0,"b
+B
+b
+b
+b
+b",,Yes,No,In the domain of Wine (the drink): Is 'Bill Gates' a type of Region?,,,
+572804461,false,finalized,5,10/15/2014 08:51:04,1,1.0,"B
+b
+b
+B
+b",,Yes,No,In the domain of Wine (the drink): Is 'Bordeaux Region' a type of Region?,,,
+572804462,false,finalized,5,10/15/2014 08:49:36,1,1.0,"B
+B
+b
+b
+b",,Yes,No,In the domain of Wine (the drink): Is 'Bourgogne Region' a type of Region?,,,
+572804463,false,finalized,5,10/15/2014 08:44:51,1,1.0,"C
+C
+c
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'California Region' a type of Region?,,,
+572804464,false,finalized,5,10/15/2014 08:49:36,1,1.0,"C
+C
+c
+C
+c",,Yes,No,In the domain of Wine (the drink): Is 'Central Coast Region' a type of Region?,,,
+572804466,false,finalized,5,10/15/2014 08:47:51,1,0.8084,"C
+c
+c
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'Central Texas Region' a type of Region?,,,
+572804467,false,finalized,5,10/15/2014 08:51:26,2,1.0,"C
+c
+c
+c
+C",,Yes,No,In the domain of Wine (the drink): Is 'Charles Darwin' a type of Region?,,,
+572804468,false,finalized,5,10/15/2014 12:43:02,2,1.0,"c
+C
+C
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'Charles de Gaulle' a type of Region?,,,
+572804469,false,finalized,5,10/15/2014 12:43:02,1,1.0,"C
+c
+c
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'Chianti Region' a type of Region?,,,
+572804470,true,golden,24,"",2,1.0,"C
+C
+c
+c
+c
+c
+C
+c
+c
+C
+C
+c
+C
+c
+C
+C
+c
+c
+c
+c
+c
+c
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'Christopher Columbus' a type of Region?,2,Christopher Columbus is a person.,c
+572804471,false,finalized,5,10/15/2014 08:54:11,1,1.0,"C
+c
+c
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'Cotes d'Or Region' a type of Region?,,,
+572804472,false,finalized,5,10/15/2014 09:17:47,1,1.0,"E
+E
+E
+e
+e",,Yes,No,In the domain of Wine (the drink): Is 'Edna Valley Region' a type of Region?,,,
+572804473,false,finalized,5,10/15/2014 08:44:18,2,1.0,"E
+e
+E
+E
+e",,Yes,No,In the domain of Wine (the drink): Is 'Elvis Presley' a type of Region?,,,
+572804474,false,finalized,5,10/15/2014 09:18:06,2,1.0,"F
+f
+f
+f
+f",,Yes,No,In the domain of Wine (the drink): Is 'Franklin D. Roosevelt' a type of Region?,,,
+572804475,false,finalized,5,10/15/2014 08:51:54,1,1.0,"f
+f
+F
+f
+f",,Yes,No,In the domain of Wine (the drink): Is 'French Region' a type of Region?,,,
+572804476,false,finalized,5,10/15/2014 09:51:11,2,1.0,"G
+g
+g
+g
+g",,Yes,No,In the domain of Wine (the drink): Is 'George Orwell' a type of Region?,,,
+572804477,false,finalized,5,10/15/2014 08:49:18,1,0.8084,"G
+g
+g
+G
+g",,Yes,No,In the domain of Wine (the drink): Is 'Germany Region' a type of Region?,,,
+572804478,false,finalized,5,10/15/2014 09:17:47,1,0.6165,"I
+i
+i
+I
+i",,Yes,No,In the domain of Wine (the drink): Is 'Italian Region' a type of Region?,,,
+572804479,false,finalized,5,10/15/2014 09:06:16,2,1.0,"J
+J
+j
+j
+j",,Yes,No,In the domain of Wine (the drink): Is 'John F. Kennedy' a type of Region?,,,
+572804480,false,finalized,6,10/15/2014 10:25:53,2,1.0,"j
+j
+j
+j
+j
+j",,Yes,No,In the domain of Wine (the drink): Is 'John M. Keynes' a type of Region?,,,
+572804481,false,finalized,5,10/15/2014 09:50:45,2,1.0,"L
+l
+l
+l
+l",,Yes,No,In the domain of Wine (the drink): Is 'Leo Tolstoy' a type of Region?,,,
+572804482,false,finalized,5,10/15/2014 09:11:41,2,1.0,"L
+l
+L
+l
+l",,Yes,No,In the domain of Wine (the drink): Is 'Leonardo da Vinci' a type of Region?,,,
+572804484,false,finalized,5,10/15/2014 08:39:57,1,1.0,"L
+L
+l
+l
+l",,Yes,No,In the domain of Wine (the drink): Is 'Loire Region' a type of Region?,,,
+572804485,false,finalized,5,10/15/2014 09:06:40,2,1.0,"L
+l
+l
+l
+l",,Yes,No,In the domain of Wine (the drink): Is 'Louis Pasteur' a type of Region?,,,
+572804486,false,finalized,5,10/15/2014 10:26:15,2,1.0,"L
+l
+l
+l
+l",,Yes,No,In the domain of Wine (the drink): Is 'Ludwig Beethoven' a type of Region?,,,
+572804488,false,finalized,5,10/15/2014 08:52:27,2,1.0,"m
+m
+m
+m
+m",,Yes,No,In the domain of Wine (the drink): Is 'Mahatma Gandhi' a type of Region?,,,
+572804489,false,finalized,5,10/15/2014 09:51:11,2,1.0,"M
+m
+m
+m
+m",,Yes,No,In the domain of Wine (the drink): Is 'Margaret Thatcher' a type of Region?,,,
+572804490,false,finalized,5,10/15/2014 08:51:04,1,0.8101,"M
+m
+m
+M
+m",,Yes,No,In the domain of Wine (the drink): Is 'Margaux Region' a type of Region?,,,
+572804491,false,finalized,5,10/15/2014 09:03:37,2,1.0,"m
+m
+m
+m
+m",,Yes,No,In the domain of Wine (the drink): Is 'Marilyn Monroe' a type of Region?,,,
+572804492,false,finalized,5,10/15/2014 09:19:25,2,1.0,"M
+m
+m
+m
+m",,Yes,No,In the domain of Wine (the drink): Is 'Martin Luther King' a type of Region?,,,
+572804493,false,finalized,5,10/15/2014 09:18:33,1,1.0,"M
+M
+m
+m
+m",,Yes,No,In the domain of Wine (the drink): Is 'Medoc Region' a type of Region?,,,
+572804494,false,finalized,5,10/15/2014 09:12:48,1,1.0,"m
+m
+M
+m
+m",,Yes,No,In the domain of Wine (the drink): Is 'Mendocino Region' a type of Region?,,,
+572804495,false,finalized,5,10/15/2014 08:50:17,1,1.0,"M
+M
+m
+M
+m",,Yes,No,In the domain of Wine (the drink): Is 'Meursault Region' a type of Region?,,,
+572804496,false,finalized,6,10/15/2014 10:25:53,2,1.0,"M
+m
+m
+m
+m
+m",,Yes,No,In the domain of Wine (the drink): Is 'Mikhail Gorbachev' a type of Region?,,,
+572804497,false,finalized,5,10/15/2014 08:54:11,2,1.0,"M
+m
+M
+m
+m",,Yes,No,In the domain of Wine (the drink): Is 'Mother Teresa' a type of Region?,,,
+572804498,false,finalized,5,10/15/2014 08:51:33,2,1.0,"M
+m
+m
+m
+m",,Yes,No,In the domain of Wine (the drink): Is 'Muhammad Ali' a type of Region?,,,
+572804499,false,finalized,5,10/15/2014 09:12:48,1,0.7971,"M
+M
+m
+m
+m",,Yes,No,In the domain of Wine (the drink): Is 'Mascadet Region' a type of Region?,,,
+572804500,false,finalized,5,10/15/2014 08:51:17,1,1.0,"N
+n
+n
+N
+n",,Yes,No,In the domain of Wine (the drink): Is 'Napa Region' a type of Region?,,,
+572804501,false,finalized,5,10/15/2014 09:07:01,2,1.0,"n
+n
+n
+n
+n",,Yes,No,In the domain of Wine (the drink): Is 'Nelson Mandela' a type of Region?,,,
+572804502,false,finalized,5,10/15/2014 08:54:39,1,0.8084,"n
+n
+n
+N
+n",,Yes,No,In the domain of Wine (the drink): Is 'New Zealand Region' a type of Region?,,,
+572804503,false,finalized,5,10/15/2014 09:15:21,2,1.0,"P
+p
+p
+p
+p",,Yes,No,In the domain of Wine (the drink): Is 'Pablo Picasso' a type of Region?,,,
+572804504,false,finalized,5,10/15/2014 09:15:21,1,0.8073,"P
+p
+P
+p
+p",,Yes,No,In the domain of Wine (the drink): Is 'Pauillac Region' a type of Region?,,,
+572804505,false,finalized,6,10/15/2014 09:18:54,2,1.0,"P
+P
+p
+p
+p
+p",,Yes,No,In the domain of Wine (the drink): Is 'Paul McCartney' a type of Region?,,,
+572804506,false,finalized,5,10/15/2014 09:03:08,2,1.0,"P
+p
+p
+p
+p",,Yes,No,In the domain of Wine (the drink): Is Plato a type of Region?,,,
+572804507,false,finalized,5,10/15/2014 08:43:13,2,1.0,"p
+P
+P
+p
+p",,Yes,No,In the domain of Wine (the drink): Is 'Pope John Paul II' a type of Region?,,,
+572804508,false,finalized,5,10/15/2014 09:16:08,1,0.6129,"P
+p
+p
+p
+p",,Yes,No,In the domain of Wine (the drink): Is 'Portugal Region' a type of Region?,,,
+572804509,false,finalized,5,10/15/2014 08:40:54,2,1.0,"Q
+q
+q
+q
+q",,Yes,No,In the domain of Wine (the drink): Is 'Queen Elizabeth II' a type of Region?,,,
+572804510,false,finalized,5,10/15/2014 09:50:45,2,1.0,"Q
+q
+Q
+q
+q",,Yes,No,In the domain of Wine (the drink): Is 'Queen Victoria' a type of Region?,,,
+572804511,false,finalized,5,10/15/2014 08:53:13,2,0.8101,"r
+R
+R
+r
+r",,Yes,No,In the domain of Wine (the drink): Is 'Rosa Parks' a type of Region?,,,
+572804512,false,finalized,5,10/15/2014 09:17:47,1,1.0,"S
+s
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'Sancerre Region' a type of Region?,,,
+572804513,false,finalized,5,10/15/2014 08:59:27,1,1.0,"s
+s
+S
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'Santa Barbara Region' a type of Region?,,,
+572804514,false,finalized,5,10/15/2014 09:18:59,1,1.0,"s
+s
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'Santa Cruz Mountains Region' a type of Region?,,,
+572804515,false,finalized,5,10/15/2014 09:01:08,1,0.8101,"S
+s
+S
+S
+s",,Yes,No,In the domain of Wine (the drink): Is 'Sauterne Region' a type of Region?,,,
+572804516,true,golden,35,"",1,0.962,"S
+s
+S
+s
+S
+S
+s
+s
+s
+S
+r
+s
+s
+s
+s
+s
+S
+S
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'Sonoma Region' a type of Region?,1,"",s
+572804517,false,finalized,6,10/15/2014 09:18:54,1,1.0,"S
+S
+a
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'South Australia Region' a type of Region?,,,
+572804518,false,finalized,6,10/15/2014 09:19:25,1,1.0,"S
+S
+s
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'St. Emilion Region' a type of Region?,,,
+572804519,false,finalized,5,10/15/2014 12:43:02,1,1.0,"T
+t
+t
+t
+t",,Yes,No,In the domain of Wine (the drink): Is 'Texas Region' a type of Region?,,,
+572804520,false,finalized,5,10/15/2014 09:16:08,2,1.0,"T
+t
+t
+t
+t",,Yes,No,In the domain of Wine (the drink): Is 'Thomas Edison' a type of Region?,,,
+572804521,false,finalized,5,10/15/2014 09:07:01,1,0.8084,"T
+t
+t
+t
+t",,Yes,No,In the domain of Wine (the drink): Is 'Tours Region' a type of Region?,,,
+572804522,false,finalized,5,10/15/2014 09:51:29,1,0.8116,"u
+u
+u
+u
+u",,Yes,No,In the domain of Wine (the drink): Is 'US Region' a type of Region?,,,
+572804523,false,finalized,5,10/15/2014 09:18:29,2,1.0,"v
+v
+v
+v
+v",,Yes,No,In the domain of Wine (the drink): Is 'Vincent Van Gogh' a type of Region?,,,
+572804524,true,golden,33,"",2,1.0,"W
+W
+W
+W
+w
+W
+w
+w
+w
+W
+w
+W
+w
+w
+w
+w
+W
+w
+w
+w
+W
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w
+w",,Yes,No,In the domain of Wine (the drink): Is 'Winston Churchill' a type of Region?,2,"",w
+572819405,false,finalized,6,10/15/2014 10:25:53,2,1.0,"c
+c
+c
+c
+c
+c",,Yes,No,In the domain of Wine (the drink): Is 'Christopher Columbus' a type of Region?,,,
+572819409,false,finalized,5,10/15/2014 09:02:33,1,1.0,"S
+s
+s
+s
+s",,Yes,No,In the domain of Wine (the drink): Is 'Sonoma Region' a type of Region?,,,
+572819431,false,finalized,5,10/15/2014 09:03:37,2,1.0,"W
+w
+w
+w
+w",,Yes,No,In the domain of Wine (the drink): Is 'Winston Churchill' a type of Region?,,,

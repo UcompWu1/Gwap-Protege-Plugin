@@ -1,0 +1,25 @@
+task	answer1	answer10	answer2	answer3	answer4	answer5	answer6	answer7	answer8	answer9	orig_task	Relation No	result
+8	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   science and    'climate change'?	4	Has-part
+10	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   report and    'climate change'?	5	other
+7	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   reef and    ocean?	24	Is-part-of
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   'global warming' and    greenhouse?	6	Has-effect-on
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   'global warming' and    earth?	7	Has-effect-on
+9	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   temperature and    fahrenheit?	8	Is-a
+8	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   sea and    'sea level'?	21	Has-part
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   'global warming' and    temperature?	9	Has-effect-on
+8	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   energy and    'energy efficiency'?	20	Has-part
+7	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   coral and    ocean?	23	Is-part-of
+7	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   'energy use' and    energy?	22	Is-part-of
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   'global warming' and    sea?	1	Has-effect-on
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   climate and    'climate change'?	2	Has-effect-on
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   energy and    'climate change'?	3	Has-effect-on
+10	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   IPCC and    'global warming'?	17	other
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   pollution and    'global warming'?	18	Has-effect-on
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   carbon and    'global warming'?	19	Has-effect-on
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   'global warming' and    environment?	11	Has-effect-on
+1	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   'global warming' and    'carbon dioxide'?	12	Is-affected-by
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   'global warming' and    ice?	10	Has-effect-on
+7	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   'greenhouse gas' and    emission?	15	Is-part-of
+1	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   'global warming' and    'greenhouse gas'?	16	Has-effect-on
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   warming and    acidification?	13	Has-effect-on
+4	is-affected-by	None of those	is-opposite-of	used-by	has-effect-on	other	uses	is-part-of	has-part	is-a	   carbon and    'carbon tax'?	14	Has-effect-on

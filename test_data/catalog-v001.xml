@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="http://ontology.dumontierlab.com/biochemical-reaction-complex" uri="biochemical-reaction-complex.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="pizza.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="http://www.owl-ontologies.com/generations.owl" uri="family_example.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="http://www.owl-ontologies.com/travel.owl" uri="travel.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="Verknüpfung%20mit%20climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="Verknüpfung%20mit%20climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="Verknüpfung%20mit%20climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="Verknüpfung%20mit%20climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="Verknüpfung%20mit%20climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="Verknüpfung%20mit%20climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="Verknüpfung%20mit%20climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="Verknüpfung%20mit%20climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="duplicate:http://www.semanticweb.org/owl/owlapi/turtle" uri="climate_change_class_relevance_matyas.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine" uri="wine_instanceOf.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1424280603197" name="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#" uri="food.rdf"/>
+    </group>
+</catalog>

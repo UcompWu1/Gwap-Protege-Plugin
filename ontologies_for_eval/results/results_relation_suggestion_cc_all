@@ -1,0 +1,109 @@
+YYYYYYYYYYYY ['cc_relation_suggestion.ttl'] ../evaluators/relation_suggestion/matyas/cc_relation_suggestion.ttl matyas
+YYYYYYYYYYYY ['cc_relation_suggestion.ttl'] ../evaluators/relation_suggestion/stefan/cc_relation_suggestion.ttl stefan
+YYYYYYYYYYYY ['cc_relation_suggestion.ttl'] ../evaluators/relation_suggestion/FJ/cc_relation_suggestion.ttl FJ
+YYYYYYYYYYYY ['cc_relation_suggestion.ttl'] ../evaluators/relation_suggestion/gerhard/cc_relation_suggestion.ttl gerhard
+YYYYYYYYYYYY ['cc_relation_suggestion.ttl'] ../evaluators/relation_suggestion/olga/cc_relation_suggestion.ttl olga
+YYYYYYYYYYYY ['cc.pickle'] ../evaluators/relation_suggestion/cf_results1/cc.pickle cf_results1
+Number of data files as input found: 6
+
+
+Next file: ../evaluators/relation_suggestion/olga/cc_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'uses', 'relation_23': 'is-part-of', 'relation_20': 'is-affected-by', 'relation_21': 'other', 'relation_24': 'is-part-of', 'relation_19': 'has-effect-on', 'relation_18': 'has-effect-on', 'relation_13': 'has-effect-on', 'relation_12': 'is-affected-by', 'relation_11': 'has-effect-on', 'relation_10': 'has-effect-on', 'relation_17': 'has-effect-on', 'relation_16': 'is-affected-by', 'relation_15': 'is-part-of', 'relation_14': 'other', 'relation_9': 'has-effect-on', 'relation_8': 'uses', 'relation_3': 'has-effect-on', 'relation_2': 'is-affected-by', 'relation_1': 'has-effect-on', 'relation_7': 'has-effect-on', 'relation_6': 'other', 'relation_5': 'is-affected-by', 'relation_4': 'is-affected-by'}
+
+
+Next file: ../evaluators/relation_suggestion/stefan/cc_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'has-part', 'relation_23': 'has-effect-on', 'relation_20': 'is-part-of', 'relation_21': 'has-part', 'relation_24': 'is-part-of', 'relation_19': 'has-effect-on', 'relation_18': 'has-effect-on', 'relation_13': 'has-effect-on', 'relation_12': 'is-affected-by', 'relation_11': 'has-effect-on', 'relation_10': 'has-effect-on', 'relation_17': 'other', 'relation_16': 'is-affected-by', 'relation_15': 'is-part-of', 'relation_14': 'used-by', 'relation_9': 'has-effect-on', 'relation_8': 'is-a', 'relation_3': 'has-effect-on', 'relation_2': 'is-affected-by', 'relation_1': 'has-effect-on', 'relation_7': 'has-effect-on', 'relation_6': 'is-affected-by', 'relation_5': 'other', 'relation_4': 'is-affected-by'}
+
+
+Next file: ../evaluators/relation_suggestion/matyas/cc_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'uses', 'relation_23': 'is-part-of', 'relation_20': 'is-affected-by', 'relation_21': 'has-part', 'relation_24': 'is-part-of', 'relation_19': 'has-effect-on', 'relation_18': 'has-effect-on', 'relation_13': 'has-effect-on', 'relation_12': 'is-affected-by', 'relation_11': 'has-effect-on', 'relation_10': 'has-effect-on', 'relation_17': 'has-effect-on', 'relation_16': 'is-affected-by', 'relation_15': 'is-part-of', 'relation_14': 'is-affected-by', 'relation_9': 'has-effect-on', 'relation_8': 'uses', 'relation_3': 'has-effect-on', 'relation_2': 'is-affected-by', 'relation_1': 'has-effect-on', 'relation_7': 'has-effect-on', 'relation_6': 'is-affected-by', 'relation_5': 'is-affected-by', 'relation_4': 'has-effect-on'}
+
+
+Next file: ../evaluators/relation_suggestion/FJ/cc_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'has-effect-on', 'relation_23': 'is-part-of', 'relation_20': 'is-affected-by', 'relation_21': 'is-affected-by', 'relation_24': 'is-part-of', 'relation_19': 'has-effect-on', 'relation_18': 'has-effect-on', 'relation_13': 'is-affected-by', 'relation_12': 'is-affected-by', 'relation_11': 'has-effect-on', 'relation_10': 'has-effect-on', 'relation_17': 'is-affected-by', 'relation_16': 'is-affected-by', 'relation_15': 'is-part-of', 'relation_14': 'has-effect-on', 'relation_9': 'has-effect-on', 'relation_8': 'uses', 'relation_3': 'is-affected-by', 'relation_2': 'is-affected-by', 'relation_1': 'has-effect-on', 'relation_7': 'has-effect-on', 'relation_6': 'is-affected-by', 'relation_5': 'uses', 'relation_4': 'is-affected-by'}
+
+
+Next file: ../evaluators/relation_suggestion/gerhard/cc_relation_suggestion.ttl
+Starting subClassOf_parse_into_resultlist
+{'relation_22': 'is-part-of', 'relation_23': 'is-part-of', 'relation_20': 'has-part', 'relation_21': 'has-part', 'relation_24': 'is-part-of', 'relation_19': 'has-effect-on', 'relation_18': 'has-effect-on', 'relation_13': 'has-effect-on', 'relation_12': 'is-affected-by', 'relation_11': 'has-effect-on', 'relation_10': 'has-effect-on', 'relation_17': 'other', 'relation_16': 'is-affected-by', 'relation_15': 'is-part-of', 'relation_14': 'other', 'relation_9': 'has-effect-on', 'relation_8': 'other', 'relation_3': 'has-effect-on', 'relation_2': 'has-part', 'relation_1': 'has-effect-on', 'relation_7': 'has-effect-on', 'relation_6': 'is-affected-by', 'relation_5': 'other', 'relation_4': 'other'}
+
+
+Next file: ../evaluators/relation_suggestion/cf_results1/cc.pickle
+Starting subClassOf_parse_into_resultlist
+../evaluators/relation_suggestion/cf_results1/cc.pickle
+Number of data sets extracted from files: 6
+olga : number of classes/relations 24
+stefan : number of classes/relations 24
+matyas : number of classes/relations 24
+FJ : number of classes/relations 24
+gerhard : number of classes/relations 24
+cf_results1 : number of classes/relations 24
+Length of resultlist 24
+../results/cc_results.csv
+Kappa:
+YYYY relation_1 ['has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [6, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_10 ['has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [6, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_11 ['has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [6, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_12 ['is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by']
+YYYYYYYYYYYYYYYYY [0, 6, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_13 ['has-effect-on', 'has-effect-on', 'has-effect-on', 'is-affected-by', 'has-effect-on', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [5, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_14 ['other', 'used-by', 'is-affected-by', 'has-effect-on', 'other', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [2, 1, 0, 0, 0, 0, 1, 0, 2, 0]
+YYYY relation_15 ['is-part-of', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 6, 0, 0, 0, 0]
+YYYY relation_16 ['is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by']
+YYYYYYYYYYYYYYYYY [0, 6, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_17 ['has-effect-on', 'other', 'has-effect-on', 'is-affected-by', 'other', 'other']
+YYYYYYYYYYYYYYYYY [2, 1, 0, 0, 0, 0, 0, 0, 3, 0]
+YYYY relation_18 ['has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [6, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_19 ['has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [6, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_2 ['is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by', 'has-part', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [1, 4, 0, 0, 1, 0, 0, 0, 0, 0]
+YYYY relation_20 ['is-affected-by', 'is-part-of', 'is-affected-by', 'is-affected-by', 'has-part', 'has-part']
+YYYYYYYYYYYYYYYYY [0, 3, 0, 0, 2, 1, 0, 0, 0, 0]
+YYYY relation_21 ['other', 'has-part', 'has-part', 'is-affected-by', 'has-part', 'has-part']
+YYYYYYYYYYYYYYYYY [0, 1, 0, 0, 4, 0, 0, 0, 1, 0]
+YYYY relation_22 ['uses', 'has-part', 'uses', 'has-effect-on', 'is-part-of', 'is-part-of']
+YYYYYYYYYYYYYYYYY [1, 0, 0, 0, 1, 2, 0, 2, 0, 0]
+YYYY relation_23 ['is-part-of', 'has-effect-on', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of']
+YYYYYYYYYYYYYYYYY [1, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+YYYY relation_24 ['is-part-of', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of', 'is-part-of']
+YYYYYYYYYYYYYYYYY [0, 0, 0, 0, 0, 6, 0, 0, 0, 0]
+YYYY relation_3 ['has-effect-on', 'has-effect-on', 'has-effect-on', 'is-affected-by', 'has-effect-on', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [5, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_4 ['is-affected-by', 'is-affected-by', 'has-effect-on', 'is-affected-by', 'other', 'has-part']
+YYYYYYYYYYYYYYYYY [1, 3, 0, 0, 1, 0, 0, 0, 1, 0]
+YYYY relation_5 ['is-affected-by', 'other', 'is-affected-by', 'uses', 'other', 'other']
+YYYYYYYYYYYYYYYYY [0, 2, 0, 0, 0, 0, 0, 1, 3, 0]
+YYYY relation_6 ['other', 'is-affected-by', 'is-affected-by', 'is-affected-by', 'is-affected-by', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [1, 4, 0, 0, 0, 0, 0, 0, 1, 0]
+YYYY relation_7 ['has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [6, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+YYYY relation_8 ['uses', 'is-a', 'uses', 'uses', 'other', 'is-a']
+YYYYYYYYYYYYYYYYY [0, 0, 2, 0, 0, 0, 0, 3, 1, 0]
+YYYY relation_9 ['has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on', 'has-effect-on']
+YYYYYYYYYYYYYYYYY [6, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+23
+n 6
+[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+6 raters.
+24 subjects.
+10 categories.
+p = [0.4236111111111111, 0.22916666666666666, 0.013888888888888888, 0.0, 0.0625, 0.1388888888888889, 0.006944444444444444, 0.041666666666666664, 0.08333333333333333, 0.0]
+P = [1.0, 1.0, 1.0, 1.0, 0.6666666666666666, 0.13333333333333333, 1.0, 1.0, 0.26666666666666666, 1.0, 1.0, 0.4, 0.26666666666666666, 0.4, 0.13333333333333333, 0.6666666666666666, 1.0, 0.6666666666666666, 0.2, 0.26666666666666666, 0.4, 1.0, 0.26666666666666666, 1.0]
+Pbar = 0.655555555556
+PbarE = 0.264081790123
+kappa = 0.531952817824
+percentage true 0.0
+Majority check for cf_results -- skipping
